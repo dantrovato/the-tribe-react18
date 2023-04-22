@@ -1,5 +1,3 @@
-import React from "react";
-
 const Home = () => {
   return (
     <p className="col-lg-8 mx-auto fs-5 text-muted mb-5">
