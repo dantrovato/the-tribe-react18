@@ -6,6 +6,7 @@ import ContactPage from "./components/ContactPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Hero from "./components/Hero";
 import Home from "./components/Home";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
