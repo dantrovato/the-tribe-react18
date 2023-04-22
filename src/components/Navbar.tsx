@@ -1,18 +1,17 @@
-import { Link, NavLink } from "react-router-dom";
-import ContactPage from "./ContactPage";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary bg-black">
-      <div className="container-fluid">
+      <div className="container-fluid m-5">
         <Link className="navbar-brand text-danger" to="/home">
-          Homer
+          Home
         </Link>
         <Link className="navbar-brand text-danger" to="/about">
-          Abouter
+          About
         </Link>
         <Link className="navbar-brand text-danger" to="/contact">
-          ContactPager
+          Contact
         </Link>
       </div>
     </nav>

@@ -1,7 +1,3 @@
 export const Footer = () => {
-  return (
-    <div className="bg-black" style={{ height: "25rem" }}>
-      Footer
-    </div>
-  );
+  return <div className="bg-black" style={{ height: "25rem" }}></div>;
 };
