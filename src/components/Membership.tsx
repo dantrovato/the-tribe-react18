@@ -81,7 +81,7 @@ const Membership = ({ onSubmit }: Props) => {
           <input
             {...register("email")}
             id="email"
-            type="text"
+            type="email"
             className="form-control"
           />
         </div>
@@ -92,7 +92,7 @@ const Membership = ({ onSubmit }: Props) => {
           <input
             {...register("phoneNumber")}
             id="phoneNumber"
-            type="text"
+            type="tel"
             className="form-control"
           />
         </div>
