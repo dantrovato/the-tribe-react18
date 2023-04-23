@@ -30,7 +30,7 @@ function App() {
           element={<Membership onSubmit={handleSubmit} />}
         />
       </Routes>
-      <AboutPage />
+
       <Footer />
     </BrowserRouter>
   );

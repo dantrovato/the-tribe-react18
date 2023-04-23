@@ -6,7 +6,7 @@ const AboutPage = () => {
       </h2>
       <p className="text-muted">
         Welcome to the Tribe, a community of hot and fun kinksters. We host
-        invites only parties of 100 or so guests every three months but we do
+        invite-only parties of 100 or so guests every three months but we do
         smaller ones which focus on introducing newbies to the group. This is a
         great space to meet like minded individuals who take good care of their
         body and really spark joy. The community is precious to us so guests are

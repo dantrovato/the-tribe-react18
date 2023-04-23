@@ -1,3 +1,5 @@
+import AboutPage from "./AboutPage";
+
 const Home = () => {
   // const backgroundStyle = {
   //   backgroundImage: "url(./matilda_dan.jpeg)",
@@ -20,6 +22,7 @@ const Home = () => {
         style={{ width: "100%", maxHeight: "40%" }}
       />
       {/* <div style={backgroundStyle}>bananarama</div> */}
+      <AboutPage />
     </>
   );
 };
