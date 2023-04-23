@@ -19,9 +19,10 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Hero />
+
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutPage />} />
+        {/* <Route path="/about" element={<AboutPage />} /> */}
         <Route path="/events" element={<Events />} />
         <Route path="/home" element={<Home />} />
         <Route
@@ -29,6 +30,7 @@ function App() {
           element={<Membership onSubmit={handleSubmit} />}
         />
       </Routes>
+      <AboutPage />
       <Footer />
     </BrowserRouter>
   );

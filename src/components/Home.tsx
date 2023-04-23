@@ -8,11 +8,11 @@ const Home = () => {
   // };
   return (
     <>
-      <div className="m-5">
+      {/* <div className="m-5">
         <p className="text-muted">
           A social experiment in redefining, sex, friendships and relationships
         </p>
-      </div>
+      </div> */}
 
       <img
         src="./matilda_dan.jpeg"
