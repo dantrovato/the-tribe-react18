@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div className="m-5">
         <p className="text-muted">
-          A social experiment in redifining, sex, friendships, relationships and
+          A social experiment in redefining, sex, friendships, relationships and
           love
         </p>
       </div>
