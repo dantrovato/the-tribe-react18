@@ -1,7 +1,7 @@
 const AboutPage = () => {
   return (
     <div className="m-5 ">
-      <p>
+      <p className="text-muted">
         Welcome to the Tribe, a community of hot kinksters in their 20's 30's.
         We host invites only parties of 100 or so guests every three months but
         we do smaller ones which focus on introducing newbies to the group. This
