@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import Home from "./components/Home";
 import { Footer } from "./components/Footer";
 import { FieldValues } from "react-hook-form";
+import Events from "./components/Events";
 
 function App() {
   const handleSubmit = (data: FieldValues) => {
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/events" element={<Events />} />
         <Route path="/home" element={<Home />} />
         <Route
           path="/membership"

@@ -28,7 +28,7 @@ const Membership = ({ onSubmit }: Props) => {
     onSubmit(data);
     reset();
     alert(
-      "Site under construction. Details will not yet be added. Try again in a few days"
+      "Site under construction. Details will not yet be added. In the meantime you can text your details to 07984290884"
     );
   };
 
