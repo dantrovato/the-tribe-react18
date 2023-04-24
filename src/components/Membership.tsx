@@ -27,9 +27,9 @@ const Membership = ({ onSubmit }: Props) => {
   const tempHandleSubmit = (data: FieldValues) => {
     onSubmit(data);
     reset();
-    alert(
-      "Site under construction. Details will not yet be added. In the meantime you can text your details to 07984290884"
-    );
+    // alert(
+    //   "Site under construction. Details will not yet be added. In the meantime you can text your details to 07984290884"
+    // );
   };
 
   return (
@@ -37,9 +37,9 @@ const Membership = ({ onSubmit }: Props) => {
       <h1 className="m-5 text-muted text-center">
         Submit your details for membership
       </h1>
-      <form onSubmit={(event) => tempHandleSubmit(event)}>
+      <form onSubmit={handleSubmit(tempHandleSubmit)}>
         <div className="m-5">
-          <label htmlFor="firstName" className="form-label">
+          <label htmlFor="firstName" className="form-label text-muted">
             First Name
           </label>
           <input
@@ -53,7 +53,7 @@ const Membership = ({ onSubmit }: Props) => {
           )}
         </div>
         <div className="m-5">
-          <label htmlFor="lastName" className="form-label">
+          <label htmlFor="lastName" className="form-label text-muted">
             Last Name
           </label>
           <input
@@ -64,7 +64,7 @@ const Membership = ({ onSubmit }: Props) => {
           />
         </div>
         <div className="m-5">
-          <label htmlFor="socialMedia" className="form-label">
+          <label htmlFor="socialMedia" className="form-label text-muted">
             Social Media
           </label>
           <input
@@ -75,7 +75,7 @@ const Membership = ({ onSubmit }: Props) => {
           />
         </div>
         <div className="m-5">
-          <label htmlFor="email" className="form-label">
+          <label htmlFor="email" className="form-label text-muted">
             Email
           </label>
           <input
@@ -86,7 +86,7 @@ const Membership = ({ onSubmit }: Props) => {
           />
         </div>
         <div className="m-5">
-          <label htmlFor="phoneNumber" className="form-label">
+          <label htmlFor="phoneNumber" className="form-label text-muted">
             Phone Number
           </label>
           <input
