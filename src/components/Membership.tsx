@@ -34,9 +34,11 @@ const Membership = ({ onSubmit }: Props) => {
 
   return (
     <>
-      <h1 className="m-5 text-muted text-center">
-        Submit your details for membership
-      </h1>
+      <p className="m-5 text-muted text-center">
+        {/* Submit your details for membership */}
+        Site under construction. For now email the below details to
+        plasticsoup@yahoo.co.uk
+      </p>
       <form onSubmit={handleSubmit(tempHandleSubmit)}>
         <div className="m-5">
           <label htmlFor="firstName" className="form-label text-muted">
