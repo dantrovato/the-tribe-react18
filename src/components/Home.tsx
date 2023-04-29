@@ -18,14 +18,14 @@ const Home = () => {
 
       <img
         src="./matilda_dan.jpeg"
-        alt=""
+        alt="Man and woman kissing"
         style={{ width: "100%", maxHeight: "40%" }}
       />
       {/* <div style={backgroundStyle}>bananarama</div> */}
       <AboutPage />
       <img
         src="./girl_with_chain.jpg"
-        alt=""
+        alt="Girl sensually biting a chain"
         style={{ width: "100%", maxHeight: "40%" }}
       />
     </>
