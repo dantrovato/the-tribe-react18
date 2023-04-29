@@ -9,10 +9,10 @@ const AboutPage = () => {
         invite-only parties of 100 or so guests every three months but we do
         smaller ones which focus on introducing newbies to the group. This is a
         great space to meet like minded individuals who take good care of their
-        body and really spark joy. The community is precious to us so guests are
-        carefully selected but once you're in you're not gonna want to leave. So
-        get in touch if you think you'll fit in and we look forward to getting
-        to know you. x
+        body and really spark joy. This growing community is precious to us so
+        guests are carefully selected but once you're in you're not gonna want
+        to leave. So get in touch if you think you'll fit in and we look forward
+        to getting to know you
       </p>
     </div>
   );

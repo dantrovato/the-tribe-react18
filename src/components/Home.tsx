@@ -23,6 +23,11 @@ const Home = () => {
       />
       {/* <div style={backgroundStyle}>bananarama</div> */}
       <AboutPage />
+      <img
+        src="./girl_with_chain.jpg"
+        alt=""
+        style={{ width: "100%", maxHeight: "40%" }}
+      />
     </>
   );
 };
