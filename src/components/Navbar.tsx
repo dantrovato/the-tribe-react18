@@ -16,6 +16,9 @@ const Navbar = () => {
         <Link className="navbar-brand text-danger" to="/membership">
           Join
         </Link>
+        <Link className="navbar-brand text-danger" to="/rules">
+          Rules
+        </Link>
       </div>
     </nav>
   );

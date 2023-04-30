@@ -3,7 +3,7 @@ const Events = () => {
     <div className="">
       <p className="m-5 text-muted">
         Next Event May 20th 2023 is a newbies. Register your interest in the
-        Join section
+        Join section.
       </p>
       <img
         src="./girl_pink.jpg"

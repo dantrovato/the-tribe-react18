@@ -1,7 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import AboutPage from "./components/AboutPage";
 import Membership from "./components/Membership";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Hero from "./components/Hero";
@@ -9,6 +8,7 @@ import Home from "./components/Home";
 import { Footer } from "./components/Footer";
 import { FieldValues } from "react-hook-form";
 import Events from "./components/Events";
+import Rules from "./components/Rules";
 
 function App() {
   const handleSubmit = (data: FieldValues) => {
@@ -29,6 +29,7 @@ function App() {
           path="/membership"
           element={<Membership onSubmit={handleSubmit} />}
         />
+        <Route path="/rules" element={<Rules />} />
       </Routes>
 
       <Footer />
