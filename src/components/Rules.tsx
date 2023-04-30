@@ -1,7 +1,7 @@
 const Rules = () => {
   return (
-    <div className="m-5">
-      <h1>How it works</h1>
+    <div className="m-5 text-muted">
+      <h1 className="text-center">How it works</h1>
       <p>
         At the bigger events most people will know one another. If you're a
         complete newbie, chances are you will be at one of the smaller

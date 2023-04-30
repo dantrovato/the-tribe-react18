@@ -1,7 +1,7 @@
 const AboutPage = () => {
   return (
     <div className="m-5 ">
-      <h2 className="text-muted text-center">
+      <h2 className="text-muted text-center mb-4">
         A social experiment in redefining, sex, friendships and relationships
       </h2>
       <p className="text-muted">

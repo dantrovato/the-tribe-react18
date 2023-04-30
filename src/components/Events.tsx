@@ -1,6 +1,7 @@
 const Events = () => {
   return (
-    <div className="">
+    <div className="m-5">
+      <h1 className="text-center text-muted">Events</h1>
       <p className="m-5 text-muted">
         Next Event May 20th 2023 is a newbies. Register your interest in the
         Join section.
