@@ -9,8 +9,8 @@ const Events = () => {
       </p>
       <p className="text-muted">
         Register your interest in the{" "}
-        <Link className="navbar-brand text-danger" to="/rules">
-          Rules
+        <Link className="navbar-brand text-danger" to="/join">
+          Join
         </Link>{" "}
         section.
       </p>
