@@ -13,6 +13,12 @@ const Rules = () => {
         make your night as amazing as it can be. Please read the rules outlined
         below
       </p>
+      <img
+        src="./orgypool.webp"
+        alt="Sexy people kissing in shower"
+        className="mb-3"
+        style={{ width: "100%", maxHeight: "40%" }}
+      />
       <h2>Rule # 1</h2>
       <h3>Consent!</h3>
       <p>
@@ -70,6 +76,11 @@ const Rules = () => {
       <h2>Rule # 8</h2>
       <h3>No drinks in the play areas</h3>
       <p>It's just a mess waiting to happen.</p>
+      <img
+        src="./black_white_girl.jpg"
+        alt="People kissing in hot tub"
+        style={{ width: "100%", maxHeight: "40%" }}
+      />
     </div>
   );
 };
