@@ -3,4 +3,4 @@
   publish = "build"
 
 [functions]
-  directory = "my-functions"
+  directory = "functions"
