@@ -2,5 +2,5 @@
   command = "npm run build"
   publish = "build"
 
-[build.functions]
-  directory = "functions"
+[functions]
+  directory = "my-functions"
