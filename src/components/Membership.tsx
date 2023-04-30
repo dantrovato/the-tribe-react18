@@ -39,7 +39,13 @@ const Membership = ({ onSubmit }: Props) => {
         Site under construction. For now email the below details to
         plasticsoup@yahoo.co.uk
       </p>
-      <form onSubmit={handleSubmit(tempHandleSubmit)}>
+      <form
+        onSubmit={handleSubmit(tempHandleSubmit)}
+        name="membership-form"
+        method="POST"
+        data-netlify="true"
+        action="/.netlify/functions/sendEmail"
+      >
         <div className="m-5">
           <label htmlFor="firstName" className="form-label text-muted">
             First Name
