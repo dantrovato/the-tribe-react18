@@ -32,6 +32,7 @@ const Membership = () => {
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
   const onSubmit = async (data: FormData) => {
+    console.log(data);
     try {
       await fetch("/.netlify/functions/sendEmail", {
         method: "POST",
