@@ -72,7 +72,7 @@ const Membership = ({ onSubmit }: Props) => {
         name="contact"
         method="POST"
         data-netlify="true"
-        action="/.netlify/functions/sendEmail"
+        action="https://app.netlify.com/sites/thetribe/functions/sendEmail"
       >
         <div className="m-5">
           <label htmlFor="firstName" className="form-label text-muted">
