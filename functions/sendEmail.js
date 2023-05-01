@@ -1,4 +1,5 @@
 const sgMail = require("@sendgrid/mail");
+console.log("peppino");
 
 exports.handler = async (event, context) => {
   try {
