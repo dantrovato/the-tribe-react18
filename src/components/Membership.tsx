@@ -2,8 +2,6 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FieldValues, useForm } from "react-hook-form";
 
-// import { useState } from "react";
-
 interface Props {
   onSubmit: (data: FieldValues) => void;
 }
@@ -18,12 +16,7 @@ const schema = z.object({
 
 type FormData = z.infer<typeof schema>;
 
-const Membership = () => {
-  // const [formData, setFormData] = useState({
-  //   name: "",
-  //   email: "",
-  //   message: "",
-  // });
+const Membership = ({ onSubmit }: Props) => {
   const {
     register,
     handleSubmit,
@@ -31,19 +24,12 @@ const Membership = () => {
     formState: { errors, isValid },
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
-  const onSubmit = async (data: FormData) => {
-    console.log(data);
-    try {
-      await fetch("/.netlify/functions/sendEmail", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(data).toString(),
-      });
-      console.log("Form submitted successfully!");
-      reset();
-    } catch (error) {
-      console.error(error);
-    }
+  const tempHandleSubmit = (data: FieldValues) => {
+    onSubmit(data);
+    reset();
+    // alert(
+    //   "Site under construction. Details will not yet be added. In the meantime you can text your details to 07984290884"
+    // );
   };
 
   return (
@@ -54,15 +40,12 @@ const Membership = () => {
         plasticsoup@yahoo.co.uk
       </p>
       <form
-        onSubmit={handleSubmit(onSubmit)}
-        name="contact"
+        onSubmit={handleSubmit(tempHandleSubmit)}
+        name="membership-form"
         method="POST"
         data-netlify="true"
-        // action="https://app.netlify.com/sites/thetribe/functions/sendEmail"
-        action="mailto:plasticsoup@yahoo.co.uk"
+        action="/.netlify/functions/sendEmail"
       >
-        <input type="hidden" name="form-name" value="contact" />
-
         <div className="m-5">
           <label htmlFor="firstName" className="form-label text-muted">
             First Name
@@ -70,7 +53,6 @@ const Membership = () => {
           <input
             {...register("firstName")}
             id="firstName"
-            name="firstName"
             type="text"
             className="form-control"
           />
@@ -85,7 +67,6 @@ const Membership = () => {
           <input
             {...register("lastName")}
             id="lastName"
-            name="lastName"
             type="text"
             className="form-control"
           />
@@ -97,7 +78,6 @@ const Membership = () => {
           <input
             {...register("socialMedia")}
             id="socialMedia"
-            name="socialMedia"
             type="text"
             className="form-control"
           />
@@ -109,7 +89,6 @@ const Membership = () => {
           <input
             {...register("email")}
             id="email"
-            name="email"
             type="email"
             className="form-control"
           />
@@ -121,14 +100,14 @@ const Membership = () => {
           <input
             {...register("phoneNumber")}
             id="phoneNumber"
-            name="phoneNumber"
             type="tel"
             className="form-control"
           />
         </div>
         <div className="m-5">
-          {/* <button disabled={!isValid} className="btn btn-primary"> */}
-          <button className="btn btn-primary">Submit</button>
+          <button disabled={!isValid} className="btn btn-primary">
+            Submit
+          </button>
         </div>
       </form>
     </>
