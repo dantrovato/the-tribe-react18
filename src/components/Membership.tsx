@@ -127,9 +127,8 @@ const Membership = () => {
           />
         </div>
         <div className="m-5">
-          <button disabled={!isValid} className="btn btn-primary">
-            Submit
-          </button>
+          {/* <button disabled={!isValid} className="btn btn-primary"> */}
+          <button className="btn btn-primary">Submit</button>
         </div>
       </form>
     </>
