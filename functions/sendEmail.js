@@ -21,6 +21,8 @@ exports.handler = async (event, context) => {
       `,
     };
 
+    console.log(msg);
+
     await sgMail.send(msg);
 
     return {
