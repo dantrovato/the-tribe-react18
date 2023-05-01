@@ -59,6 +59,7 @@ const Membership = () => {
         method="POST"
         data-netlify="true"
         // action="https://app.netlify.com/sites/thetribe/functions/sendEmail"
+        action="mailto:plasticsoup@yahoo.co.uk"
       >
         <input type="hidden" name="form-name" value="contact" />
 
