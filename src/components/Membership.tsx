@@ -2,6 +2,8 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FieldValues, useForm } from "react-hook-form";
 
+// import { useState } from "react";
+
 interface Props {
   onSubmit: (data: FieldValues) => void;
 }
@@ -17,6 +19,11 @@ const schema = z.object({
 type FormData = z.infer<typeof schema>;
 
 const Membership = ({ onSubmit }: Props) => {
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
   const {
     register,
     handleSubmit,
@@ -25,8 +32,29 @@ const Membership = ({ onSubmit }: Props) => {
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
   const tempHandleSubmit = (data: FieldValues) => {
+    // fetch("/.netlify/functions/sendEmail", {
+    //   method: "POST",
+    //   body: JSON.stringify(formData),
+    // })
+    //   .then((response) => {
+    //     // Handle the response from the function
+    //   })
+    //   .catch((error) => {
+    //     // Handle any errors that occur
+    //   });
+
+    // const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    //   const { name, value } = event.target;
+
+    //   setFormData({
+    //     ...formData,
+    //     [name]: value,
+    //   });
+    // };
+
     onSubmit(data);
     reset();
+    console.log("yo");
     // alert(
     //   "Site under construction. Details will not yet be added. In the meantime you can text your details to 07984290884"
     // );
@@ -41,7 +69,7 @@ const Membership = ({ onSubmit }: Props) => {
       </p>
       <form
         onSubmit={handleSubmit(tempHandleSubmit)}
-        name="membership-form"
+        name="contact"
         method="POST"
         data-netlify="true"
         action="/.netlify/functions/sendEmail"
