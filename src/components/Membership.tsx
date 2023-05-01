@@ -18,7 +18,7 @@ const schema = z.object({
 
 type FormData = z.infer<typeof schema>;
 
-const Membership = ({ onSubmit }: Props) => {
+const Membership = () => {
   // const [formData, setFormData] = useState({
   //   name: "",
   //   email: "",
@@ -31,33 +31,18 @@ const Membership = ({ onSubmit }: Props) => {
     formState: { errors, isValid },
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
-  const tempHandleSubmit = (data: FieldValues) => {
-    // fetch("/.netlify/functions/sendEmail", {
-    //   method: "POST",
-    //   body: JSON.stringify(formData),
-    // })
-    //   .then((response) => {
-    //     // Handle the response from the function
-    //   })
-    //   .catch((error) => {
-    //     // Handle any errors that occur
-    //   });
-
-    // const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    //   const { name, value } = event.target;
-
-    //   setFormData({
-    //     ...formData,
-    //     [name]: value,
-    //   });
-    // };
-
-    onSubmit(data);
-    reset();
-    console.log("yo");
-    // alert(
-    //   "Site under construction. Details will not yet be added. In the meantime you can text your details to 07984290884"
-    // );
+  const onSubmit = async (data: FormData) => {
+    try {
+      await fetch("/.netlify/functions/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(data).toString(),
+      });
+      console.log("Form submitted successfully!");
+      reset();
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   return (
@@ -68,12 +53,14 @@ const Membership = ({ onSubmit }: Props) => {
         plasticsoup@yahoo.co.uk
       </p>
       <form
-        onSubmit={handleSubmit(tempHandleSubmit)}
+        onSubmit={handleSubmit(onSubmit)}
         name="contact"
         method="POST"
         data-netlify="true"
-        action="https://app.netlify.com/sites/thetribe/functions/sendEmail"
+        // action="https://app.netlify.com/sites/thetribe/functions/sendEmail"
       >
+        <input type="hidden" name="form-name" value="contact" />
+
         <div className="m-5">
           <label htmlFor="firstName" className="form-label text-muted">
             First Name
@@ -81,6 +68,7 @@ const Membership = ({ onSubmit }: Props) => {
           <input
             {...register("firstName")}
             id="firstName"
+            name="firstName"
             type="text"
             className="form-control"
           />
@@ -95,6 +83,7 @@ const Membership = ({ onSubmit }: Props) => {
           <input
             {...register("lastName")}
             id="lastName"
+            name="lastName"
             type="text"
             className="form-control"
           />
@@ -106,6 +95,7 @@ const Membership = ({ onSubmit }: Props) => {
           <input
             {...register("socialMedia")}
             id="socialMedia"
+            name="socialMedia"
             type="text"
             className="form-control"
           />
@@ -117,6 +107,7 @@ const Membership = ({ onSubmit }: Props) => {
           <input
             {...register("email")}
             id="email"
+            name="email"
             type="email"
             className="form-control"
           />
@@ -128,6 +119,7 @@ const Membership = ({ onSubmit }: Props) => {
           <input
             {...register("phoneNumber")}
             id="phoneNumber"
+            name="phoneNumber"
             type="tel"
             className="form-control"
           />

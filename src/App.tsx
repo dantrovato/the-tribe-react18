@@ -25,10 +25,7 @@ function App() {
         {/* <Route path="/about" element={<AboutPage />} /> */}
         <Route path="/events" element={<Events />} />
         <Route path="/home" element={<Home />} />
-        <Route
-          path="/membership"
-          element={<Membership onSubmit={handleSubmit} />}
-        />
+        <Route path="/membership" element={<Membership />} />
         <Route path="/rules" element={<Rules />} />
       </Routes>
 
