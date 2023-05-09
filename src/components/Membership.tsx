@@ -44,7 +44,6 @@ const Membership = ({ onSubmit }: Props) => {
         name="membership-form"
         method="POST"
         data-netlify="true"
-        action="/.netlify/functions/sendEmail"
       >
         <div className="m-5">
           <label htmlFor="firstName" className="form-label text-muted">

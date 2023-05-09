@@ -9,6 +9,7 @@ import { Footer } from "./components/Footer";
 import { FieldValues } from "react-hook-form";
 import Events from "./components/Events";
 import Rules from "./components/Rules";
+import GoogleForm from "./components/GoogleForm";
 
 function App() {
   const handleSubmit = (data: FieldValues) => {
@@ -29,6 +30,7 @@ function App() {
           path="/membership"
           element={<Membership onSubmit={handleSubmit} />}
         />
+        <Route path="/form" element={<GoogleForm />} />
         <Route path="/rules" element={<Rules />} />
       </Routes>
 
