@@ -3,8 +3,9 @@ import React from "react";
 class GoogleForm extends React.Component {
   render() {
     return (
-      <div>
+      <div className="d-flex justify-content-center">
         <iframe
+          className="text-center"
           src="https://docs.google.com/forms/d/e/1FAIpQLSdO6YkMwKnIFKdD-KBIL80NGwRfVyO5ybjrlmSTZFGp8U3EnQ/viewform?embedded=true"
           width="640"
           height="1082"

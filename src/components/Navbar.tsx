@@ -13,12 +13,12 @@ const Navbar = () => {
         <Link className="navbar-brand text-danger" to="/events">
           Events
         </Link>
-        <Link className="navbar-brand text-danger" to="/membership">
+        <Link className="navbar-brand text-danger" to="/join">
           Join
         </Link>
-        <Link className="navbar-brand text-danger" to="/form">
+        {/* <Link className="navbar-brand text-danger" to="/form">
           Form
-        </Link>
+        </Link> */}
         <Link className="navbar-brand text-danger" to="/rules">
           Rules
         </Link>
