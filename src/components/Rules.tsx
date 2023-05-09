@@ -1,8 +1,10 @@
+import "./Rules.module.css";
+
 const Rules = () => {
   return (
     <div className="m-5 text-muted">
-      <h1 className="text-center">How it works</h1>
-      <p>
+      <h1 className="text-center mb-3">How it works</h1>
+      <p className="mb-4">
         At the bigger events most people will know one another. If you're a
         complete newbie, chances are you will be at one of the smaller
         introductory events. People will just chill and chat and at some point,
@@ -22,7 +24,7 @@ const Rules = () => {
       <h2>Rule # 1</h2>
       <h3>Consent!</h3>
       <p>
-        DO MAKE SURE THAT IF YOU ARE GONNA TOUCH SOMEBODY THEY ARE more “yay”
+        Do make sure that if you are gonna touch somebody the are more “yay”
         than “eeeewww”. At a minimum you must be able to read body language but
         verbally asking is even better.
       </p>

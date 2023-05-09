@@ -3,11 +3,17 @@ const Events = () => {
   return (
     <div className="m-5">
       <h1 className="text-center text-muted">Events</h1>
-      <p className=" text-muted">
+      <p
+        className=" text-muted mb-3"
+        style={{ maxWidth: "600px", margin: "auto" }}
+      >
         Next Event, on May 20th 2023, is a smaller one and it's an intro for the
         newbies. It will have roughly around 30 to 40 people.
       </p>
-      <p className="text-muted">
+      <p
+        className="text-muted mb-3"
+        style={{ maxWidth: "600px", margin: "auto" }}
+      >
         Register your interest in the{" "}
         <Link className="navbar-brand text-danger" to="/join">
           Join

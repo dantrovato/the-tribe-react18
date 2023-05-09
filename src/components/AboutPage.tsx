@@ -1,10 +1,13 @@
 const AboutPage = () => {
   return (
-    <div className="m-5 ">
-      <h2 className="text-muted text-center mb-4">
+    <div className="m-5">
+      <h2
+        className="text-muted text-center mb-4"
+        style={{ maxWidth: "600px", margin: "auto" }}
+      >
         A social experiment in redefining, sex, friendships and relationships
       </h2>
-      <p className="text-muted">
+      <p className="text-muted" style={{ maxWidth: "600px", margin: "auto" }}>
         Welcome to the Tribe, a community of hot and fun kinksters. We host
         invite-only parties of 100 or so guests every three months but we do
         smaller ones which focus on introducing newbies to the group. This is a
