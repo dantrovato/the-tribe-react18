@@ -20,6 +20,11 @@ const Events = () => {
         </Link>{" "}
         section.
       </p>
+      <p className="text-danger">
+        ALWAYS ASK SOMEONE YOU ARE ABOUT TO PLAY WITH WHEN THEY LAST HAD A
+        SEXUAL HEALTH CHECK - OVER THREE MONTHS AGO IS <strong>NOT </strong>
+        AN ACCEPTABLE ANSWER
+      </p>
       <img
         src="./girl_pink.jpg"
         alt="Sexy girl in undewear"

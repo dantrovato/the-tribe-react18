@@ -4,6 +4,11 @@ const Rules = () => {
   return (
     <div className="m-5 text-muted">
       <h1 className="text-center mb-3">How it works</h1>
+      <p className="text-danger">
+        ALWAYS ASK SOMEONE YOU ARE ABOUT TO PLAY WITH WHEN THEY LAST HAD A
+        SEXUAL HEALTH CHECK - OVER THREE MONTHS AGO IS <strong>NOT </strong>
+        AN ACCEPTABLE ANSWER
+      </p>
       <p className="mb-4">
         At the bigger events most people will know one another. If you're a
         complete newbie, chances are you will be at one of the smaller
