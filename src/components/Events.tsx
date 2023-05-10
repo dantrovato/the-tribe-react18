@@ -20,6 +20,12 @@ const Events = () => {
         </Link>{" "}
         section.
       </p>
+      <p>
+        View{" "}
+        <Link className="navbar-brand text-danger" to="/may_20_2023">
+          Event
+        </Link>{" "}
+      </p>
       <p className="text-danger">
         ALWAYS ASK SOMEONE YOU ARE ABOUT TO PLAY WITH WHEN THEY LAST HAD A
         SEXUAL HEALTH CHECK - OVER THREE MONTHS AGO IS <strong>NOT </strong>

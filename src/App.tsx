@@ -9,6 +9,8 @@ import { FieldValues } from "react-hook-form";
 import Events from "./components/Events";
 import Rules from "./components/Rules";
 import GoogleForm from "./components/GoogleForm";
+import MembersArea from "./components/MembersArea";
+import May_20_2023 from "./components/Events/May_20_2023";
 
 function App() {
   // const handleSubmit = (data: FieldValues) => {
@@ -31,6 +33,8 @@ function App() {
         /> */}
         <Route path="/join" element={<GoogleForm />} />
         <Route path="/rules" element={<Rules />} />
+        <Route path="/members" element={<MembersArea />} />
+        <Route path="/may_20_2023" element={<May_20_2023 />} />
       </Routes>
 
       <Footer />
