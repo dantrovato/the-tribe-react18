@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+import { Footer } from "./Footer";
 const Events = () => {
   return (
-    <div className="m-5">
+    <div className="mt-5">
       <h1 className="text-center text-muted">Events</h1>
       <p
         className=" text-muted mb-3"
@@ -28,7 +29,7 @@ const Events = () => {
       </p>
       <p className="text-danger">
         ALWAYS ASK SOMEONE YOU ARE ABOUT TO PLAY WITH WHEN THEY LAST HAD A
-        SEXUAL HEALTH CHECK - OVER THREE MONTHS AGO IS <strong>NOT </strong>
+        SEXUAL HEALTH CHECK - "OVER THREE MONTHS AGO" IS <strong>NOT </strong>
         AN ACCEPTABLE ANSWER
       </p>
       <img
@@ -36,6 +37,7 @@ const Events = () => {
         alt="Sexy girl in undewear"
         style={{ width: "100%", maxHeight: "40%" }}
       />
+      <Footer />
     </div>
   );
 };

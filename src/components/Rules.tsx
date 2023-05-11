@@ -1,4 +1,5 @@
 import "./Rules.module.css";
+import { Footer } from "./Footer";
 
 const Rules = () => {
   return (
@@ -6,7 +7,7 @@ const Rules = () => {
       <h1 className="text-center mb-3">How it works</h1>
       <p className="text-danger">
         ALWAYS ASK SOMEONE YOU ARE ABOUT TO PLAY WITH WHEN THEY LAST HAD A
-        SEXUAL HEALTH CHECK - OVER THREE MONTHS AGO IS <strong>NOT </strong>
+        SEXUAL HEALTH CHECK - "OVER THREE MONTHS AGO" IS <strong>NOT </strong>
         AN ACCEPTABLE ANSWER
       </p>
       <p className="mb-4">
@@ -88,6 +89,7 @@ const Rules = () => {
         alt="People kissing in hot tub"
         style={{ width: "100%", maxHeight: "40%" }}
       />
+      <Footer />
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Footer } from "../Footer";
 
 const eventPassword = "nosquirting";
 let password: string | undefined = undefined;
@@ -45,6 +46,7 @@ const May_20_2023 = () => {
         )}
         <button className="btn btn-primary m-5">Enter</button>
       </form>
+      <Footer />
     </div>
   );
 };

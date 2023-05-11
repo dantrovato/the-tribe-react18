@@ -1,4 +1,5 @@
 import AboutPage from "./AboutPage";
+import { Footer } from "./Footer";
 
 const Home = () => {
   // const backgroundStyle = {
@@ -28,6 +29,7 @@ const Home = () => {
         alt="Girl sensually biting a chain"
         style={{ width: "100%", maxHeight: "40%" }}
       />
+      <Footer />
     </>
   );
 };
