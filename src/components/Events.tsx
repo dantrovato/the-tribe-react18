@@ -3,7 +3,7 @@ import { Footer } from "./Footer";
 const Events = () => {
   const danger = "#dc3545";
   return (
-    <div className="mt-5">
+    <div className="m-5">
       <p className="text-danger p-3" style={{ border: `1px solid ${danger}` }}>
         ALWAYS ASK SOMEONE YOU ARE ABOUT TO PLAY WITH WHEN THEY LAST HAD A
         SEXUAL HEALTH CHECK - "OVER THREE MONTHS AGO" IS <strong>NOT </strong>
