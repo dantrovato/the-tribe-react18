@@ -2,14 +2,16 @@ import "./Rules.module.css";
 import { Footer } from "./Footer";
 
 const Rules = () => {
+  const danger = "#dc3545";
   return (
     <div className="m-5 text-muted">
-      <h1 className="text-center mb-3">How it works</h1>
-      <p className="text-danger">
+      <p className="text-danger p-3" style={{ border: `1px solid ${danger}` }}>
         ALWAYS ASK SOMEONE YOU ARE ABOUT TO PLAY WITH WHEN THEY LAST HAD A
         SEXUAL HEALTH CHECK - "OVER THREE MONTHS AGO" IS <strong>NOT </strong>
         AN ACCEPTABLE ANSWER
       </p>
+      <h1 className="text-center mb-3">How it works</h1>
+
       <p className="mb-4">
         At the bigger events most people will know one another. If you're a
         complete newbie, chances are you will be at one of the smaller
