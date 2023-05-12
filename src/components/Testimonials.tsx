@@ -2,13 +2,13 @@ import { Carousel } from "react-bootstrap";
 
 const Testimonials = () => {
   return (
-    <div className="container">
+    <div className="container bg-dark">
       <h2 className="text-center">Testimonials</h2>
       <Carousel>
         <Carousel.Item>
           <img
             className="d-block mx-auto"
-            src="./girl_pink.jpg"
+            src="./hannah_chickpea1.JPG"
             alt="Testimonial 1"
             style={{ height: "30rem" }}
           />
@@ -27,15 +27,16 @@ const Testimonials = () => {
             className="d-block mx-auto"
             src="./liv_body.png"
             alt="Testimonial 2"
-            style={{ height: "40rem" }}
+            style={{ height: "30rem" }}
           />
           <Carousel.Caption>
             <p className="">
-              "Sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua."
+              "Hiiiii everyone, I’m Liv/Olivia - it was my first tribe party
+              last Friday and I had a lottttt of fun, genuinely couldn’t believe
+              how friendly and hot everybody was"
             </p>
-            <h4>Jane Smith</h4>
-            <p>Company XYZ</p>
+            <h4>Liv</h4>
+            <p>New Member</p>
           </Carousel.Caption>
         </Carousel.Item>
         {/* Add more Carousel.Items for additional testimonials */}
