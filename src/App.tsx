@@ -4,12 +4,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Hero from "./components/Hero";
 import Home from "./components/Home";
-
 import Events from "./components/Events";
 import Rules from "./components/Rules";
 import GoogleForm from "./components/GoogleForm";
 import MembersArea from "./components/MembersArea";
 import May_20_2023 from "./components/Events/May_20_2023";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
         <Route path="/rules" element={<Rules />} />
         <Route path="/members" element={<MembersArea />} />
         <Route path="/may_20_2023" element={<May_20_2023 />} />
+        <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
     </BrowserRouter>
   );

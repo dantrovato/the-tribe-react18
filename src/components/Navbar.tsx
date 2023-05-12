@@ -25,6 +25,9 @@ const Navbar = () => {
         <Link className="navbar-brand text-danger" to="/members">
           Members Area
         </Link>
+        <Link className="navbar-brand text-danger" to="/testimonials">
+          Testimonials
+        </Link>
       </div>
     </nav>
   );
