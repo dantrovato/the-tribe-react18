@@ -18,19 +18,19 @@ const Testimonials = () => {
               Everyone’s so welcoming and lovely (and sexy as fuck). Had some of
               the best experiences, such a hot night omg"
             </p>
-            <h4>John Doe</h4>
-            <p>Company ABC</p>
+            <h4>Hanna Chickpea</h4>
+            <p>New member</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block mx-auto"
-            src="./black_white_girl.jpg"
+            src="./liv_body.png"
             alt="Testimonial 2"
-            style={{ height: "30rem" }}
+            style={{ height: "40rem" }}
           />
           <Carousel.Caption>
-            <p>
+            <p className="">
               "Sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua."
             </p>
