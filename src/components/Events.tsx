@@ -10,7 +10,7 @@ const Events = () => {
         AN ACCEPTABLE ANSWER
       </p>
       <h1 className="text-center text-muted mb-5">Next events</h1>
-      <h3 className="text-center text-muted mb-4">May 20th 2023 </h3>
+      <h3 className="text-center text-muted mb-4">Newbies - May 20th 2023 </h3>
       <p
         className=" text-muted mb-3"
         style={{ maxWidth: "600px", margin: "auto" }}
@@ -37,7 +37,7 @@ const Events = () => {
           Event
         </Link>{" "}
       </p>
-      <h3 className="text-center text-muted mb-4">June 1st 2023 </h3>
+      <h3 className="text-center text-muted mb-4">Social - June 1st 2023 </h3>
       <p
         className=" text-muted mb-3"
         style={{ maxWidth: "600px", margin: "auto" }}
@@ -51,7 +51,9 @@ const Events = () => {
           Join the Meet Up group
         </a>
       </p>
-      <h3 className="text-center text-muted mb-4">August 18th 2023 </h3>
+      <h3 className="text-center text-muted mb-4">
+        Tribeval - August 18th 2023{" "}
+      </h3>
       <p
         className=" text-muted mb-3"
         style={{ maxWidth: "600px", margin: "auto" }}
