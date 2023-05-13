@@ -12,8 +12,8 @@ const Events = () => {
       >
         This is one of the smaller parties in Hornsey, N80JU, at the tribe
         house, with hot tub and fire pit in the garden and it's a great intro
-        for the newbies. It will have roughly around 30 to 40 very atractive and
-        super friendly people. Remember there is never any pressure to get
+        for the newbies. It will have roughly around 30 to 40 very attractive
+        and super friendly people. Remember there is never any pressure to get
         involved so come and say hi :)
       </p>
       <p

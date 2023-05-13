@@ -7,8 +7,8 @@ const Rules = () => {
     <div className="m-5 text-muted">
       <p className="text-danger p-3" style={{ border: `1px solid ${danger}` }}>
         ALWAYS ASK SOMEONE YOU ARE ABOUT TO PLAY WITH WHEN THEY LAST HAD A
-        SEXUAL HEALTH CHECK - "OVER THREE MONTHS AGO" IS <strong>NOT </strong>
-        AN ACCEPTABLE ANSWER
+        SEXUAL HEALTH CHECK - "OVER THREE MONTHS AGO" IS <strong>NOT </strong>A
+        GREAT ANSWER
       </p>
       <h1 className="text-center mb-3">How it works</h1>
 
