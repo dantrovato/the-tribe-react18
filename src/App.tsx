@@ -14,24 +14,26 @@ import Testimonials from "./components/Testimonials";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Hero />
+      <div className="app-container">
+        <Navbar />
+        <Hero />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="/about" element={<AboutPage />} /> */}
-        <Route path="/events" element={<Events />} />
-        <Route path="/home" element={<Home />} />
-        {/* <Route
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/about" element={<AboutPage />} /> */}
+          <Route path="/events" element={<Events />} />
+          <Route path="/home" element={<Home />} />
+          {/* <Route
           path="/membership"
           element={<Membership onSubmit={handleSubmit} />}
         /> */}
-        <Route path="/join" element={<GoogleForm />} />
-        <Route path="/rules" element={<Rules />} />
-        <Route path="/members" element={<MembersArea />} />
-        <Route path="/may_20_2023" element={<May_20_2023 />} />
-        <Route path="/testimonials" element={<Testimonials />} />
-      </Routes>
+          <Route path="/join" element={<GoogleForm />} />
+          <Route path="/rules" element={<Rules />} />
+          <Route path="/members" element={<MembersArea />} />
+          <Route path="/may_20_2023" element={<May_20_2023 />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }
