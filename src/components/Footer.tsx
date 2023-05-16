@@ -3,7 +3,9 @@ export const Footer = () => {
     <>
       <div className="bg-dark">
         <p className="p-3 text-light text-center">
-          Contact plasticsoup@yahoo.co.uk <small>© Dan Trovato 2023</small>
+          <small>
+            © Dan Trovato 2023 | Contact: dan@thetribeexperiment.com{" "}
+          </small>
         </p>
       </div>
     </>

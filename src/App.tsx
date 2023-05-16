@@ -20,13 +20,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/about" element={<AboutPage />} /> */}
           <Route path="/events" element={<Events />} />
           <Route path="/home" element={<Home />} />
-          {/* <Route
-          path="/membership"
-          element={<Membership onSubmit={handleSubmit} />}
-        /> */}
           <Route path="/join" element={<GoogleForm />} />
           <Route path="/rules" element={<Rules />} />
           <Route path="/members" element={<MembersArea />} />

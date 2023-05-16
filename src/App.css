@@ -2,6 +2,8 @@
   padding-top: 3.5rem;
 }
 
-body {
-  background-color: red;
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  /* background-color: white; */
 }
