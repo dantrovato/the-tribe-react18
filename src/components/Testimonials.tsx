@@ -97,6 +97,20 @@ const Testimonials = () => {
         <Carousel.Item>
           <img
             className="d-block mx-auto"
+            src="./tribe2.jpg"
+            alt="Group pic"
+            style={{ height: "30rem" }}
+          />
+          {/* <Carousel.Caption>
+            <p className="">"Chilling by the fire"</p>
+            <h4>Look</h4>
+            <p>Look at the state of them!!!</p>
+          </Carousel.Caption> */}
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
             src="./tribe_garden1.JPG"
             alt="Hot tub and tent in the garden"
             style={{ height: "30rem" }}
