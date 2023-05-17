@@ -10,6 +10,7 @@ import GoogleForm from "./components/GoogleForm";
 import MembersArea from "./components/MembersArea";
 import May_20_2023 from "./components/Events/May_20_2023";
 import Testimonials from "./components/Testimonials";
+import Bespoke from "./components/Bespoke";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/members" element={<MembersArea />} />
           <Route path="/may_20_2023" element={<May_20_2023 />} />
           <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/bespoke_fantasies" element={<Bespoke />} />
         </Routes>
       </div>
     </BrowserRouter>
