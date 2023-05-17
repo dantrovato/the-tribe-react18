@@ -44,7 +44,7 @@ const MembersArea = () => {
         )}
         <button className="btn btn-primary m-5">Enter</button>
       </form>
-      {isPasswordCorrect && <p>Ya made it</p>}
+      {/* {isPasswordCorrect && <p>Ya made it</p>} */}
       <Footer />
     </div>
   );
