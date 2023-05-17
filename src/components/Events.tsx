@@ -26,12 +26,12 @@ const Events = () => {
         </Link>{" "}
         section.
       </p>
-      <p className="text-muted">
+      {/* <p className="text-muted">
         View{" "}
         <Link className="navbar-brand text-danger" to="/may_20_2023">
           Event
         </Link>{" "}
-      </p>
+      </p> */}
       <h3 className="text-center text-muted mb-4">Social - June 1st 2023 </h3>
       <p
         className=" text-muted mb-3"
