@@ -4,7 +4,9 @@ import { Footer } from "./Footer";
 const Testimonials = () => {
   return (
     <div className="container bg-dark">
-      <h2 className="text-center">Testimonials</h2>
+      <h5 className="text-center text-white p-4">
+        Pics never shared without consent
+      </h5>
       <Carousel>
         <Carousel.Item>
           <img
@@ -75,6 +77,19 @@ const Testimonials = () => {
             </p>
             <h4>Kyle and Lyd</h4>
             <p>New Member</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
+            src="./tribe1.jpg"
+            alt="Testimonial 4"
+            style={{ height: "30rem" }}
+          />
+          <Carousel.Caption>
+            <p className="">"Chilling by the fire"</p>
+            <h4>Look</h4>
+            <p>Look at the state of them!!!</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
