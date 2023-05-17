@@ -1,4 +1,5 @@
 import { Carousel } from "react-bootstrap";
+import { Footer } from "./Footer";
 
 const Testimonials = () => {
   return (
@@ -77,6 +78,7 @@ const Testimonials = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <Footer />
     </div>
   );
 };
