@@ -22,6 +22,7 @@ const Testimonials = () => {
             <p>New member</p>
           </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item>
           <img
             className="d-block mx-auto"
@@ -39,7 +40,42 @@ const Testimonials = () => {
             <p>New Member</p>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* Add more Carousel.Items for additional testimonials */}
+
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
+            src="./carlota1.jpg"
+            alt="Testimonial 3"
+            style={{ height: "30rem" }}
+          />
+          <Carousel.Caption>
+            <p className="">
+              "I always felt so welcome and safe that it became more like a
+              family than just a party."
+            </p>
+            <h4>Carlota</h4>
+            <p>Member since March 2021</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
+            src="./kyle_lyd.png"
+            alt="Testimonial 4"
+            style={{ height: "30rem" }}
+          />
+          <Carousel.Caption>
+            <p className="">
+              "We were lucky enough to meet this amazing group of people. We
+              have had some amazing memories, made amazing friends, and could
+              not recommend more. Always a safe positive space for you to truly
+              be yourself with others alike"
+            </p>
+            <h4>Kyle and Lyd</h4>
+            <p>New Member</p>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
     </div>
   );
