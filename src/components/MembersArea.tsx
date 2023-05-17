@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Footer } from "./Footer";
-import Gallery from "./Gallery";
+import Gallery from "./Gallery/Gallery";
 
 const eventPassword = "nosquirting";
 let password: string | undefined = undefined;
