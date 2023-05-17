@@ -6,6 +6,7 @@ let password: string | undefined = undefined;
 
 const MembersArea = () => {
   const [isPasswordCorrect, setIsPasswordCorrect] = useState(true);
+
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const passwordInput = event.currentTarget.elements.namedItem(
@@ -24,10 +25,7 @@ const MembersArea = () => {
 
   return (
     <div className="m-5">
-      <h3 className="text-center text-muted">
-        Enter password for this event. This is in the description of the what's
-        app group for this event
-      </h3>
+      <h3 className="text-center text-muted">Enter your membership key</h3>
       <form className="text-center" onSubmit={(event) => handleSubmit(event)}>
         <label htmlFor="password" className="form-label text-muted m-3">
           Password
@@ -42,10 +40,11 @@ const MembersArea = () => {
         {isPasswordCorrect ? (
           ""
         ) : (
-          <p className="text-danger mt-3">Incorrect Password</p>
+          <p className="text-danger mt-3">Nice try, ninja. Try again</p>
         )}
         <button className="btn btn-primary m-5">Enter</button>
       </form>
+      {isPasswordCorrect && <p>Ya made it</p>}
       <Footer />
     </div>
   );
