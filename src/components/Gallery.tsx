@@ -1,5 +1,18 @@
+const images = [
+  { src: "./tribe1.jpg", alt: "fava" },
+  { src: "./tribe2.jpg", alt: "fava" },
+];
+
 const Gallery = () => {
-  return <div>Gallery</div>;
+  return (
+    <div className="row">
+      {images.map((image, index) => (
+        <div key={index} className="col-md-4">
+          <img src={image.src} alt={image.alt} className="img-fluid" />
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default Gallery;
