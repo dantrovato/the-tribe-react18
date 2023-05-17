@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { Footer } from "./Footer";
+import Gallery from "./Gallery";
 
 const eventPassword = "nosquirting";
 let password: string | undefined = undefined;
 
 const MembersArea = () => {
   const [isPasswordCorrect, setIsPasswordCorrect] = useState(true);
+  const [hasBeenClicked, setHasBeenClicked] = useState(false);
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -15,9 +17,11 @@ const MembersArea = () => {
     password = passwordInput.value;
 
     if (password === eventPassword) {
+      setHasBeenClicked(true);
       setIsPasswordCorrect(true);
       console.log("password matches");
     } else {
+      setHasBeenClicked(false);
       setIsPasswordCorrect(false);
       console.log("password doesn't match");
     }
@@ -25,26 +29,29 @@ const MembersArea = () => {
 
   return (
     <div className="m-5">
-      <h3 className="text-center text-muted">Enter your membership key</h3>
-      <form className="text-center" onSubmit={(event) => handleSubmit(event)}>
-        <label htmlFor="password" className="form-label text-muted m-3">
-          Password
-        </label>
-        <input
-          type="text"
-          id="password"
-          name="password"
-          className="form-control mx-auto"
-          style={{ maxWidth: "400px" }}
-        />
-        {isPasswordCorrect ? (
-          ""
-        ) : (
-          <p className="text-danger mt-3">Nice try, ninja. Try again</p>
-        )}
-        <button className="btn btn-primary m-5">Enter</button>
-      </form>
-      {/* {isPasswordCorrect && <p>Ya made it</p>} */}
+      {!hasBeenClicked && (
+        <form className="text-center" onSubmit={(event) => handleSubmit(event)}>
+          <h3 className="text-center text-muted">Enter your membership key</h3>
+          <label htmlFor="password" className="form-label text-muted m-3">
+            Password
+          </label>
+          <input
+            type="text"
+            id="password"
+            name="password"
+            className="form-control mx-auto"
+            style={{ maxWidth: "400px" }}
+          />
+          {isPasswordCorrect ? (
+            ""
+          ) : (
+            <p className="text-danger mt-2">Nice try, ninja. Try again</p>
+          )}
+          <button className="btn btn-primary m-5">Enter</button>
+        </form>
+      )}
+
+      {hasBeenClicked && <Gallery />}
       <Footer />
     </div>
   );
