@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className="bg-dark">
         <p className="p-3 text-light text-center">
           <small>
-            © Dan Trovato 2023 | Contact: dan@thetribeexperiment.com{" "}
+            © thetribeexperiment 2023 | Contact: dan@thetribeexperiment.com{" "}
           </small>
         </p>
       </div>

@@ -35,15 +35,19 @@ const Rules = () => {
       <h1 className="text-center mb-3">How it works</h1>
 
       <p className="mb-4">
-        At the bigger events most people will know one another. If you're a
-        complete newbie, chances are you will be at one of the smaller
-        introductory events. People will just chill and chat over drinks and at
-        some point, surely, somebody will start playing and more and more people
-        will then join in, separately or otherwise. It's all super friendly and
-        free flowing. Remember that there is never any pressure to join in and
-        if you're uncomfortable at any point, do speak to anyone wearing a
-        flashing blue armband. The 'generals' are there to make your night as
-        amazing as it can be. Please read the rules outlined below
+        Before the party you'll have the option to be added to a WhatsApp group
+        with all the other guests so you can get to know each other and flirt a
+        bit. These groups get pingy so you may want to mute the chat. Nude
+        pictures flow freely, here, so be aware of that. At the bigger events
+        most people will mostly know one another. If you're a complete newbie,
+        chances are you will be at one of the smaller introductory events.
+        People will just chill and chat over drinks for a while and, at some
+        point, surely, somebody will start playing and more and more people will
+        then join in, separately or otherwise. It's all super friendly and free
+        flowing. Remember that there is never any pressure to join in and if
+        you're uncomfortable at any point, do speak to anyone wearing a flashing
+        blue armband. The 'generals' are there to make your night as amazing as
+        it can be. Please read the rules outlined below
       </p>
       <img
         src="./orgypool.webp"
@@ -98,7 +102,16 @@ const Rules = () => {
         partner with whoever is in the scrum wait to be invited in.
       </p>
       <h2>Rule # 7</h2>
-      <h3>No Squirting</h3>
+      <h3>Give space</h3>
+      <p>
+        If you see two or more people having sex don’t invade their space by
+        staring too closely. It’s really Same as the no piggybacking rule, it's
+        awkward to have to shoo someone away. You can respectfully look at
+        people have fun but give them plenty of space or you'll get asked to
+        back off.
+      </p>
+      <h2>Rule # 8</h2>
+      <h3>No squirting</h3>
       <p>
         All you plumbers out there, there are way too many people for this. No
         need to show off. We know you are familiar with the female anatomy but

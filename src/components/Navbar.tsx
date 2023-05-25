@@ -49,6 +49,13 @@ const Navbar = () => {
                 Meet the tribe
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/faq">
+                FAQ
+              </Link>
+            </li>
+
             <li className="nav-item">
               <Link className="nav-link" to="/bespoke_fantasies">
                 Bespoke fantasies
