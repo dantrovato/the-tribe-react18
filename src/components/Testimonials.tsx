@@ -64,7 +64,7 @@ const Testimonials = () => {
         <Carousel.Item>
           <img
             className="d-block mx-auto"
-            src="./matilda_side.jpg"
+            src="./matilda_struggle.JPG"
             alt="Testimonial 4"
             style={{ height: "30rem" }}
           />
