@@ -64,8 +64,27 @@ const Testimonials = () => {
         <Carousel.Item>
           <img
             className="d-block mx-auto"
-            src="./kyle_lyd.png"
+            src="./matilda_side.jpg"
             alt="Testimonial 4"
+            style={{ height: "30rem" }}
+          />
+          <Carousel.Caption>
+            <p className="">
+              “I went to my first Tribe Party in October and haven’t looked back
+              since. It’s an incredibly liberating and welcoming group of
+              hotties. Can’t wait for many more adventures with this crazy
+              bunch”
+            </p>
+            <h4>Matilda</h4>
+            <p>Member since October 2022</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
+            src="./kyle_lyd.png"
+            alt="Testimonial 5"
             style={{ height: "30rem" }}
           />
           <Carousel.Caption>
