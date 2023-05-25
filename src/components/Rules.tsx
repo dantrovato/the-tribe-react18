@@ -32,23 +32,7 @@ const Rules = () => {
           keep the community safe by being extra careful.
         </p>
       </div>
-      <h1 className="text-center mb-3">How it works</h1>
 
-      <p className="mb-4">
-        Before the party you'll have the option to be added to a WhatsApp group
-        with all the other guests so you can get to know each other and flirt a
-        bit. These groups get pingy so you may want to mute the chat. Nude
-        pictures flow freely, here, so be aware of that. At the bigger events
-        most people will mostly know one another. If you're a complete newbie,
-        chances are you will be at one of the smaller introductory events.
-        People will just chill and chat over drinks for a while and, at some
-        point, surely, somebody will start playing and more and more people will
-        then join in, separately or otherwise. It's all super friendly and free
-        flowing. Remember that there is never any pressure to join in and if
-        you're uncomfortable at any point, do speak to anyone wearing a flashing
-        blue armband. The 'generals' are there to make your night as amazing as
-        it can be. Please read the rules outlined below
-      </p>
       <img
         src="./orgypool.webp"
         alt="Sexy people kissing in shower"
