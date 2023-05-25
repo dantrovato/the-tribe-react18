@@ -39,9 +39,9 @@ const Events = () => {
       >
         This one is mega. Starting earlier in the day we will have a band and 5
         DJs outside, in the garden. Fire pit, hot tub, 4 play rooms and a chill
-        out area. Aiming at around 130 people, this is probably one of the last
-        big ones we will be able to do at the house before we take the tribe to
-        the clubs.
+        out area. Aiming at around 120 people, this is probably one of the last
+        big ones we will be able to do at the tribe house before we take the
+        tribe to the clubs. Tickets £20.{" "}
       </p>
 
       <p
