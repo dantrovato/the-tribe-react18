@@ -5,7 +5,7 @@ const Rules = () => {
   const danger = "#dc3545";
   return (
     <div className="m-5 text-muted">
-      <div className="m-5" style={{ border: `1px solid ${danger}` }}>
+      <div className="mb-5" style={{ border: `1px solid ${danger}` }}>
         <h2 className="text-danger text-center p-3">Sexual health safety</h2>
         <h3 className="text-danger text-center pb-3">The wristband system:</h3>
         <p className="text-danger p-3">
