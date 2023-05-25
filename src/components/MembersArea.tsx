@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Footer } from "./Footer";
 import Gallery from "./Gallery/Gallery";
 
-const eventPassword = "nosquirting";
+const eventPassword = "nosquirt";
 let password: string | undefined = undefined;
 
 const MembersArea = () => {

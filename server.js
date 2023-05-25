@@ -7,6 +7,9 @@ import bodyParser from "body-parser";
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// Define the array of valid passwords
+const validPasswords = ["nosquirt"];
+
 app.get("/members", (req, res) => {
   res.send("Hello World!");
 });

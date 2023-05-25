@@ -20,16 +20,12 @@ const Events = () => {
           Join the Meet Up group
         </a>{" "}
         or register your interest in the{" "}
-        <p
-          className="text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          <Link className="navbar-brand text-danger" to="/join">
-            Join
-          </Link>{" "}
-          section.
-        </p>
+        <Link className="navbar-brand text-danger" to="/join">
+          Join
+        </Link>{" "}
+        section.
       </p>
+
       <h3 className="text-center text-muted mb-4">
         Tribeval - August 18th 2023{" "}
       </h3>

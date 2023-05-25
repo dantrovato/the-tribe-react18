@@ -26,7 +26,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/join" element={<GoogleForm />} />
           <Route path="/rules" element={<Rules />} />
-          <Route path="/members" element={<MembersArea />} />
+          {/* <Route path="/members" element={<MembersArea />} /> */}
           <Route path="/may_20_2023" element={<May_20_2023 />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/faq" element={<FAQ />} />
