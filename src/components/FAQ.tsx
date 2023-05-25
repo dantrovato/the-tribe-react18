@@ -45,6 +45,13 @@ const FAQ = () => {
       </p>
       <p className="mb-4">Q - Am I expected to participate?</p>
       <p className="mb-4">A - No. Never. You can just come and make friends.</p>
+      <p className="mb-4">
+        Q - What kind of people attend and what age group are they?
+      </p>
+      <p className="mb-4">
+        A - We aim at a 50/50 male to female ratio but that varies from party to
+        party. The age bracket tends to range from early 20s to late 30s.
+      </p>
     </div>
   );
 };
