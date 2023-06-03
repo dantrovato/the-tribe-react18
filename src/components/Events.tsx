@@ -5,21 +5,17 @@ const Events = () => {
   return (
     <div className="m-5">
       <h1 className="text-center text-muted mb-5">Next events</h1>
-      <h3 className="text-center text-muted mb-4">Social - June 1st 2023 </h3>
+      <h3 className="text-center text-muted mb-4">
+        Newbies part 2 - Friday July 21st 2023{" "}
+      </h3>
       <p
         className=" text-muted mb-3"
         style={{ maxWidth: "600px", margin: "auto" }}
       >
-        This is a social at a bar in Camden. Location to be given to the guests
-        in the what's app group. Come and meet some of our regular play mates
-        and a lot of the new faces too.{" "}
-        <a
-          style={{ textDecoration: "none", color: `${danger}` }}
-          href="https://www.meetup.com/meetup-group-hcdvbmyb/events/293473417/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link"
-        >
-          Join the Meet Up group
-        </a>{" "}
-        or register your interest in the{" "}
+        This is a gathering of the hottest new people in the scene or just new
+        to the tribe. It's a smaller and more intimate and relaxed party and
+        it's a less hectic introduction into our community. Register your
+        interest in the{" "}
         <Link className="navbar-brand text-danger" to="/join">
           Join
         </Link>{" "}
@@ -27,16 +23,17 @@ const Events = () => {
       </p>
 
       <h3 className="text-center text-muted mb-4">
-        Tribeval - August 18th 2023{" "}
+        Tribeval - August 19th 2023{" "}
       </h3>
       <p
         className=" text-muted mb-3"
         style={{ maxWidth: "600px", margin: "auto" }}
       >
-        This one is mega. Starting earlier in the day we will have a bunch of
-        DJs playing in the garden. Fire pit, hot tub, 4 play rooms and a chill
-        out area. Aiming at around 120 people, this is probably one of the
-        bigger ones ever. Tickets £20.{" "}
+        This one is mega. Starting earlier in the day we will have a band
+        provisionally named 'The beauty and the sons of a bitch'and a bunch of
+        DJs playing in the garden. The garden, as always, featuring the massive
+        fire pit, hot tub, 4 play rooms and a chill out area. Aiming at around
+        100 people, this is probably one of the bigger ones ever. Tickets £20.{" "}
       </p>
 
       <p
