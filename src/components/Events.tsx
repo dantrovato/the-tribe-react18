@@ -77,7 +77,14 @@ const Events = () => {
           Our first venue event, with a 200 perv capacity. This is in
           Farringdon, Exact location disclosed in the what's app group. The
           theme is Roman Orgy so put some effort in and rock up looking like the
-          sexiest romans there ever were. Tickets £35. Here are some ideas for{" "}
+          sexiest romans there ever were. Tickets £35.
+        </p>
+
+        <p
+          className=" text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          Here are some ideas for{" "}
           <Link
             className="navbar-brand text-danger"
             to="https://www.google.com/search?q=sexy+roman+party+costume&rlz=1C5CHFA_enGB745GB746&oq=sexy+roman+party+costume&aqs=chrome..69i57.13207j0j4&sourceid=chrome&ie=UTF-8"
