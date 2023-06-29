@@ -42,7 +42,7 @@ const Events = () => {
 
       <div>
         <h3 className="text-center text-muted mb-4">
-          Tribeval - August 19th 2023{" "}
+          Tribeval - Saturdan August 19th 2023{" "}
         </h3>
         <p
           className=" text-muted mb-3"
@@ -54,6 +54,30 @@ const Events = () => {
           massive fire pit, hot tub, 4 play rooms and a chill out area. Aiming
           at around 100 people, this is probably one of the bigger ones ever.
           Tickets £20.{" "}
+        </p>
+
+        <p
+          className="text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          Register your interest in the{" "}
+          <Link className="navbar-brand text-danger" to="/join">
+            Join
+          </Link>{" "}
+          section.
+        </p>
+
+        <h3 className="text-center text-muted mb-4">
+          Newbies part 3 - Friday September 15th 2023{" "}
+        </h3>
+        <p
+          className=" text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          This is another gathering of the hottest new people in the scene or
+          just new to the tribe. It's a smaller and more intimate and relaxed
+          party and it's a less hectic introduction into our community. Register
+          your interest in the{" "}
         </p>
 
         <p
