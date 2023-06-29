@@ -66,6 +66,28 @@ const Events = () => {
           </Link>{" "}
           section.
         </p>
+
+        <h3 className="text-center text-muted mb-4">
+          Not Halloween - Saturday October 14 2023{" "}
+        </h3>
+        <p
+          className=" text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          Our first venue event with a 200 capacity. This is in Farringdon,
+          Exact location disclosed in the what's app group. Tickets £35.{" "}
+        </p>
+
+        <p
+          className="text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          Register your interest in the{" "}
+          <Link className="navbar-brand text-danger" to="/join">
+            Join
+          </Link>{" "}
+          section.
+        </p>
       </div>
 
       <img
