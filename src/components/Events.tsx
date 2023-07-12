@@ -7,22 +7,6 @@ const Events = () => {
 
       <div>
         <h3 className="text-center text-muted mb-4">
-          Social - Thursday July 6th 2023{" "}
-        </h3>
-        <p
-          className=" text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          Come to our second social event! This is a clothes-on drink in a bar,
-          where you can meet new people or catch up with familiar faces in a
-          super relaxed environment. We are looking forward to seeing you there!{" "}
-          Register your interest in the{" "}
-          <Link className="navbar-brand text-danger" to="/join">
-            Join
-          </Link>{" "}
-          section.
-        </p>
-        <h3 className="text-center text-muted mb-4">
           Newbies part 2 - Friday July 21st 2023{" "}
         </h3>
         <p
@@ -33,6 +17,27 @@ const Events = () => {
           to the tribe. It's a smaller and more intimate and relaxed party and
           it's a less hectic introduction into our community. Register your
           interest in the{" "}
+          <Link className="navbar-brand text-danger" to="/join">
+            Join
+          </Link>{" "}
+          section.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-center text-muted mb-4">
+          Social - Thursday August 10th 2023{" "}
+        </h3>
+        <p
+          className=" text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          Come to our second social event! This is a clothes-on drink in a bar,
+          where you can meet new people or catch up with familiar faces in a
+          super relaxed environment. This social is so that people coming to the
+          Tribeval, a week later, can meet fellow attendees beforehand in a
+          casual setting. We are looking forward to seeing you there! Register
+          your interest in the{" "}
           <Link className="navbar-brand text-danger" to="/join">
             Join
           </Link>{" "}
