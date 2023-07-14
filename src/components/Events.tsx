@@ -9,18 +9,14 @@ const Events = () => {
         <h3 className="text-center text-muted mb-4">
           Newbies part 2 - Friday July 21st 2023{" "}
         </h3>
+        <h3 className="text-center text-danger mb-4">SOLD OUT :(</h3>
         <p
           className=" text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
           This is a gathering of the hottest new people in the scene or just new
           to the tribe. It's a smaller and more intimate and relaxed party and
-          it's a less hectic introduction into our community. Register your
-          interest in the{" "}
-          <Link className="navbar-brand text-danger" to="/join">
-            Join
-          </Link>{" "}
-          section.
+          it's a less hectic introduction into our community.
         </p>
       </div>
 
@@ -32,12 +28,12 @@ const Events = () => {
           className=" text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
-          Come to our second social event! This is a clothes-on drink in a bar,
-          where you can meet new people or catch up with familiar faces in a
-          super relaxed environment. This social is so that people coming to the
-          Tribeval, a week later, can meet fellow attendees beforehand in a
-          casual setting. We are looking forward to seeing you there! Register
-          your interest in the{" "}
+          Come to our second social event! This is a clothes-on drink in a bar
+          in Camden, where you can meet new people or catch up with familiar
+          faces in a super relaxed environment. This social is so that people
+          coming to the Tribeval, a week later, can meet fellow attendees
+          beforehand in a casual setting. We are looking forward to seeing you
+          there! Register your interest in the{" "}
           <Link className="navbar-brand text-danger" to="/join">
             Join
           </Link>{" "}
