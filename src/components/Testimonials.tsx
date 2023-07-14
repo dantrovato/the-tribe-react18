@@ -120,11 +120,28 @@ const Testimonials = () => {
             alt="Group pic"
             style={{ height: "30rem" }}
           />
-          {/* <Carousel.Caption>
-            <p className="">"Chilling by the fire"</p>
-            <h4>Look</h4>
-            <p>Look at the state of them!!!</p>
-          </Carousel.Caption> */}
+          <Carousel.Caption>
+            {/* <p className="">"Still chilling by the fire"</p> */}
+            {/* <h4>Look</h4> */}
+            <p>AND THEM!!!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
+            src="./he_man.WEBP"
+            alt="Hot tub and tent in the garden"
+            style={{ height: "30rem" }}
+          />
+          <Carousel.Caption>
+            <p className="">"He Man (They Mxn as of 2019)"</p>
+            <h4>I am a fictional character</h4>
+            <p>
+              And my penis is entirely hypothetical. But if me and my male
+              member existed we'd be sure to join the tribe
+            </p>
+          </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
@@ -141,6 +158,7 @@ const Testimonials = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+
       <Footer />
     </div>
   );
