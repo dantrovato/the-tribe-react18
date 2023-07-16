@@ -64,6 +64,24 @@ const Testimonials = () => {
         <Carousel.Item>
           <img
             className="d-block mx-auto"
+            src="./marco.jpeg"
+            alt="Testimonial 3"
+            style={{ height: "30rem" }}
+          />
+          <Carousel.Caption>
+            <p className="">
+              Passionate and intimate experience. You can express your
+              sensuality and discover the lust and kink you may have hidden
+              inside you.
+            </p>
+            <h4>Marco</h4>
+            <p>Member since May 2023</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
             src="./matilda_mirror_cropped.jpg"
             alt="Testimonial 4"
             style={{ height: "30rem" }}
