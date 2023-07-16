@@ -100,7 +100,7 @@ const Testimonials = () => {
         <Carousel.Item>
           <img
             className="d-block mx-auto"
-            src="./dave.jpeg"
+            src="./dave_wolves.png"
             alt="Mirror selfie"
             style={{ height: "30rem" }}
           />
