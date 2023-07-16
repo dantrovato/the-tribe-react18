@@ -110,7 +110,7 @@ const Testimonials = () => {
               friendships forged, the support given and the genuine love that
               flows throughout the group, during and after the events
             </p>
-            <h4>Dave</h4>
+            <h4>Davide</h4>
             <p>Member since 2020</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -137,8 +137,8 @@ const Testimonials = () => {
         <Carousel.Item>
           <img
             className="d-block mx-auto"
-            src="./lorna.jpeg"
-            alt="Testimonial 5"
+            src="./lorna_cropped.png"
+            alt="Black girl on her front"
             style={{ height: "30rem" }}
           />
           <Carousel.Caption>
