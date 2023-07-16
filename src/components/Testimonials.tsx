@@ -100,6 +100,24 @@ const Testimonials = () => {
         <Carousel.Item>
           <img
             className="d-block mx-auto"
+            src="./dave.jpeg"
+            alt="Mirror selfie"
+            style={{ height: "30rem" }}
+          />
+          <Carousel.Caption>
+            <p className="">
+              The thing that stands out to me about the Tribe are the
+              friendships forged, the support given and the genuine love that
+              flows throughout the group, during and after the events
+            </p>
+            <h4>Dave</h4>
+            <p>Member since 2020</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
             src="./kyle_lyd.png"
             alt="Testimonial 5"
             style={{ height: "30rem" }}
@@ -112,7 +130,7 @@ const Testimonials = () => {
               yourself with others alike
             </p>
             <h4>Kyle and Lyd</h4>
-            <p>New Member</p>
+            <p>New Members</p>
           </Carousel.Caption>
         </Carousel.Item>
 
