@@ -47,6 +47,43 @@ const Testimonials = () => {
         <Carousel.Item>
           <img
             className="d-block mx-auto"
+            src="./ruben.jpeg"
+            alt="Handsome guy"
+            style={{ height: "30rem" }}
+          />
+          <Carousel.Caption>
+            <p className="">
+              The Tribe is an amazing group of people who I have created
+              beautiful friendships with and and where I found a sense of
+              community
+            </p>
+            <h4>Ruben</h4>
+            <p>Member since May 2023</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
+            src="./shelly.jpeg"
+            alt="Gorgeous girl in sexy underwear"
+            style={{ height: "30rem" }}
+          />
+          <Carousel.Caption>
+            <p className="">
+              The Tribe is more than just another party, it’s a likeminded
+              community who helped me overcome the insecurities I had about my
+              own sexuality and begin to accept myself for who I am without
+              judgement
+            </p>
+            <h4>Shelly</h4>
+            <p>Member since 2021</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto"
             src="./carlota1.jpg"
             alt="Testimonial 3"
             style={{ height: "30rem" }}
