@@ -67,6 +67,14 @@ const testimonials = [
     member: "Member since 2020",
   },
   {
+    src: "./demi.jpeg",
+    alt: "Man surrounded by wolves",
+    quote:
+      "Can't beat the cuddle puddle at the end of the night.. such a great group of people, always an amazing vibe",
+    name: "Demi",
+    member: "Member since 2022",
+  },
+  {
     src: "./kyle_lyd.png",
     alt: "Man and woman in kinky outfit in front of mirror",
     quote:
