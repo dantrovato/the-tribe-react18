@@ -22,7 +22,7 @@ const Events = () => {
         </p>
 
         <p
-          className="text-muted mb-3"
+          className="text-muted mb-5"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
           Register your interest in the{" "}
@@ -62,7 +62,7 @@ const Events = () => {
         </p>
 
         <p
-          className="text-muted mb-3"
+          className="text-muted mb-5"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
           Register your interest in the{" "}
@@ -106,7 +106,7 @@ const Events = () => {
         </p>
 
         <p
-          className="text-muted mb-3"
+          className="text-muted mb-5"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
           Register your interest in the{" "}
