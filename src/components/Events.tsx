@@ -7,21 +7,6 @@ const Events = () => {
 
       <div>
         <h3 className="text-center text-muted mb-4">
-          Newbies part 2 - Friday July 21st 2023{" "}
-        </h3>
-        <h3 className="text-center text-danger mb-4">SOLD OUT :(</h3>
-        <p
-          className=" text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          This is a gathering of the hottest new people in the scene or just new
-          to the tribe. It's a smaller and more intimate and relaxed party and
-          it's a less hectic introduction into our community.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-center text-muted mb-4">
           Social - Thursday August 10th 2023{" "}
         </h3>
         <p
@@ -33,7 +18,14 @@ const Events = () => {
           faces in a super relaxed environment. This social is so that people
           coming to the Tribeval, a week later, can meet fellow attendees
           beforehand in a casual setting. We are looking forward to seeing you
-          there! Register your interest in the{" "}
+          there!
+        </p>
+
+        <p
+          className="text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          Register your interest in the{" "}
           <Link className="navbar-brand text-danger" to="/join">
             Join
           </Link>{" "}
@@ -45,6 +37,7 @@ const Events = () => {
         <h3 className="text-center text-muted mb-4">
           Tribeval - Saturday August 19th 2023{" "}
         </h3>
+        <h4 className="text-center text-danger mb-4">SOLD OUT :(</h4>
         <p
           className=" text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
@@ -54,7 +47,18 @@ const Events = () => {
           DJs playing in the garden. The garden, as always, featuring the
           massive fire pit, hot tub, 4 play rooms and a chill out area. Aiming
           at around 100 people, this is probably one of the bigger ones ever.
-          Tickets £20.{" "}
+        </p>
+        <p
+          className=" text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          Dress code: Sexy Neon{" "}
+        </p>
+        <p
+          className=" text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          Tickets: £20{" "}
         </p>
 
         <p
@@ -78,7 +82,7 @@ const Events = () => {
           Our first venue event, with a 200 perv capacity. This is in
           Farringdon, Exact location disclosed in the what's app group. The
           theme is Roman Orgy so put some effort in and rock up looking like the
-          sexiest romans there ever were. Tickets £35.
+          sexiest romans there ever were.
         </p>
 
         <p
@@ -92,6 +96,13 @@ const Events = () => {
           >
             sexy roman costumes
           </Link>{" "}
+        </p>
+
+        <p
+          className=" text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          Tickets: £35{" "}
         </p>
 
         <p
