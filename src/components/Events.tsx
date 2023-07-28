@@ -73,7 +73,7 @@ const Events = () => {
         </p>
 
         <h3 className="text-center text-muted mb-4">
-          Roman Orgy - Saturday October 14 2023{" "}
+          Caligula - a cheeky Roman orgy - Saturday October 14 2023{" "}
         </h3>
         <p
           className=" text-muted mb-3"
