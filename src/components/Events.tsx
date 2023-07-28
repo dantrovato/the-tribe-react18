@@ -41,7 +41,7 @@ const Events = () => {
           src="tribeval.png"
           alt="Two people in neon paint kissing"
           className="mx-auto d-block"
-          style={{ width: "600px", marginTop: "2rem" }}
+          style={{ maxWidth: "100%", marginTop: "2rem" }}
         />
         <h4 className="text-center text-danger m-4">SOLD OUT :(</h4>
         <p
@@ -85,7 +85,7 @@ const Events = () => {
           src="caligula.png"
           alt="Sexy roman orgy"
           className="mx-auto d-block mb-4"
-          style={{ maxWidth: "600px", marginTop: "2rem" }}
+          style={{ maxWidth: "100%", marginTop: "2rem" }}
         />
         <p
           className=" text-muted mb-3"
