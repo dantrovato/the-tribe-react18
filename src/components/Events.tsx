@@ -29,7 +29,7 @@ const Events = () => {
           <Link className="navbar-brand text-danger" to="/join">
             Join
           </Link>{" "}
-          section.
+          section
         </p>
       </div>
 
@@ -37,7 +37,13 @@ const Events = () => {
         <h3 className="text-center text-muted mb-4">
           Tribeval - Saturday August 19th 2023{" "}
         </h3>
-        <h4 className="text-center text-danger mb-4">SOLD OUT :(</h4>
+        <img
+          src="tribeval.png"
+          alt="Two people in neon paint kissing"
+          className="mx-auto d-block"
+          style={{ width: "600px", marginTop: "2rem" }}
+        />
+        <h4 className="text-center text-danger m-4">SOLD OUT :(</h4>
         <p
           className=" text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
@@ -46,7 +52,7 @@ const Events = () => {
           provisionally named 'The beauty and the sons of a bitch'and a bunch of
           DJs playing in the garden. The garden, as always, featuring the
           massive fire pit, hot tub, 4 play rooms and a chill out area. Aiming
-          at around 100 people, this is probably one of the bigger ones ever.
+          at around 100 people, this is probably one of the bigger ones ever
         </p>
         <p
           className=" text-muted mb-3"
@@ -75,6 +81,12 @@ const Events = () => {
         <h3 className="text-center text-muted mb-4">
           Caligula - a cheeky Roman orgy - Saturday October 14 2023{" "}
         </h3>
+        <img
+          src="caligula.png"
+          alt="Sexy roman orgy"
+          className="mx-auto d-block mb-4"
+          style={{ width: "600px", marginTop: "2rem" }}
+        />
         <p
           className=" text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
@@ -82,7 +94,7 @@ const Events = () => {
           Our first venue event, with a 200 perv capacity. This is in
           Farringdon, Exact location disclosed in the what's app group. The
           theme is Roman Orgy so put some effort in and rock up looking like the
-          sexiest romans there ever were.
+          sexiest romans there ever were
         </p>
 
         <p
@@ -102,7 +114,7 @@ const Events = () => {
           className=" text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
-          Tickets: £35{" "}
+          Tickets: £25 to £40. Tickets not out yet{" "}
         </p>
 
         <p
