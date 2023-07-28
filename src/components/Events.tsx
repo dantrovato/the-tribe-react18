@@ -82,7 +82,7 @@ const Events = () => {
           Caligula - a cheeky Roman orgy - Saturday October 14 2023{" "}
         </h3>
         <img
-          src="caligula.png"
+          src="caligula3.png"
           alt="Sexy roman orgy"
           className="mx-auto d-block mb-4"
           style={{ maxWidth: "100%", marginTop: "2rem" }}
