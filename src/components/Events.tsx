@@ -85,7 +85,7 @@ const Events = () => {
           src="caligula.png"
           alt="Sexy roman orgy"
           className="mx-auto d-block mb-4"
-          style={{ width: "600px", marginTop: "2rem" }}
+          style={{ maxWidth: "600px", marginTop: "2rem" }}
         />
         <p
           className=" text-muted mb-3"
@@ -132,7 +132,7 @@ const Events = () => {
       <img
         src="./girl_pink.jpg"
         alt="Sexy girl in undewear"
-        style={{ width: "100%", maxHeight: "40%,", marginTop: "2rem" }}
+        style={{ maxWidth: "100%", maxHeight: "40%,", marginTop: "2rem" }}
       />
       <Footer />
     </div>
