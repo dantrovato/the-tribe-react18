@@ -38,7 +38,7 @@ const Events = () => {
           Tribeval - Saturday August 19th 2023{" "}
         </h3>
         <img
-          src="tribeval.png"
+          src="tribeval2.png"
           alt="Two people in neon paint kissing"
           className="mx-auto d-block"
           style={{ maxWidth: "100%", marginTop: "2rem" }}
