@@ -79,7 +79,7 @@ const Events = () => {
         </p>
 
         <h3 className="text-center text-muted mb-4">
-          Caligula - a cheeky Roman orgy - Saturday October 14 2023{" "}
+          Caligula - a cheeky Roman orgy - Date to be confirmed shortly{" "}
         </h3>
         <img
           src="caligula3.png"

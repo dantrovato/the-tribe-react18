@@ -42,24 +42,35 @@ const Rules = () => {
       <h2>Rule # 1</h2>
       <h3>Consent!</h3>
       <p>
-        Do make sure that if you are gonna touch somebody the are more “yay”
-        than “eeeewww”. At a minimum you must be able to read body language but
-        verbally asking is even better.
+        Do not touch anybody sexually without first receiving verbal or, at the
+        very least, clear non verbal consent. Verbal consent is best. Just ask
+        and remove all doubt
       </p>
       <h2>Rule # 2</h2>
       <h3>Know your boundaries</h3>
       <p>
-        If you’re on the receiving end of unwanted attention you also share the
-        responsibility of making sure that stops. If somebody puts a hand on
-        your hip and you don’t like it, make sure you say it. Or at the very
-        least lean back. They shouldn’t do that but it’s also on you to let them
-        know. It’s no good to go with the flow only to regret it the next day.
-        No good to you and no good to the person who’s gonna get accused of
-        sexual misconduct. That’s not fair. Best thing to do is to think, in
-        advance, of a polite way to say no, you can just say “I need a bit of a
-        break”. But the more niche “you’re ruining my chi” and “I think you’re
-        being ambitious” work too.
+        This is apparently our most controversial rule; we think that if
+        somebody breaks the above rule about consent you should tell them!
+        Whoa... <br />
+        If somebody puts a hand on your hip and you don’t like it, make sure you
+        say it. Or at the very least give a non verbal sign. They should never
+        do that but if you just freeze this could be taken as a green light. DO
+        NOT go with the flow only to regret it the next day. No good to you and
+        no good to the person who’s gonna get accused of sexual misconduct. Best
+        thing to do is to think, in advance, of a polite way to say no. You can
+        just say “I need a bit of a break” or "maybe later". But the more direct
+        “No, thank you” works too. Let's just keep it polite. <br />A handful of
+        people have criticised this rule because they see it as potentially
+        "blaming the victim". We politely reject their hypothesis. Instead, we
+        feel this adds an extra layer of protection, ensuring there will never
+        be a victim. These are super friendly parties and the chance of anybody
+        being threatening to you is absolute zero. Should that happen, however,
+        our "generals" will be on hand to deal with the situation. You'll know
+        who they are as they will be wearing a flashy blue armband. <br />
+        If having read the above you still fear you may be unable to follow this
+        rule this party, sadly, may not be for you.{" "}
       </p>
+
       <h2>Rule # 3</h2>
       <h3>No default BDSM mode</h3>
       <p>
@@ -89,10 +100,9 @@ const Rules = () => {
       <h3>Give space</h3>
       <p>
         If you see two or more people having sex don’t invade their space by
-        staring too closely. It’s really Same as the no piggybacking rule, it's
-        awkward to have to shoo someone away. You can respectfully look at
-        people have fun but give them plenty of space or you'll get asked to
-        back off.
+        staring too closely. Like the no piggybacking rule, it's awkward to have
+        to shoo someone away. You can respectfully look at people have fun but
+        give them plenty of space or you'll get asked to back off.
       </p>
       <h2>Rule # 8</h2>
       <h3>No squirting</h3>

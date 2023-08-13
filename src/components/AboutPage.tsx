@@ -8,15 +8,15 @@ const AboutPage = () => {
         A social experiment in redefining, sex, friendships and relationships
       </h2>
       <p className="text-muted" style={{ maxWidth: "600px", margin: "auto" }}>
-        Welcome to the Tribe, a community of hot and fun kinksters. We host
-        invite-only parties of 100 or so guests every three months but we do
-        smaller ones in between which focus on introducing newbies to the group
-        as well as monthly socials. This is a great space to meet like-minded
-        individuals who take good care of their bodies and really spark joy.
-        This growing community is precious to us so guests are carefully
-        selected but once you're in you're not gonna want to leave. So get in
-        touch if you think you'll fit in and we look forward to getting to know
-        you
+        Welcome to the Tribe, a fast-growing community of hot and fun kinksters.
+        We host exclusive, invite-only parties with over 100 guests. We also
+        host the occasional smaller party which focus on introducing newbies to
+        the group, as well as monthly-ish socials. The Tribe is a fantastic
+        space to meet like-minded individuals who take good care of their bodies
+        and truly spark joy. The community is precious to us so guests are
+        carefully selected via a voting system but once you're in you're not
+        gonna want to leave. So do get in touch if you think you'll fit in. We
+        are excited to getting to know you!
       </p>
     </div>
   );
