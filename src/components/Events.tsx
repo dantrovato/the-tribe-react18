@@ -6,84 +6,10 @@ const Events = () => {
       <h1 className="text-center text-muted mb-5">Next events</h1>
 
       <div>
-        <h3 className="text-center text-muted mb-4">
-          Social - Thursday August 10th 2023{" "}
-        </h3>
-        <p
-          className=" text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          Come to our second social event! This is a clothes-on drink in a bar
-          in Camden, where you can meet new people or catch up with familiar
-          faces in a super relaxed environment. This social is so that people
-          coming to the Tribeval, a week later, can meet fellow attendees
-          beforehand in a casual setting. We are looking forward to seeing you
-          there!
-        </p>
-
-        <p
-          className="text-muted mb-5"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          Register your interest in the{" "}
-          <Link className="navbar-brand text-danger" to="/join">
-            Join
-          </Link>{" "}
-          section
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-center text-muted mb-4">
-          Tribeval - Saturday August 19th 2023{" "}
-        </h3>
+        <h3 className="text-center text-muted mb-4">Welcome to the jungle </h3>
         <img
-          src="tribeval2.png"
-          alt="Two people in neon paint kissing"
-          className="mx-auto d-block"
-          style={{ maxWidth: "100%", marginTop: "2rem" }}
-        />
-        <h4 className="text-center text-danger m-4">SOLD OUT :(</h4>
-        <p
-          className=" text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          This one is mega. Starting earlier in the day we will have a band
-          provisionally named 'The beauty and the sons of a bitch'and a bunch of
-          DJs playing in the garden. The garden, as always, featuring the
-          massive fire pit, hot tub, 4 play rooms and a chill out area. Aiming
-          at around 100 people, this is probably one of the bigger ones ever
-        </p>
-        <p
-          className=" text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          Dress code: Sexy Neon{" "}
-        </p>
-        <p
-          className=" text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          Tickets: £20{" "}
-        </p>
-
-        <p
-          className="text-muted mb-5"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          Register your interest in the{" "}
-          <Link className="navbar-brand text-danger" to="/join">
-            Join
-          </Link>{" "}
-          section.
-        </p>
-
-        <h3 className="text-center text-muted mb-4">
-          Caligula - a cheeky Roman orgy - Date to be confirmed shortly{" "}
-        </h3>
-        <img
-          src="caligula3.png"
-          alt="Sexy roman orgy"
+          src="jungle.png"
+          alt="Sexy girls in jungle"
           className="mx-auto d-block mb-4"
           style={{ maxWidth: "100%", marginTop: "2rem" }}
         />
@@ -91,10 +17,8 @@ const Events = () => {
           className=" text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
-          Our first venue event, with a 200 perv capacity. This is in
-          Farringdon, Exact location disclosed in the what's app group. The
-          theme is Roman Orgy so put some effort in and rock up looking like the
-          sexiest romans there ever were
+          The Tribe House becomes a jungle. Come reconnect with nature with the
+          gorgeous creatures of The Tribe.
         </p>
 
         <p
