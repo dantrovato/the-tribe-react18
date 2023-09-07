@@ -6,7 +6,9 @@ const Events = () => {
       <h1 className="text-center text-muted mb-5">Next events</h1>
 
       <div>
-        <h3 className="text-center text-muted mb-4">Welcome to the jungle </h3>
+        <h3 className="text-center text-muted mb-4">
+          Welcome to the jungle - October 7th{" "}
+        </h3>
         <img
           src="jungle.png"
           alt="Sexy girls in jungle"
@@ -14,7 +16,7 @@ const Events = () => {
           style={{ maxWidth: "100%", marginTop: "2rem" }}
         />
         <p
-          className=" text-muted mb-3"
+          className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
           The Tribe House becomes a jungle. Come reconnect with nature with the
@@ -22,24 +24,22 @@ const Events = () => {
         </p>
 
         <p
-          className=" text-muted mb-3"
+          className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
           Here are some ideas for{" "}
           <Link
             className="navbar-brand text-danger"
-            to="https://www.google.com/search?q=sexy+roman+party+costume&rlz=1C5CHFA_enGB745GB746&oq=sexy+roman+party+costume&aqs=chrome..69i57.13207j0j4&sourceid=chrome&ie=UTF-8"
+            to="https://www.google.com/search?q=sexy+jungle+lingerie+and+costumes&tbm=isch&ved=2ahUKEwj1w9bisZmBAxWfkScCHYEzD-8Q2-cCegQIABAA&oq=sexy+jungle+lingerie+and+costumes&gs_lcp=CgNpbWcQA1CZBliXFmDHGmgAcAB4AIABPogBtQGSAQEzmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=RDn6ZPWRH5-jnsEPgee8-A4&bih=929&biw=1680&rlz=1C5CHFA_enGB745GB746"
           >
-            sexy roman costumes
+            jungle costumes
           </Link>{" "}
         </p>
 
         <p
-          className=" text-muted mb-3"
+          className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          Tickets: £25 to £40. Tickets not out yet{" "}
-        </p>
+        ></p>
 
         <p
           className="text-muted mb-5"
@@ -55,7 +55,7 @@ const Events = () => {
 
       <img
         src="./girl_pink.jpg"
-        alt="Sexy girl in undewear"
+        alt="Sexy girl in underwear"
         style={{ maxWidth: "100%", maxHeight: "40%,", marginTop: "2rem" }}
       />
       <Footer />
