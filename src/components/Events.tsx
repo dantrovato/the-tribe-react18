@@ -10,7 +10,7 @@ const Events = () => {
           Welcome to the jungle - October 7th{" "}
         </h3>
         <img
-          src="jungle.png"
+          src="jungle_centered.png"
           alt="Sexy girls in jungle"
           className="mx-auto d-block mb-4"
           style={{ maxWidth: "100%", marginTop: "2rem" }}
