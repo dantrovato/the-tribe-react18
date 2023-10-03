@@ -17,12 +17,12 @@ const Home = () => {
         </p>
       </div> */}
 
-      <img
+      {/* <img
         // src="./matilda_dan.jpeg"
         src="./matilda_tamas_cropped2.png"
         alt="Man and woman kissing"
         style={{ width: "100%", maxHeight: "40%" }}
-      />
+      /> */}
       {/* <div style={backgroundStyle}>bananarama</div> */}
       <AboutPage />
       <img

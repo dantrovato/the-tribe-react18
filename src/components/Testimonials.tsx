@@ -51,14 +51,6 @@ const testimonials = [
     member: "Member since May 2023",
   },
   {
-    src: "./matilda_mirror_cropped.jpg",
-    alt: "Sexy woman in the mirror",
-    quote:
-      "I went to my first Tribe Party in October and haven’t looked back since. It’s an incredibly liberating and welcoming group of hotties. Can’t wait for many more adventures with this crazy bunch",
-    name: "Matilda",
-    member: "Member since October 2022",
-  },
-  {
     src: "./dave_wolves.png",
     alt: "Man surrounded by wolves",
     quote:
@@ -90,20 +82,20 @@ const testimonials = [
     name: "Lorna",
     member: "Member since October 2022",
   },
-  {
-    src: "./tribe1.jpg",
-    alt: "Party people sitting on a sofa",
-    quote: "Chilling by the fire",
-    name: "LOOK",
-    member: "Look at the state of them!",
-  },
-  {
-    src: "./tribe2.jpg",
-    alt: "Party people sitting on a sofa",
-    quote: "",
-    name: "",
-    member: "And them!!!",
-  },
+  // {
+  //   src: "./tribe1.jpg",
+  //   alt: "Party people sitting on a sofa",
+  //   quote: "Chilling by the fire",
+  //   name: "LOOK",
+  //   member: "Look at the state of them!",
+  // },
+  // {
+  //   src: "./tribe2.jpg",
+  //   alt: "Party people sitting on a sofa",
+  //   quote: "",
+  //   name: "",
+  //   member: "And them!!!",
+  // },
   {
     src: "./he_man.WEBP",
     alt: "Cartoon character 'He Man'",
