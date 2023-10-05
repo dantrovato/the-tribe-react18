@@ -13,12 +13,14 @@ const Rules = () => {
         <p className="text-danger p-1">
           Upon arrival, you can find one of our "generals" - people with a
           flashy blue armband - and present recent negative sexual health test
-          results. Based on the date of your test, you will receive a
-          corresponding wristband:
+          results. Based on the date of your test, you will receive a wristband
+          of a colour that indicates how recent your test is:
           <br />
-          <br />- Green wristband for tests taken within the last month.
+          <br />- Green wristband (for example) for tests taken within the last
+          month.
           <br />- Yellow wristband for tests taken within the last two months.
           <br />- Orange wristband for tests taken within the last three months.
+          <br />- Grey wristband for partial test results.
           <br />
           <br /> (The colours will change from party to party)
           <br />
@@ -29,13 +31,15 @@ const Rules = () => {
           does. We encourage open discussions about your recent sexual history
           and the reasons for not having a wristband. While we respect personal
           choices, we discourage unprotected oral sex with individuals lacking a
-          wristband. Even with a wristband, we urge guests to openly communicate
-          about the number of partners they've had since their last clear test
-          results. While this system enhances the sexual health safety of our
-          community, it is not foolproof. Personal responsibility remains
-          essential. Engaging in unprotected oral sex with someone you just met
-          at the event still carries risks, as does kissing (d'ho!!). Your
-          cooperation is vital in maintaining a safe community.
+          wristband. Even with a wristband, we urge guests to never have
+          unprotected intercourse and to openly communicate about their sexual
+          history since their last clear test results. While this system
+          enhances the sexual health safety of our community, it is not
+          foolproof. Personal responsibility remains essential. The wristband
+          system is nothing more than a quick way to know when somebody got
+          tested. Engaging in unprotected oral sex with someone you just met at
+          the event still carries risks, as does kissing, apparently (d'ho!!).
+          Your cooperation is vital in maintaining a safe community.
         </p>
       </div>
 
