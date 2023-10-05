@@ -10,7 +10,7 @@ const Rules = () => {
           Sexual health safety
         </h2>
         <h3 className="text-danger text-center pb-3">The wristband system:</h3>
-        <p className="text-danger p-1">
+        <p className="text-danger p-3">
           Upon arrival, you can find one of our "generals" - people with a
           flashy blue armband - and present recent negative sexual health test
           results. Based on the date of your test, you will receive a wristband
