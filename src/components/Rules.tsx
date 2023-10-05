@@ -11,25 +11,31 @@ const Rules = () => {
         </h2>
         <h3 className="text-danger text-center pb-3">The wristband system:</h3>
         <p className="text-danger p-1">
-          Upon arrival, you'll be asked to show your most recent negative sexual
-          health results. You'll be given a wristband corresponding to the
-          length of time that has passed since the date of the test. For
-          example, if your test was done within the last two weeks, you will
-          receive a blue wristband. If it was done within the last month, you
-          will receive a green wristband. If it was done within the last six
-          weeks, you will receive a yellow wristband. If it was done within the
-          last two months, you will receive an orange wristband. Beyond two
-          months, you will get a slightly judgy frown and no wristband. We don't
-          tell grown-up people what to do with their naughty bits but we
-          strongly discourage anyone from having sex with individuals without a
-          wristband. Even with a blue wristband, we urge guests to have an open
-          conversation about the number of partners they have had since their
-          last clear test results. We believe this system is a significant step
-          forward in safeguarding the sexual health of our community, but it is
-          not a foolproof solution, and personal responsibility must be
-          exercised. For instance, engaging in unprotected oral sex with someone
-          you just met at a sex party still carries its risks. Please help us
-          keep the community safe by being extra careful.
+          Upon arrival, you can find one of our "generals" - people with a
+          flashy blue armband - and present recent negative sexual health test
+          results. Based on the date of your test, you will receive a
+          corresponding wristband:
+          <br />
+          <br />- Green wristband for tests taken within the last month.
+          <br />- Yellow wristband for tests taken within the last two months.
+          <br />- Orange wristband for tests taken within the last three months.
+          <br />
+          <br /> (The colours will change from party to party)
+          <br />
+          <br /> No wristband provided for tests taken more than three months
+          ago.
+          <br />
+          <br /> If you do not have recent test results, it's okay; not everyone
+          does. We encourage open discussions about your recent sexual history
+          and the reasons for not having a wristband. While we respect personal
+          choices, we discourage unprotected oral sex with individuals lacking a
+          wristband. Even with a wristband, we urge guests to openly communicate
+          about the number of partners they've had since their last clear test
+          results. While this system enhances the sexual health safety of our
+          community, it is not foolproof. Personal responsibility remains
+          essential. Engaging in unprotected oral sex with someone you just met
+          at the event still carries risks, as does kissing (d'ho!!). Your
+          cooperation is vital in maintaining a safe community.
         </p>
       </div>
 
