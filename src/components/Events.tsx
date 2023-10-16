@@ -7,10 +7,10 @@ const Events = () => {
 
       <div>
         <h3 className="text-center text-muted mb-4">
-          Welcome to the jungle - October 7th{" "}
+          "Dancing" on ice - December 31st 2023{" "}
         </h3>
         <img
-          src="jungle_centered.png"
+          src="dancing_on_ice.png"
           alt="Sexy girls in jungle"
           className="mx-auto d-block mb-4"
           style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -19,11 +19,12 @@ const Events = () => {
           className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
-          The Tribe House becomes a jungle. Come reconnect with nature with the
-          gorgeous creatures of The Tribe.
+          The Tribe House hosts a very hot winter party. Come and welcum the new
+          year with us with the gorgeous children of the Tribe for a shameless
+          night you'll never forget.
         </p>
 
-        <p
+        {/* <p
           className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
@@ -34,7 +35,7 @@ const Events = () => {
           >
             jungle costumes
           </Link>{" "}
-        </p>
+        </p> */}
 
         <p
           className="text-muted mb-3"
