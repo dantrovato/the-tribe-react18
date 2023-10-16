@@ -10,8 +10,8 @@ const Events = () => {
           "Dancing" on ice - December 31st 2023{" "}
         </h3>
         <img
-          src="dancing_on_ice.png"
-          alt="Sexy girls in jungle"
+          src="dancing_on_ice2.png"
+          alt="Sexy girl in lingerie"
           className="mx-auto d-block mb-4"
           style={{ maxWidth: "100%", marginTop: "2rem" }}
         />
