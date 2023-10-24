@@ -23,25 +23,29 @@ const FAQ = () => {
       </p>
       <p className="mb-4">Q - What do you do about sexual health safety?</p>
       <p className="mb-4">
-        A - Upon arrival, you'll be asked to show your most recent negative
-        sexual health results. You'll be given a wristband corresponding to the
-        length of time that has passed since the date of the test. For example,
-        if your test was done within the last two weeks, you will receive a blue
-        wristband. If it was done within the last month, you will receive a
-        green wristband. If it was done within the last six weeks, you will
-        receive a yellow wristband. If it was done within the last two months,
-        you will receive an orange wristband. Beyond two months, you will get a
-        slightly judgy frown and no wristband. We don't tell grown-up people
-        what to do with their naughty bits but we strongly discourage anyone
-        from having sex with individuals without a wristband. Even with a blue
-        wristband, we urge guests to have an open conversation about the number
-        of partners they have had since their last clear test results. We
-        believe this system is a significant step forward in safeguarding the
-        sexual health of our community, but it is not a foolproof solution, and
-        personal responsibility must be exercised. For instance, engaging in
-        unprotected oral sex with someone you just met at a sex party still
-        carries its risks. Please help us keep the community safe by being extra
-        careful.
+        A - If you'd like to receive a wristband to indicate a recent clean
+        sexual health result, please find one of our "generals" (people with a
+        flashy blue armband) and show them your most recent test. You'll be
+        given a wristband corresponding to the length of time that has passed
+        since the date of the test. For example, if your test was done within
+        the month, you will receive a blue wristband (the colours are change
+        from party to particularly). If it was done within the last two months,
+        you will receive a green wristband. If it was done within the last three
+        months, you will receive a yellow wristband. If it was done within the
+        last two months, you will receive an orange wristband. If the test
+        results are incomplete (urine only - for example) the wristband is a
+        grey one.
+        <br />
+        We don't tell grown-up people what to do with their naughty bits but we
+        discourage anyone from having oral, unprotected sex with individuals
+        without a wristband. Even with a blue wristband, we urge guests to have
+        an open conversation about the number of partners they have had since
+        their last clear test results. We believe this system is a significant
+        step forward in safeguarding the sexual health of our community, but it
+        is not a foolproof solution, and personal responsibility must be
+        exercised. For instance, engaging in unprotected oral sex with someone
+        you just met at a sex party still carries its risks. Please help us keep
+        the community safe by being extra careful.
       </p>
       <p className="mb-4">Q - Am I expected to participate?</p>
       <p className="mb-4">A - No. Never. You can just come and make friends.</p>
