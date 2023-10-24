@@ -11,10 +11,17 @@ const Rules = () => {
         </h2>
         <h3 className="text-danger text-center pb-3">The wristband system:</h3>
         <p className="text-danger p-3">
-          Upon arrival, you can find one of our "generals" - people with a
-          flashy blue armband - and present recent negative sexual health test
-          results. Based on the date of your test, you will receive a wristband
-          of a colour that indicates how recent your test is:
+          While you don't have to have a sexual health result to attend the
+          party, we recommend that you do. We also recommend having a
+          conversation about your sexual health with whomever you're about to
+          engage with. Sometimes, it's inconvenient to do so, especially when
+          engaging with someone quite spontaneously. To expedite and streamline
+          this process, we have introduced the wristband system.
+          <br /> Upon arrival, you can locate one of our "generals" —
+          individuals identifiable by their flashy blue armbands — and present
+          them with your recent negative sexual health test results. Based on
+          the date of your test, you will receive a wristband of a color that
+          indicates the recency of your test:
           <br />
           <br />- Green wristband (for example) for tests taken within the last
           month.
@@ -27,19 +34,19 @@ const Rules = () => {
           <br /> No wristband provided for tests taken more than three months
           ago.
           <br />
-          <br /> If you do not have recent test results, it's okay; not everyone
+          <br /> f you do not have recent test results, it's okay; not everyone
           does. We encourage open discussions about your recent sexual history
           and the reasons for not having a wristband. While we respect personal
           choices, we discourage unprotected oral sex with individuals lacking a
-          wristband. Even with a wristband, we urge guests to never have
-          unprotected intercourse and to openly communicate about their sexual
-          history since their last clear test results. While this system
-          enhances the sexual health safety of our community, it is not
-          foolproof. Personal responsibility remains essential. The wristband
-          system is nothing more than a quick way to know when somebody got
-          tested. Engaging in unprotected oral sex with someone you just met at
-          the event still carries risks, as does kissing, apparently (d'ho!!).
-          Your cooperation is vital in maintaining a safe community.
+          wristband. Even with a wristband, we urge guests to avoid unprotected
+          intercourse and openly communicate about their sexual history since
+          their last clear test results. While this system enhances the sexual
+          health safety of our community, it is not foolproof, and personal
+          responsibility remains essential. The wristband system serves as a
+          quick way to know when somebody got tested. Engaging in unprotected
+          oral sex with someone you just met at the event still carries risks,
+          as does kissing, apparently (of course!). Your cooperation is vital in
+          maintaining a safe community.
         </p>
       </div>
 
