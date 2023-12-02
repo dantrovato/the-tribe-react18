@@ -5,6 +5,33 @@ const Events = () => {
     <div className="m-5">
       <h1 className="text-center text-muted mb-5">Next events</h1>
 
+      <div className="mb-5">
+        <h3 className="text-center text-muted mb-4">
+          Tribe Social December 13th 2023{" "}
+        </h3>
+
+        <h4 className="text-center text-muted mb-4">Mornington crescent </h4>
+        <img
+          src="dec_23.png"
+          alt="Sexy girl in lingerie"
+          className="mx-auto d-block mb-4"
+          style={{ maxWidth: "57%", marginTop: "2rem" }}
+        />
+        <p
+          className="text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        >
+          The Tribe Social is a casual drink (or several) in a pub. Perfect
+          occasion to meet the tribe among civilians and make some friends ahead
+          of a party.
+        </p>
+
+        <p
+          className="text-muted mb-3"
+          style={{ maxWidth: "600px", margin: "auto" }}
+        ></p>
+      </div>
+
       <div>
         <h3 className="text-center text-muted mb-4">
           "Dancing" on ice - December 31st 2023{" "}
