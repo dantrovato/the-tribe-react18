@@ -5,14 +5,59 @@ const Events = () => {
     <div className="m-5">
       <h1 className="text-center text-muted mb-5">Next events</h1>
 
-      <div className="mb-5">
-        <h3 className="text-center text-muted mb-4">
-          Tribe Social December 13th 2023{" "}
-        </h3>
+      <div>
+        <div className="mb-5">
+          <h3 className="text-center text-muted mb-4">
+            "Dancing" on ice - December 31st 2023{" "}
+          </h3>
+          <img
+            src="dancing_on_ice2.png"
+            alt="Sexy girl in lingerie"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            The Tribe House hosts a very hot winter party. Come and welcum the
+            new year with us with the gorgeous children of the Tribe for a
+            shameless night you'll never forget.
+          </p>
+        </div>
 
-        <h4 className="text-center text-muted mb-4">Mornington crescent </h4>
+        <div className="mb-5">
+          <h3 className="text-center text-muted mb-4">
+            Tribe Social January 27th 2024{" "}
+          </h3>
+
+          {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
+          <img
+            src="jan24.png"
+            alt="Sexy girl in lingerie"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "57%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            The Tribe Social is a casual drink (or several) in a pub. Perfect
+            occasion to meet the tribe among civilians and make some friends
+            ahead of a party.
+          </p>
+
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          ></p>
+        </div>
+
+        <h3 className="text-center text-muted mb-4">
+          "Dancing" on ice - Part Two - January 27th 2024{" "}
+        </h3>
         <img
-          src="dec_23.png"
+          src="white.png"
           alt="Sexy girl in lingerie"
           className="mx-auto d-block mb-4"
           style={{ maxWidth: "57%", marginTop: "2rem" }}
@@ -21,34 +66,11 @@ const Events = () => {
           className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
         >
-          The Tribe Social is a casual drink (or several) in a pub. Perfect
-          occasion to meet the tribe among civilians and make some friends ahead
-          of a party.
-        </p>
-
-        <p
-          className="text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        ></p>
-      </div>
-
-      <div>
-        <h3 className="text-center text-muted mb-4">
-          "Dancing" on ice - December 31st 2023{" "}
-        </h3>
-        <img
-          src="dancing_on_ice2.png"
-          alt="Sexy girl in lingerie"
-          className="mx-auto d-block mb-4"
-          style={{ maxWidth: "100%", marginTop: "2rem" }}
-        />
-        <p
-          className="text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          The Tribe House hosts a very hot winter party. Come and welcum the new
-          year with us with the gorgeous children of the Tribe for a shameless
-          night you'll never forget.
+          We would normally leave it a bit longer between parties but since
+          loads of people were away for New Year's and the decorations look
+          amazing, we decided to host a sequel for those friends who missed it
+          the first time around. Come and meet some amazing people and
+          experience a night to blush about.
         </p>
 
         {/* <p
