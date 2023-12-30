@@ -5,7 +5,7 @@ const Events = () => {
     <div className="m-5">
       <h1 className="text-center text-muted mb-5">Next events</h1>
 
-      <div className="mx-auto text-center" style={{ maxWidth: "60%" }}>
+      <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
         <div className="mb-5">
           <h3 className="text-center text-muted mb-4">
             "Dancing" on ice - December 31st 2023{" "}
