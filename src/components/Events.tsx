@@ -5,7 +5,7 @@ const Events = () => {
     <div className="m-5">
       <h1 className="text-center text-muted mb-5">Next events</h1>
 
-      <div>
+      <div className="mx-auto text-center" style={{ maxWidth: "60%" }}>
         <div className="mb-5">
           <h3 className="text-center text-muted mb-4">
             "Dancing" on ice - December 31st 2023{" "}
@@ -14,7 +14,7 @@ const Events = () => {
             src="dancing_on_ice2.png"
             alt="Sexy girl in lingerie"
             className="mx-auto d-block mb-4"
-            style={{ maxWidth: "33em", marginTop: "2rem" }}
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
           <p
             className="text-muted mb-3"
@@ -36,7 +36,7 @@ const Events = () => {
             src="jan24.png"
             alt="Sexy girl in lingerie"
             className="mx-auto d-block mb-4"
-            style={{ maxWidth: "33em", marginTop: "2rem" }}
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
           <p
             className="text-muted mb-3"
@@ -60,7 +60,7 @@ const Events = () => {
           src="white.png"
           alt="Sexy girl in lingerie"
           className="mx-auto d-block mb-4"
-          style={{ maxWidth: "33em", marginTop: "2rem" }}
+          style={{ maxWidth: "100%", marginTop: "2rem" }}
         />
         <p
           className="text-muted mb-3"
