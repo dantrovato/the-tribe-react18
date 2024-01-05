@@ -8,26 +8,6 @@ const Events = () => {
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
         <div className="mb-5">
           <h3 className="text-center text-muted mb-4">
-            "Dancing" on ice - December 31st 2023{" "}
-          </h3>
-          <img
-            src="dancing_on_ice2.png"
-            alt="Sexy girl in lingerie"
-            className="mx-auto d-block mb-4"
-            style={{ maxWidth: "100%", marginTop: "2rem" }}
-          />
-          <p
-            className="text-muted mb-3"
-            style={{ maxWidth: "600px", margin: "auto" }}
-          >
-            The Tribe House hosts a very hot winter party. Come and welcum the
-            new year with us with the gorgeous children of the Tribe for a
-            shameless night you'll never forget.
-          </p>
-        </div>
-
-        <div className="mb-5">
-          <h3 className="text-center text-muted mb-4">
             Tribe Social January 27th 2024{" "}
           </h3>
 

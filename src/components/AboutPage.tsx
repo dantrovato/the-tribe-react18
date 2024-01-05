@@ -12,11 +12,11 @@ const AboutPage = () => {
         We host exclusive, invite-only parties with over 100 guests. We also
         host the occasional smaller party which focus on introducing newbies to
         the group, as well as monthly-ish socials. The Tribe is a fantastic
-        space to meet like-minded individuals who take good care of their bodies
-        and truly spark joy. The community is precious to us so guests are
-        carefully selected via a voting system but once you're in you're not
-        gonna want to leave. So do get in touch if you think you'll fit in. We
-        are excited to getting to know you!
+        space to meet like-minded individuals who are beautiful inside and out.
+        The community is precious to us so guests are carefully selected via a
+        voting system but once you're in you're not gonna want to leave. So do
+        get in touch if you think you'll fit in. We are excited to getting to
+        know you!
       </p>
     </div>
   );
