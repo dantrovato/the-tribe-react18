@@ -8,7 +8,7 @@ const Events = () => {
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
         <div className="mb-5">
           <h3 className="text-center text-muted mb-4">
-            Tribe Social January 27th 2024{" "}
+            Tribe Social January 17th 2024{" "}
           </h3>
 
           {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
