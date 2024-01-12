@@ -57,6 +57,11 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
+              <Link className="nav-link" to="/how_are_we_different?">
+                How are we different?
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/bespoke_fantasies">
                 Bespoke fantasies
               </Link>

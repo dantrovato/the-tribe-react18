@@ -12,6 +12,7 @@ import May_20_2023 from "./components/Events/May_20_2023";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Bespoke from "./components/Bespoke";
+import HowAreWeDifferent from "./components/HowAreWeDifferent";
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
           <Route path="/may_20_2023" element={<May_20_2023 />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route
+            path="/how_are_we_different?"
+            element={<HowAreWeDifferent />}
+          />
           <Route path="/bespoke_fantasies" element={<Bespoke />} />
         </Routes>
       </div>
