@@ -62,13 +62,11 @@ const HowAreWeDifferent = () => {
       </h4>
 
       <p className="text-muted" style={{ maxWidth: "600px", margin: "auto" }}>
-        <br />
         We are a mix of new and experienced kindred spirits who are there to
         guide one another in this crazy social experiment. We like for our
         people to look beyond sex; Don't see sex as the main reason to come to
         the party. Look for connections. Sex is the bi product. <br /> <br />
         Boobs rule!
-        <br />
       </p>
     </div>
   );
