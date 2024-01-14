@@ -7,9 +7,10 @@ const Events = () => {
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
         <div className="mb-5">
-          <h3 className="text-center text-muted mb-4">
-            Tribe Social January 17th 2024{" "}
-          </h3>
+          <h3 className="text-center text-muted mb-4">Tribe Social </h3>
+          <h4 className="text-center text-muted mb-4">
+            Wednesday January 17th 2024{" "}
+          </h4>
 
           {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
           <img
@@ -33,25 +34,51 @@ const Events = () => {
           ></p>
         </div>
 
-        <h3 className="text-center text-muted mb-4">
-          "Dancing" on ice - Part Two - January 27th 2024{" "}
-        </h3>
-        <img
-          src="white.png"
-          alt="Sexy girl in lingerie"
-          className="mx-auto d-block mb-4"
-          style={{ maxWidth: "100%", marginTop: "2rem" }}
-        />
-        <p
-          className="text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          We would normally leave it a bit longer between parties but since
-          loads of people were away for New Year's and the decorations look
-          amazing, we decided to host a sequel for those friends who missed it
-          the first time around. Come and meet some amazing people and
-          experience a night to blush about.
-        </p>
+        <div className="text-center text-muted mb-5">
+          <h3 className="text-center text-muted mb-4">
+            "Dancing" on ice - Part Two{" "}
+          </h3>
+          <h4 className="text-center text-muted mb-4">
+            Saturday January 27th 2024{" "}
+          </h4>
+          <img
+            src="white.png"
+            alt="Sexy girl in lingerie"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            We would normally leave it a bit longer between parties but since
+            loads of people were away for New Year's and the decorations look
+            amazing, we decided to host a sequel for those friends who missed it
+            the first time around. Come and meet some amazing people and
+            experience a night to blush about.
+          </p>
+        </div>
+
+        <div className="text-center text-muted mb-5">
+          <h3 className="text-center text-muted mb-4">
+            WET - Creatures of the sea{" "}
+          </h3>
+          <h4 className="text-center text-muted mb-4">March 2nd 2024 </h4>
+          <img
+            src="creatures_of_the_sea.png"
+            alt="Sexy girl in a red dress under water"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            Get ready to say hello to spring with the gorgeous children of the
+            tribe. The tribe house is once again transformed into an ocean of
+            sexiness, giggles and new connections.
+          </p>
+        </div>
 
         {/* <p
           className="text-muted mb-3"
