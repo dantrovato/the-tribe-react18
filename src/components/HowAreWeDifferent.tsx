@@ -25,12 +25,10 @@ const HowAreWeDifferent = () => {
         prefer playmates who assume that most people have good intentions and,
         in the rare instance of silly drama, we assume misunderstanding over
         malevolence (one time - don't take the piss). People are voted in based
-        on those traits. If you don't look after yourself why should you expect
-        to come to play with people who do? Equally, if you have the looks but
-        your attitude stinks you're gonna ruin our collective chi. We don't want
-        the Tribe to feel like a place where people have to walk on eggshells.
-        Our network of friendships makes our events perhaps more wholesome than
-        some with a more transactional variety.
+        on those traits. We don't want the Tribe to feel like a place where
+        people have to walk on eggshells. Our network of friendships makes our
+        events perhaps more wholesome than some with a more transactional
+        variety.
         <br />
       </p>
       <h4
