@@ -65,7 +65,7 @@ const Events = () => {
           </h3>
           <h4 className="text-center text-muted mb-4">March 2nd 2024 </h4>
           <img
-            src="creatures_of_the_sea.png"
+            src="wet.png"
             alt="Sexy girl in a red dress under water"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
