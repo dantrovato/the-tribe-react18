@@ -19,21 +19,18 @@ const HowAreWeDifferent = () => {
         className="text-muted mb-4"
         style={{ maxWidth: "600px", margin: "auto" }}
       >
-        The Tribe is not for everyone. In an age of inclusivity we are
-        unabashedly exclusive. Some people really dislike us for it. We found we
-        can live with that. What tends to describe members of our community best
-        is a confluence of attractive qualities such as good looks, positive
-        vibes and a desire to connect. We don't vibe with people who get
-        fashionably offended. We prefer playmates who assume that most people
-        have good intentions and, in the rare instance of silly drama, we assume
-        misunderstanding over malevolence (one time - don't take the piss).
-        People are voted in based on those traits. If you don't look after
-        yourself why should you expect to come to play with people who do?
-        Equally, if you have the looks but your attitude stinks you're gonna
-        ruin our collective chi. We don't want the Tribe to feel like a place
-        where people have to walk on eggshells. Our network of friendships makes
-        our events perhaps more wholesome than some with a more transactional
-        variety.
+        What tends to describe members of our community best is a confluence of
+        attractive qualities such as good looks, positive vibes and a desire to
+        connect. We don't vibe with people who get fashionably offended. We
+        prefer playmates who assume that most people have good intentions and,
+        in the rare instance of silly drama, we assume misunderstanding over
+        malevolence (one time - don't take the piss). People are voted in based
+        on those traits. If you don't look after yourself why should you expect
+        to come to play with people who do? Equally, if you have the looks but
+        your attitude stinks you're gonna ruin our collective chi. We don't want
+        the Tribe to feel like a place where people have to walk on eggshells.
+        Our network of friendships makes our events perhaps more wholesome than
+        some with a more transactional variety.
         <br />
       </p>
       <h4
@@ -52,9 +49,9 @@ const HowAreWeDifferent = () => {
         embraced this tradition but the vast majority of parties still haven't.
         This, in our view, makes us The Safe Space. In the summer of 2023 we
         introduced the Wristband System where wristbands of a variety of colours
-        indicate how recently one got a clean sexual health result. This offers
-        peace of mind and encourages people to openly discuss their sexual
-        health and recent sexual history.
+        indicate how recently one got a complete negative sexual health result.
+        This offers peace of mind and encourages people to openly discuss their
+        sexual health and recent sexual history.
       </p>
 
       <h4
