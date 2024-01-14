@@ -59,6 +59,34 @@ const Events = () => {
           </p>
         </div>
 
+        <div className="mb-5">
+          <h3 className="text-center text-muted mb-4">Tribe Social </h3>
+          <h4 className="text-center text-muted mb-4">
+            Wednesday February 21st 2024{" "}
+          </h4>
+
+          {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
+          <img
+            src="feb2024.png"
+            alt="Sexy girl in lingerie"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            The Tribe Social is a casual drink (or several) in a pub. Perfect
+            occasion to meet the tribe among civilians and make some friends
+            ahead of a party.
+          </p>
+
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          ></p>
+        </div>
+
         <div className="text-center text-muted mb-5">
           <h3 className="text-center text-muted mb-4">
             WET - Creatures of the sea{" "}
