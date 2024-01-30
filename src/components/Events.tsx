@@ -9,59 +9,6 @@ const Events = () => {
         <div className="mb-5">
           <h3 className="text-center text-muted mb-4">Tribe Social </h3>
           <h4 className="text-center text-muted mb-4">
-            Wednesday January 17th 2024{" "}
-          </h4>
-
-          {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
-          <img
-            src="jan24.png"
-            alt="Sexy girl in lingerie"
-            className="mx-auto d-block mb-4"
-            style={{ maxWidth: "100%", marginTop: "2rem" }}
-          />
-          <p
-            className="text-muted mb-3"
-            style={{ maxWidth: "600px", margin: "auto" }}
-          >
-            The Tribe Social is a casual drink (or several) in a pub. Perfect
-            occasion to meet the tribe among civilians and make some friends
-            ahead of a party.
-          </p>
-
-          <p
-            className="text-muted mb-3"
-            style={{ maxWidth: "600px", margin: "auto" }}
-          ></p>
-        </div>
-
-        <div className="text-center text-muted mb-5">
-          <h3 className="text-center text-muted mb-4">
-            "Dancing" on ice - Part Two{" "}
-          </h3>
-          <h4 className="text-center text-muted mb-4">
-            Saturday January 27th 2024{" "}
-          </h4>
-          <img
-            src="white.png"
-            alt="Sexy girl in lingerie"
-            className="mx-auto d-block mb-4"
-            style={{ maxWidth: "100%", marginTop: "2rem" }}
-          />
-          <p
-            className="text-muted mb-3"
-            style={{ maxWidth: "600px", margin: "auto" }}
-          >
-            We would normally leave it a bit longer between parties but since
-            loads of people were away for New Year's and the decorations look
-            amazing, we decided to host a sequel for those friends who missed it
-            the first time around. Come and meet some amazing people and
-            experience a night to blush about.
-          </p>
-        </div>
-
-        <div className="mb-5">
-          <h3 className="text-center text-muted mb-4">Tribe Social </h3>
-          <h4 className="text-center text-muted mb-4">
             Wednesday February 21st 2024{" "}
           </h4>
 
