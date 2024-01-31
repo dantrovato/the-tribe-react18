@@ -41,7 +41,7 @@ const Events = () => {
           <h4 className="text-center text-muted mb-4">March 2nd 2024 </h4>
           <img
             src="wet.png"
-            alt="Sexy girl in a red dress under water"
+            alt="Sexy girl making devil sign and sticking tongue out"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
@@ -52,6 +52,25 @@ const Events = () => {
             Get ready to say hello to spring with the gorgeous children of the
             tribe. The tribe house is once again transformed into an ocean of
             sexiness, giggles and new connections.
+          </p>
+        </div>
+
+        <div className="text-center text-muted mb-5">
+          <h3 className="text-center text-muted mb-4">Rockers and groupies </h3>
+          <h4 className="text-center text-muted mb-4">April 13th 2024 </h4>
+          <img
+            src="rockstar.jpg"
+            alt="Sexy girl in a red dress under water"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            Dress up as your favourite rockstar or a very slutty groupie and
+            come forget you're an adult with the gorgeous children of the tribe.
+            Fun times you'll never forget (or remember...)
           </p>
         </div>
 
