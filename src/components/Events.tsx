@@ -15,7 +15,7 @@ const Events = () => {
           {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
           <img
             src="feb2024.png"
-            alt="Sexy girl in lingerie"
+            alt="Sexy girl semi naked holding beer over her breast"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
@@ -41,7 +41,7 @@ const Events = () => {
           <h4 className="text-center text-muted mb-4">March 2nd 2024 </h4>
           <img
             src="wet.png"
-            alt="Sexy girl making devil sign and sticking tongue out"
+            alt="Sexy girl in a red dress under water"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
@@ -59,8 +59,8 @@ const Events = () => {
           <h3 className="text-center text-muted mb-4">Rockers and groupies </h3>
           <h4 className="text-center text-muted mb-4">April 13th 2024 </h4>
           <img
-            src="rockstar.jpg"
-            alt="Sexy girl in a red dress under water"
+            src="rockstars.png"
+            alt="Sexy girl making devil sign and sticking tongue out"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
