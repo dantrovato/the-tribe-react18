@@ -57,7 +57,7 @@ const Events = () => {
 
         <div className="text-center text-muted mb-5">
           <h3 className="text-center text-muted mb-4">Rockers and groupies </h3>
-          <h4 className="text-center text-muted mb-4">April 13th 2024 </h4>
+          <h4 className="text-center text-muted mb-4">April 20th 2024 </h4>
           <img
             src="rockstars.png"
             alt="Sexy girl making devil sign and sticking tongue out"
