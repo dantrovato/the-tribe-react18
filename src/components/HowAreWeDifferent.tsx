@@ -1,4 +1,4 @@
-import React from "react";
+import { Footer } from "./Footer";
 
 const HowAreWeDifferent = () => {
   return (
@@ -59,13 +59,17 @@ const HowAreWeDifferent = () => {
         Lastly
       </h4>
 
-      <p className="text-muted" style={{ maxWidth: "600px", margin: "auto" }}>
+      <p
+        className="text-muted mb-4"
+        style={{ maxWidth: "600px", margin: "auto" }}
+      >
         We are a mix of new and experienced kindred spirits who are there to
         guide one another in this crazy social experiment. We like for our
         people to look beyond sex; Don't see sex as the main reason to come to
         the party. Look for connections. Sex is the bi product. <br /> <br />
         Boobs rule!
       </p>
+      <Footer />
     </div>
   );
 };

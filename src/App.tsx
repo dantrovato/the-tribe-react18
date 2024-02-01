@@ -13,6 +13,7 @@ import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Bespoke from "./components/Bespoke";
 import HowAreWeDifferent from "./components/HowAreWeDifferent";
+import Articles from "./components/Articles";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             path="/how_are_we_different?"
             element={<HowAreWeDifferent />}
           />
+          <Route path="/articles" element={<Articles />} />
           <Route path="/bespoke_fantasies" element={<Bespoke />} />
         </Routes>
       </div>

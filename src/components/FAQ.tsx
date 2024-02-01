@@ -1,4 +1,4 @@
-import React from "react";
+import { Footer } from "./Footer";
 
 const FAQ = () => {
   return (
@@ -56,6 +56,8 @@ const FAQ = () => {
         A - We aim at a 50/50 male to female ratio but that varies from party to
         party. The age bracket tends to range from early 20s to late 30s.
       </p>
+
+      <Footer />
     </div>
   );
 };
