@@ -10,7 +10,7 @@ const Bespoke = () => {
         Whatever your kink, there's a decent chance somebody in the group will
         be happy to indulge it for you. If you don't ask, you don't get. We will
         never kink shame, unless your kink involves reggaeton. Then you will be
-        severely shamed. Tut tut. Imagine the shame of liking reggaeton!
+        shamed severely. Imagine the shame of liking reggaeton!
       </p>
       <Footer />
     </div>
