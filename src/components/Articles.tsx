@@ -7,6 +7,7 @@ const Articles = () => {
       <h2 className="text-center text-muted mb-5">
         A guide to male multiple orgasms
       </h2>
+      <h4 className="text-center text-muted mb-5">By Danimal</h4>
       <p className="text-muted mb-5">
         A few years ago I heard about a sexual practice involving semen
         retention which may or may not have its roots in the tantric tradition
