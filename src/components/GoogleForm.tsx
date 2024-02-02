@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "./Footer";
 
 class GoogleForm extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class GoogleForm extends React.Component {
             Loading…
           </iframe>
         </div>
+        <Footer />
       </div>
     );
   }
