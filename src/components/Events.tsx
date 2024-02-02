@@ -55,6 +55,33 @@ const Events = () => {
           </p>
         </div>
 
+        <div className="mb-5">
+          <h3 className="text-center text-muted mb-4">Tribe Social </h3>
+          <h4 className="text-center text-muted mb-4">
+            Wednesday April 10th 2024{" "}
+          </h4>
+
+          {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
+          <img
+            src="blonde.png"
+            alt="Sexy girl semi naked holding beer over her breast"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            Cheeky monthly Social to break the ice and meet some of the tribe
+            ahead of a party. It's a wholesome evening for a change...
+          </p>
+
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          ></p>
+        </div>
+
         <div className="text-center text-muted mb-5">
           <h3 className="text-center text-muted mb-4">Rockers and groupies </h3>
           <h4 className="text-center text-muted mb-4">April 20th 2024 </h4>
