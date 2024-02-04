@@ -20,21 +20,21 @@ const FAQ = () => {
         if you're uncomfortable at any point, do speak to anyone wearing a
         flashing blue armband. The 'generals' are there to make your night as
         amazing as it can be. Please read the rules here: <br />
-        <a
-          className="navbar-brand text-danger"
-          href="https://thetribeexperiment.com/rules"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="kimjong.png"
-            alt="kim jong un pointing to the right"
-            className="mb-5"
-            style={{ maxWidth: "100%", marginTop: "2rem" }}
-          />
-          <span className="p-5 ">Rules</span>
-        </a>
       </p>
+      <a
+        className="navbar-brand text-danger p-4"
+        href="https://thetribeexperiment.com/rules"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="kimjong.png"
+          alt="kim jong un pointing to the right"
+          className="mb-5"
+          style={{ maxWidth: "100%", marginTop: "2rem" }}
+        />
+        <span className="p-5 ">Rules</span>
+      </a>
       <p className="mb-4">Q - What do you do about sexual health safety?</p>
       <p className="mb-4">
         A - We ask members to get tested before attending the party. Guests get
