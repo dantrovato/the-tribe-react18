@@ -14,7 +14,7 @@ const Events = () => {
 
           {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
           <img
-            src="feb2024.png"
+            src="social_dark.png"
             alt="Sexy girl semi naked holding beer over her breast"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}

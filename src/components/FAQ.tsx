@@ -19,33 +19,40 @@ const FAQ = () => {
         free flowing. Remember that there is never any pressure to join in and
         if you're uncomfortable at any point, do speak to anyone wearing a
         flashing blue armband. The 'generals' are there to make your night as
-        amazing as it can be. Please read the rules outlined below
+        amazing as it can be. Please read the rules here: <br />
+        <a
+          className="navbar-brand text-danger"
+          href="https://thetribeexperiment.com/rules"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="kimjong.png"
+            alt="kim jong un pointing to the right"
+            className="mb-5"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <span className="p-5 ">Rules</span>
+        </a>
       </p>
       <p className="mb-4">Q - What do you do about sexual health safety?</p>
       <p className="mb-4">
-        A - If you'd like to receive a wristband to indicate a recent clean
-        sexual health result, please find one of our "generals" (people with a
-        flashy blue armband) and show them your most recent test. You'll be
-        given a wristband corresponding to the length of time that has passed
-        since the date of the test. For example, if your test was done within
-        the month, you will receive a blue wristband (the colours are change
-        from party to particularly). If it was done within the last two months,
-        you will receive a green wristband. If it was done within the last three
-        months, you will receive a yellow wristband. If it was done within the
-        last two months, you will receive an orange wristband. If the test
-        results are incomplete (urine only - for example) the wristband is a
-        grey one.
-        <br />
-        We don't tell grown-up people what to do with their naughty bits but we
-        discourage anyone from having oral, unprotected sex with individuals
-        without a wristband. Even with a blue wristband, we urge guests to have
-        an open conversation about the number of partners they have had since
-        their last clear test results. We believe this system is a significant
-        step forward in safeguarding the sexual health of our community, but it
-        is not a foolproof solution, and personal responsibility must be
-        exercised. For instance, engaging in unprotected oral sex with someone
-        you just met at a sex party still carries its risks. Please help us keep
-        the community safe by being extra careful.
+        A - We ask members to get tested before attending the party. Guests get
+        a wristband of a colour that indicates how recent the last test was up
+        to a maximum of three months. This is so that guests can know at a
+        glance who had a sexual screening when. Not everyone manages to get a
+        test on time but it's good practice to push for it. It's then up to
+        individual members to determine who they want to play with. You can read
+        more about it in the{" "}
+        <a
+          className="navbar-brand text-danger"
+          href="https://thetribeexperiment.com/rules"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          rules
+        </a>{" "}
+        section.
       </p>
       <p className="mb-4">Q - Am I expected to participate?</p>
       <p className="mb-4">A - No. Never. You can just come and make friends.</p>
@@ -54,7 +61,7 @@ const FAQ = () => {
         what age group are they?
       </p>
       <p className="mb-4">
-        A - We aim at a 45/55 male to female ratio but that varies from party to
+        A - We aim at a 45:55 male to female ratio but that varies from party to
         party. The age bracket tends to range from early 20s to late 30s and
         members are friendly, open minded and fuuuuuun.
       </p>

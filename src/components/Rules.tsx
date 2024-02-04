@@ -34,7 +34,7 @@ const Rules = () => {
           <br /> No wristband provided for tests taken more than three months
           ago.
           <br />
-          <br /> f you do not have recent test results, it's okay; not everyone
+          <br /> If you do not have recent test results, it's okay; not everyone
           does. We encourage open discussions about your recent sexual history
           and the reasons for not having a wristband. While we respect personal
           choices, we discourage unprotected oral sex with individuals lacking a
