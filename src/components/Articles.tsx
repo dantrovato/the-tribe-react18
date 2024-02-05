@@ -1,5 +1,4 @@
 import { Footer } from "./Footer";
-import { Link } from "react-router-dom";
 
 const Articles = () => {
   return (
@@ -11,8 +10,10 @@ const Articles = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h4>Choking the Gooch</h4>
-        <h6>A guide to male multiple orgasms</h6>
+        <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
+          <h4>Choking the Gooch</h4>
+          <h6>A guide to male multiple orgasms</h6>
+        </div>
       </a>{" "}
       <Footer />
     </div>
