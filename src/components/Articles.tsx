@@ -11,8 +11,8 @@ const Articles = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Choking the Gooch - A guide to male multiple orgasms - Written by
-        Danimal
+        <h4>Choking the Gooch</h4>
+        <h6>A guide to male multiple orgasms</h6>
       </a>{" "}
       <Footer />
     </div>
