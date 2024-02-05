@@ -13,6 +13,10 @@ const Articles = () => {
         <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
           <h4>Choking the Gooch</h4>
           <h6>A guide to male multiple orgasms</h6>
+          <h4 className="text-center text-muted">Choking the Gooch</h4>
+          <h6 className="text-center text-muted mb-4">
+            A guide to male multiple orgasms{" "}
+          </h6>
         </div>
       </a>{" "}
       <Footer />
