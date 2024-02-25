@@ -61,7 +61,7 @@ const Rules = () => {
       <p>
         Do not touch anybody sexually without first receiving verbal or, at the
         very least, clear non verbal consent. Verbal consent is best. Just ask
-        and remove all doubt
+        and remove all doubt.
       </p>
       <h2>Rule # 2</h2>
       <h3>Know your boundaries</h3>
