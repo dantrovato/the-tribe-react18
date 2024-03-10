@@ -14,6 +14,7 @@ import FAQ from "./components/FAQ";
 import Bespoke from "./components/Bespoke";
 import HowAreWeDifferent from "./components/HowAreWeDifferent";
 import Articles from "./components/Articles";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
           {/* <Route path="/members" element={<MembersArea />} /> */}
           <Route path="/may_20_2023" element={<May_20_2023 />} />
           <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/gallery" element={<Gallery />} />
+
           <Route path="/faq" element={<FAQ />} />
           <Route
             path="/how_are_we_different?"
