@@ -3,6 +3,49 @@ import { Footer } from "./Footer";
 
 const testimonials = [
   {
+    src: "./roxanne.jpeg",
+    alt: "Sexy woman open legged on a chair",
+    quote:
+      '"Being very new to the scene I was nervous to join a party but I soon realised I had nothing to worry about. Everyone in the Tribe is so welcoming, open, hot and most importantly… fun! Not only are the parties great, but the sense of being part of a community where you can chat, learn and share experiences is invaluable. I feel like I’ve made friends for life here."',
+    name: "R",
+    member: "Member since January 2024",
+  },
+  {
+    src: "./wetblackwhite.jpeg",
+    alt: "Party people posing",
+    quote: "There's a shark in the room!!",
+    name: "Scenes from the 'WET' party",
+    member: "Wet dreams did come true!",
+  },
+  {
+    src: "./chrisrtizt.jpeg",
+    alt: "Two men in fancy dress posing for a pic",
+    quote: "Gods of the Seas",
+    name: "Scenes from the 'WET' party",
+    member: "Taking the theme seriously",
+  },
+  {
+    src: "./nickfoxrtizt.jpeg",
+    alt: "Party people posing",
+    quote: "Something fishy in here",
+    name: "Scenes from the 'WET' party",
+    member: "Did the fox get the fish?",
+  },
+  {
+    src: "./sharkcolour.jpeg",
+    alt: "Party people posing",
+    quote: "Costume regret",
+    name: "Scenes from the 'WET' party",
+    member: "You ever see a shark sweating balls?",
+  },
+  {
+    src: "./ariel.jpeg",
+    alt: "Sign saying 'Ariel only wanted legs so she could open them",
+    quote: "",
+    name: "Signs from the 'WET' party",
+    member: "",
+  },
+  {
     src: "./hannah_chickpea2.png",
     alt: "A girl at a festival, laughing",
     quote:
@@ -51,20 +94,20 @@ const testimonials = [
     member: "Member since May 2023",
   },
   {
-    src: "./roxanne.jpeg",
-    alt: "Sexy woman open legged on a chair",
-    quote:
-      '"Being very new to the scene I was nervous to join a party but I soon realised I had nothing to worry about. Everyone in the Tribe is so welcoming, open, hot and most importantly… fun! Not only are the parties great, but the sense of being part of a community where you can chat, learn and share experiences is invaluable. I feel like I’ve made friends for life here."',
-    name: "R",
-    member: "Member since January 2024",
-  },
-  {
     src: "./dave_wolves.png",
     alt: "Man surrounded by wolves",
     quote:
       '"The thing that stands out to me about the Tribe are the friendships forged, the support given and the genuine love that flows throughout the group, during and after the events"',
     name: "Davide",
     member: "Member since 2020",
+  },
+  {
+    src: "./shanika.jpeg",
+    alt: "Black woman in red dress posing sideways in the street",
+    quote:
+      '"Loved loved loved my first Tribe last night, I met some amazing people and had the best time!! Thank you @Dan 4.0 and everyone else that made my night, I’ll be a regular now for sure 💃🏽  what a hot crowd 🥵"',
+    name: "Shanika",
+    member: "Member since March 2024",
   },
   {
     src: "./demi.jpeg",
@@ -74,7 +117,6 @@ const testimonials = [
     name: "Demi",
     member: "Member since 2022",
   },
-
   {
     src: "./denise.jpeg",
     alt: "woman in kinky outfit in front of mirror",
@@ -106,20 +148,7 @@ const testimonials = [
   //   name: "",
   //   member: "And them!!!",
   // },
-  {
-    src: "./wetblackwhite.jpeg",
-    alt: "Party people posing",
-    quote: "There's a shark in the room!!",
-    name: "Scenes from the 'WET' party",
-    member: "Wet dreams did come true!",
-  },
-  {
-    src: "./nickfoxrtizt.jpeg",
-    alt: "Party people posing",
-    quote: "Something fishy in here",
-    name: "Scenes from the 'WET' party",
-    member: "Did the fox get the fish?",
-  },
+
   {
     src: "./he_man.WEBP",
     alt: "Cartoon character 'He Man'",
