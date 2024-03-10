@@ -43,9 +43,14 @@ const jungle = [
 const Gallery = () => {
   return (
     <Container className="bg-dark">
-      <h2 className="text-center text-white p-4">
-        Wet - Creatures of the sea March 2024
-      </h2>
+      <img
+        src="wet.png"
+        alt="Sexy girl semi naked holding beer over her breast"
+        className="mx-auto d-block mb-4"
+        style={{ maxWidth: "100%", paddingTop: "2rem" }}
+      />
+      <h4 className="text-center text-white p-4">Wet dreams did come true</h4>
+
       <Row>
         {wet.map((image, index) => (
           <Col md={3} key={index} className="text-center">
@@ -64,10 +69,16 @@ const Gallery = () => {
             </div>
           </Col>
         ))}
+        <img
+          src="jungle.jpeg"
+          alt="Sexy girl semi naked holding beer over her breast"
+          className="mx-auto d-block mb-4"
+          style={{ maxWidth: "52rem", paddingTop: "2rem" }}
+        />
+        <h4 className="text-center text-white p-4">
+          Welcome to the jungle October 2023
+        </h4>
       </Row>
-      <h2 className="text-center text-white p-4">
-        Welcome to the jungle October 2023
-      </h2>
       <Row>
         {jungle.map((image, index) => (
           <Col md={3} key={index} className="text-center">
