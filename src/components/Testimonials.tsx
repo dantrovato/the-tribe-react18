@@ -115,6 +115,22 @@ const testimonials = [
     member: "Member since October 2022",
   },
   {
+    src: "./yulia.jpeg",
+    alt: "Woman in lingerie on bed",
+    quote:
+      '"What a memorable first Tribe experience 😍 thanks for organising the sexiest night in London and everyone’s friendly hospitality 🫶 pleasure meeting you all wonderful people"',
+    name: "Yulia",
+    member: "Member since March 2024",
+  },
+  {
+    src: "./jessgalletta.jpeg",
+    alt: "Woman in lingerie on bed",
+    quote:
+      '"Another epic tribe 🤩😈😘 so many hotties, not enough time! Can’t wait to see you all soon xx"',
+    name: "Jess",
+    member: "Member since December 2023",
+  },
+  {
     src: "./wetblackwhite.jpeg",
     alt: "Party people posing",
     quote: "There's a shark in the room!!",

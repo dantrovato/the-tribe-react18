@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./Gallery.module.css"; // Import your custom CSS file
+import "./Gallery.module.css";
 
 const wet = [
   { src: ".././wetblackwhite.jpeg", alt: "party people" },
