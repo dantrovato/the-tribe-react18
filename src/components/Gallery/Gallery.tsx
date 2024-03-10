@@ -3,14 +3,17 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./Gallery.module.css"; // Import your custom CSS file
 
 const wet = [
-  { src: ".././wetblackwhite.jpeg", alt: "fava" },
-  { src: ".././chrisrtizt.jpeg", alt: "fava" },
-  { src: "../././nickfoxrtizt.jpeg", alt: "fava" },
-  { src: "../ariel.jpeg", alt: "fava" },
+  { src: ".././wetblackwhite.jpeg", alt: "party people" },
+  { src: ".././chrisrtizt.jpeg", alt: "two men in neptune outfits" },
+  { src: "../././nickfoxrtizt.jpeg", alt: "people in sexy sea themed outfits" },
+  {
+    src: "../ariel.jpeg",
+    alt: "sign that says 'ariel only wanted legs so she could open them'",
+  },
 
-  { src: "../sharkcolour.jpeg", alt: "fava" },
-  { src: "../WET/anabum.jpg", alt: "fava" },
-  { src: "../WET/rox1.jpg", alt: "fava" },
+  { src: "../sharkcolour.jpeg", alt: "people in sexy sea themed outfits" },
+  { src: "../WET/anabum.jpg", alt: "sexy girl in lingerie" },
+  { src: "../WET/rox1.jpg", alt: "sexy girl in lingerie" },
   { src: "../WET/muff.jpg", alt: "fava" },
   { src: "../WET/chloemerlinmegan.jpg", alt: "fava" },
   { src: "../WET/astraunaut.jpg", alt: "fava" },
@@ -22,7 +25,7 @@ const wet = [
   { src: "../WET/jellyfish.jpg", alt: "fava" },
   { src: "../WET/leon.jpg", alt: "fava" },
   { src: "../WET/matthewdenise.jpg", alt: "fava" },
-  { src: "../WET/rox2.jpg", alt: "fava" },
+  { src: "../WET/rox2.jpg", alt: "sexy girl in lingerie" },
   { src: "../WET/roxbobjaz.jpg", alt: "fava" },
   { src: "../WET/seahorse.jpg", alt: "fava" },
   { src: "../WET/tribebanner.jpg", alt: "fava" },
@@ -34,10 +37,13 @@ const jungle = [
   { src: "../chrisdemi.jpeg", alt: "fava" },
   { src: "../merlincarlotanegin.jpeg", alt: "fava" },
   { src: "../stairs.jpeg", alt: "fava" },
+  { src: "../carlotamerlin.jpeg", alt: "fava" },
   { src: "../leonnegin.jpeg", alt: "fava" },
   { src: "../danjungle.jpeg", alt: "fava" },
   { src: "../junglesetup.jpeg", alt: "fava" },
   { src: "../yenemmaapple.jpeg", alt: "fava" },
+  { src: "../louisiana.jpeg", alt: "fava" },
+  { src: "../carlotajungle.jpeg", alt: "fava" },
 ];
 
 const Gallery = () => {
