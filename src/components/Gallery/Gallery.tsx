@@ -12,7 +12,6 @@ const wet = [
   { src: "../WET/anabum.jpg", alt: "fava" },
   { src: "../WET/rox1.jpg", alt: "fava" },
   { src: "../WET/muff.jpg", alt: "fava" },
-  { src: "../WET/anabum.jpg", alt: "fava" },
   { src: "../WET/chloemerlinmegan.jpg", alt: "fava" },
   { src: "../WET/astraunaut.jpg", alt: "fava" },
   { src: "../WET/balls.jpg", alt: "fava" },
@@ -49,7 +48,7 @@ const Gallery = () => {
       </h2>
       <Row>
         {wet.map((image, index) => (
-          <Col md={3} key={index}>
+          <Col md={3} key={index} className="text-center">
             <div className="gallery-item">
               <img
                 src={image.src}
@@ -71,7 +70,7 @@ const Gallery = () => {
       </h2>
       <Row>
         {jungle.map((image, index) => (
-          <Col md={3} key={index}>
+          <Col md={3} key={index} className="text-center">
             <div className="gallery-item">
               <img
                 src={image.src}
