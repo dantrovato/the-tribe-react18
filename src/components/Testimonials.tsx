@@ -51,6 +51,14 @@ const testimonials = [
     member: "Member since May 2023",
   },
   {
+    src: "./roxanne.jpeg",
+    alt: "Sexy woman open legged on a chair",
+    quote:
+      '"Being very new to the scene I was nervous to join a party but I soon realised I had nothing to worry about. Everyone in the Tribe is so welcoming, open, hot and most importantly… fun! Not only are the parties great, but the sense of being part of a community where you can chat, learn and share experiences is invaluable. I feel like I’ve made friends for life here."',
+    name: "R",
+    member: "Member since January 2024",
+  },
+  {
     src: "./dave_wolves.png",
     alt: "Man surrounded by wolves",
     quote:
@@ -83,14 +91,7 @@ const testimonials = [
     name: "Lorna",
     member: "Member since October 2022",
   },
-  {
-    src: "./kyle_lyd.png",
-    alt: "Man and woman in kinky outfit in front of mirror",
-    quote:
-      '"We were lucky enough to meet this amazing group of people. We have had some amazing memories, made amazing friends, and could not recommend more. Always a safe positive space for you to truly be yourself with others alike"',
-    name: "Kyle and Selene",
-    member: "Member since October 2022",
-  },
+
   // {
   //   src: "./tribe1.jpg",
   //   alt: "Party people sitting on a sofa",
@@ -109,8 +110,15 @@ const testimonials = [
     src: "./wetblackwhite.jpeg",
     alt: "Party people posing",
     quote: "There's a shark in the room!!",
-    name: "\"Scenes from the 'WET' party\"",
+    name: "Scenes from the 'WET' party",
     member: "Wet dreams did come true!",
+  },
+  {
+    src: "./nickfoxrtizt.jpeg",
+    alt: "Party people posing",
+    quote: "Something fishy in here",
+    name: "Scenes from the 'WET' party",
+    member: "Did the fox get the fish?",
   },
   {
     src: "./he_man.WEBP",
@@ -126,6 +134,22 @@ const testimonials = [
     quote: "The tent and hot tub",
     name: "Many a naughty has happened here",
     member: "And many more to happen still",
+  },
+  {
+    src: "./jamesp.jpeg",
+    alt: "Selfie ofd a man",
+    quote:
+      '"Great party thank you, surely a testament to time! And great to meet you all awesome people! ❤️ Love you all"',
+    name: "James",
+    member: "Member since January 2020",
+  },
+  {
+    src: "./kyle_lyd.png",
+    alt: "Man and woman in kinky outfit in front of mirror",
+    quote:
+      '"We were lucky enough to meet this amazing group of people. We have had some amazing memories, made amazing friends, and could not recommend more. Always a safe positive space for you to truly be yourself with others alike"',
+    name: "Kyle and Selene",
+    member: "Member since October 2022",
   },
 ];
 
