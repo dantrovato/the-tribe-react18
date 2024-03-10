@@ -34,10 +34,12 @@ const Events = () => {
         </div>
 
         <div className="text-center text-muted mb-5">
-          <h3 className="text-center text-muted mb-4">Rockers and groupies </h3>
+          <h3 className="text-center text-muted mb-4">
+            ROCK HARD - rockstars and groupies{" "}
+          </h3>
           <h4 className="text-center text-muted mb-4">April 20th 2024 </h4>
           <img
-            src="rockstars_resized.png"
+            src="rockhard.jpg"
             alt="Sexy girl making devil sign and sticking tongue out"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
