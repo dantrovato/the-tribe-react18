@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Gallery.module.css";
+import { Footer } from "../Footer";
 
 const wet = [
   { src: ".././wetblackwhite.jpeg", alt: "party people" },
@@ -151,6 +152,7 @@ const Gallery = () => {
           </Col>
         ))}
       </Row>
+      <Footer />
     </Container>
   );
 };

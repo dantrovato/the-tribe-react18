@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+
 export const Footer = () => {
   return (
     <>
@@ -5,6 +8,15 @@ export const Footer = () => {
         <p className="p-3 text-light text-center">
           <small>
             © thetribeexperiment 2023 | Contact: dan@thetribeexperiment.com{" "}
+            <br />
+            <a
+              href="https://www.instagram.com/the_tribe_hates_insta"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "inherit", textDecoration: "none" }} // Add inline style
+            >
+              <FontAwesomeIcon icon={faInstagram} /> the_tribe_hates_insta
+            </a>
           </small>
         </p>
       </div>
