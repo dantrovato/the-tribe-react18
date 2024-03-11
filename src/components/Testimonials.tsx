@@ -67,12 +67,12 @@ const testimonials = [
     member: "Member since 2020",
   },
   {
-    src: "./dave_wolves.png",
-    alt: "Man surrounded by wolves",
+    src: "./ddraig.jpeg",
+    alt: "Man in medieval hood",
     quote:
-      '"The thing that stands out to me about the Tribe are the friendships forged, the support given and the genuine love that flows throughout the group, during and after the events"',
-    name: "Davide",
-    member: "Member since 2020",
+      "\"I've been a fire breather for over ten years, but I've never been to a party as hot or crazy as Tribe.  Beautiful people, warm hearts and hot bodies\"",
+    name: "Ddraig",
+    member: "Member since 2024 - photo by Viitta Fashion and Viita Spicy",
   },
   {
     src: "./shanika.jpeg",
@@ -115,6 +115,14 @@ const testimonials = [
     member: "Member since October 2022",
   },
   {
+    src: "./dave_wolves.png",
+    alt: "Man surrounded by wolves",
+    quote:
+      '"The thing that stands out to me about the Tribe are the friendships forged, the support given and the genuine love that flows throughout the group, during and after the events"',
+    name: "Davide",
+    member: "Member since 2020",
+  },
+  {
     src: "./yulia.jpeg",
     alt: "Woman in lingerie on bed",
     quote:
@@ -129,6 +137,14 @@ const testimonials = [
       '"Another epic tribe 🤩😈😘 so many hotties, not enough time! Can’t wait to see you all soon xx"',
     name: "Jess",
     member: "Member since December 2023",
+  },
+  {
+    src: "./kyle_lyd.png",
+    alt: "Man and woman in kinky outfit in front of mirror",
+    quote:
+      '"We were lucky enough to meet this amazing group of people. We have had some amazing memories, made amazing friends, and could not recommend more. Always a safe positive space for you to truly be yourself with others alike"',
+    name: "Kyle and Selene",
+    member: "Member since October 2022",
   },
   {
     src: "./wetblackwhite.jpeg",
@@ -172,14 +188,6 @@ const testimonials = [
     quote: "The tent and hot tub",
     name: "Many a naughty has happened here",
     member: "And many more to happen still",
-  },
-  {
-    src: "./kyle_lyd.png",
-    alt: "Man and woman in kinky outfit in front of mirror",
-    quote:
-      '"We were lucky enough to meet this amazing group of people. We have had some amazing memories, made amazing friends, and could not recommend more. Always a safe positive space for you to truly be yourself with others alike"',
-    name: "Kyle and Selene",
-    member: "Member since October 2022",
   },
 ];
 

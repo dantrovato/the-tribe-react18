@@ -58,6 +58,18 @@ const jungle = [
   { src: "../carlotajungle.jpeg", alt: "people in sexy sea themed outfits" },
 ];
 
+const random = [
+  { src: "../shellyballpit.jpeg", alt: "gitl in ballpit in uv room" },
+  { src: "../bumball.jpeg", alt: "bum with ball in between bumcheecks" },
+  { src: "../chloeshibari.jpeg", alt: "girl tied up in shibari rope" },
+  { src: "../ellneon.jpeg", alt: "lady DJ in yellow lingerie in uv room" },
+  { src: "../tentsex.jpeg", alt: "naked people chilling in a large tent" },
+  { src: "../peritribeval.jpeg", alt: "man in uv room" },
+  { src: "../leonneon.jpeg", alt: "man in uv room" },
+  { src: "../ballpitcows.jpeg", alt: "people in ballpit in uv room" },
+  { src: "../ballpitscratch.jpeg", alt: "people in ballpit in uv room" },
+];
+
 const Gallery = () => {
   return (
     <Container className="bg-dark">
@@ -102,6 +114,26 @@ const Gallery = () => {
       </Row>
       <Row>
         {jungle.map((image, index) => (
+          <Col md={3} key={index} className="text-center">
+            <div className="gallery-item">
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="img-fluid gallery-image"
+                style={{
+                  height: "350px",
+                  width: "270px",
+                  objectFit: "cover",
+                  padding: "1rem",
+                }} // Apply inline styles here
+              />
+            </div>
+          </Col>
+        ))}
+      </Row>
+      <h4 className="text-center text-white p-4">Random snaps</h4>
+      <Row>
+        {random.map((image, index) => (
           <Col md={3} key={index} className="text-center">
             <div className="gallery-item">
               <img
