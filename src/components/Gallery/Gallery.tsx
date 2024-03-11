@@ -61,6 +61,9 @@ const jungle = [
 const Gallery = () => {
   return (
     <Container className="bg-dark">
+      <h5 className="text-center text-white p-4">
+        Pics never shared without consent
+      </h5>
       <img
         src="wet.png"
         alt="Sexy girl semi naked holding beer over her breast"
