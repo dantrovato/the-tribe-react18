@@ -7,7 +7,9 @@ export const Footer = () => {
       <div className="bg-dark">
         <p className="p-3 text-light text-center">
           <small>
-            © thetribeexperiment 2023 | Contact:{" "}
+            © thetribeexperiment 2023
+            <br />
+            Contact:{" "}
             <a
               href="mailto:dan@thetribeexperiment.com"
               style={{ color: "inherit", textDecoration: "none" }}
