@@ -61,14 +61,14 @@ const jungle = [
 const Gallery = () => {
   return (
     <Container className="bg-dark">
-      <h5 className="text-center text-white p-4">
+      <h4 className="text-center text-white p-5">
         Pics never shared without consent
-      </h5>
+      </h4>
       <img
         src="wet.png"
         alt="Sexy girl semi naked holding beer over her breast"
         className="mx-auto d-block mb-4"
-        style={{ maxWidth: "100%", paddingTop: "2rem" }}
+        style={{ maxWidth: "100%" }}
       />
       <h4 className="text-center text-white p-4">Wet dreams did come true</h4>
 
