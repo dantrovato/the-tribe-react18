@@ -132,10 +132,10 @@ const Rules = () => {
       <h2>Rule # 9</h2>
       <h3>No drinks, chewing gum, shoes, phones in the play areas</h3>
       <p>Your things will be waiting for you when you come out.</p>
-      <h2>Rule # 9</h2>
+      <h2>Rule # 10</h2>
       <h3>Don't get too drunk</h3>
       <p>If you're not sober enough you won't be let into the play areas.</p>
-      <h2>Rule # 10</h2>
+      <h2>Rule # 11</h2>
       <h3>
         No DMs to anybody in the what's app chat until you asked them in the
         chat first
