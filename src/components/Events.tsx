@@ -7,19 +7,19 @@ const Events = () => {
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
         <div className="mb-5">
-          <h3 className="text-center text-muted mb-4">Tribe Social </h3>
+          {/* <h3 className="text-center text-muted mb-4">Tribe Social </h3>
           <h4 className="text-center text-muted mb-4">
             Wednesday April 10th 2024{" "}
-          </h4>
+          </h4> */}
 
           {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
-          <img
+          {/* <img
             src="blonde.png"
             alt="Sexy girl semi naked holding beer over her breast"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
-          />
-          <p
+          /> */}
+          {/* <p
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
@@ -30,7 +30,7 @@ const Events = () => {
           <p
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
-          ></p>
+          ></p> */}
         </div>
 
         <div className="text-center text-muted mb-5">

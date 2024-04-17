@@ -11,17 +11,15 @@ const Rules = () => {
         </h2>
         <h3 className="text-danger text-center pb-3">The wristband system:</h3>
         <p className="text-danger p-3">
-          While you don't have to have a sexual health result to attend the
-          party, we recommend that you do. We also recommend having a
+          While you don't have to have a recent sexual health result to attend
+          the party, we recommend that you do. We also recommend having a
           conversation about your sexual health with whomever you're about to
-          engage with. Sometimes, it's inconvenient to do so, especially when
-          engaging with someone quite spontaneously. To expedite and streamline
-          this process, we have introduced the wristband system.
-          <br /> Upon arrival, you can locate one of our "generals" —
-          individuals identifiable by their flashy blue armbands — and present
-          them with your recent negative sexual health test results. Based on
-          the date of your test, you will receive a wristband of a color that
-          indicates the recency of your test:
+          play with. Sometimes, it's inconvenient to do so, especially when
+          engaging with someone quite spontaneously. To make this smoother, we
+          have introduced the wristband system.
+          <br /> Upon arrival, you can opitonally present your recent sexual
+          health test results. Based on the date of your test, you will receive
+          a wristband of a color that indicates the recency of your test:
           <br />
           <br />- Green wristband (for example) for tests taken within the last
           month.
@@ -31,8 +29,8 @@ const Rules = () => {
           <br />
           <br /> (The colours will change from party to party)
           <br />
-          <br /> No wristband provided for tests taken more than three months
-          ago.
+          <br /> No wristband provided for tests that are more than three months
+          old.
           <br />
           <br /> If you do not have recent test results, it's okay; not everyone
           does. We encourage open discussions about your recent sexual history
@@ -45,8 +43,8 @@ const Rules = () => {
           responsibility remains essential. The wristband system serves as a
           quick way to know when somebody got tested. Engaging in unprotected
           oral sex with someone you just met at the event still carries risks,
-          as does kissing, apparently (of course!). Your cooperation is vital in
-          maintaining a safe community.
+          as does kissing, apparently (goddamn it!). Your cooperation is vital
+          in maintaining a safe community.
         </p>
       </div>
 
@@ -57,11 +55,13 @@ const Rules = () => {
         style={{ width: "100%", maxHeight: "40%" }}
       />
       <h2>Rule # 1</h2>
-      <h3>Consent!</h3>
+      <h3>Enthusiastic consent!</h3>
       <p>
-        Do not touch anybody sexually without first receiving verbal or, at the
-        very least, clear non verbal consent. Verbal consent is best. Just ask
-        and remove all doubt.
+        Do not touch anybody sexually without first receiving clear,
+        enthusiastic consent. This applies to people you have played with in the
+        past. Things change quickly in the community and just because somebody
+        was happy to play with you at one stage doesn't mean they want to play
+        with you now.
       </p>
       <h2>Rule # 2</h2>
       <h3>Know your boundaries</h3>
@@ -129,9 +129,21 @@ const Rules = () => {
         nobody wants to be finding a free surface and then have to sit on a wet
         patch.
       </p>
-      <h2>Rule # 8</h2>
-      <h3>No drinks in the play areas</h3>
-      <p>It's just a mess waiting to happen.</p>
+      <h2>Rule # 9</h2>
+      <h3>No drinks, chewing gum, shoes, phones in the play areas</h3>
+      <p>Your things will be waiting for you when you come out.</p>
+      <h2>Rule # 9</h2>
+      <h3>Don't get too drunk</h3>
+      <p>If you're not sober enough you won't be let into the play areas.</p>
+      <h2>Rule # 10</h2>
+      <h3>
+        No DMs to anybody in the what's app chat until you asked them in the
+        chat first
+      </h3>
+      <p>
+        Girls especially can get inundated with unwanted messages. Just ask in
+        the chat if you can message them privately.
+      </p>
       <img
         src="./black_white_girl.jpg"
         alt="People kissing in hot tub"
