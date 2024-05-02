@@ -35,12 +35,12 @@ const Events = () => {
 
         <div className="text-center text-muted mb-5">
           <h3 className="text-center text-muted mb-4">
-            ROCK HARD - rockstars and groupies{" "}
+            Smash of the Titans - Gods & divine beings{" "}
           </h3>
-          <h4 className="text-center text-muted mb-4">April 20th 2024 </h4>
+          <h4 className="text-center text-muted mb-4">June 8th 2024 </h4>
           <img
-            src="rockhard.jpg"
-            alt="Sexy girl making devil sign and sticking tongue out"
+            src="titans.jpg"
+            alt="Attractive and innocent looking Goddess"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
@@ -48,9 +48,7 @@ const Events = () => {
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            Dress up as your favourite rockstar or a very slutty groupie and
-            come forget you're an adult with the gorgeous children of the tribe.
-            Fun times you'll never forget (or remember...)
+            Which God are you going to be? And which are you going to seduce?
           </p>
         </div>
 
