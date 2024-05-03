@@ -23,18 +23,18 @@ const TribeNews = () => {
         This room has the same exact rules as the other play rooms (the monitor
         on the night will repeat them to you before going in), except that
         whilst you are not to interrupt somebody playing in the other play
-        rooms, in the orgy room you are actively enouraged to ask people to join
-        in with them. Consent, of course, still applies, but the idea is that
-        you go into this room with the openness to the possibly of getting
+        rooms, in the orgy room you are actively encouraged to ask people to
+        join in with them. Consent, of course, still applies, but the idea is
+        that you go into this room with the openness to the possibly of getting
         involved with other couples or individuals.
       </p>
       <h2 className="text-center text-muted mb-5">DJs</h2>
       <p className="text-muted mb-5">
         The music at the tribe has always been carefully curated but in the last
         year we have begun getting DJs and this has been adding massively to the
-        fun. We have some serious talent for the upcoming party on june 8th. Two
+        fun. We have some serious talent for the upcoming party on June 8th. Two
         well established DJs and a talented upstart, playing sexy, deep house
-        (our hatred of raggeaton stronger than ever) from 10am 'til 4am.
+        (our hatred of raggaeton stronger than ever) from 10am 'til 4am.
       </p>
       <h2 className="text-center text-muted mb-5">Sauna</h2>
       <p className="text-muted mb-5">
