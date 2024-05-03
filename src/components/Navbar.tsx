@@ -72,8 +72,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/bespoke_fantasies">
-                Bespoke fantasies
+              <Link className="nav-link" to="/tribe_news">
+                Tribe news
               </Link>
             </li>
           </ul>

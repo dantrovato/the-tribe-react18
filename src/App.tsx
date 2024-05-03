@@ -12,6 +12,7 @@ import May_20_2023 from "./components/Events/May_20_2023";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Bespoke from "./components/Bespoke";
+import TribeNews from "./components/Bespoke";
 import HowAreWeDifferent from "./components/HowAreWeDifferent";
 import Articles from "./components/Articles";
 import Gallery from "./components/Gallery/Gallery";
@@ -40,7 +41,7 @@ function App() {
             element={<HowAreWeDifferent />}
           />
           <Route path="/articles" element={<Articles />} />
-          <Route path="/bespoke_fantasies" element={<Bespoke />} />
+          <Route path="/tribe_news" element={<TribeNews />} />
         </Routes>
       </div>
     </BrowserRouter>
