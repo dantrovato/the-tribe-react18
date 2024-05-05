@@ -2,7 +2,7 @@ import { Footer } from "./Footer";
 
 const HowAreWeDifferent = () => {
   return (
-    <div className="m-5">
+    <div className="m-5" style={{ textAlign: "justify" }}>
       <h2
         className="text-muted text-center mb-5"
         style={{ maxWidth: "600px", margin: "auto" }}

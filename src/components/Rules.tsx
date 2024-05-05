@@ -4,7 +4,7 @@ import { Footer } from "./Footer";
 const Rules = () => {
   const danger = "#dc3545";
   return (
-    <div className="m-5 text-muted">
+    <div className="m-5 text-muted" style={{ textAlign: "justify" }}>
       <div className="mb-5" style={{ border: `1px solid ${danger}` }}>
         <h2 className="text-danger text-center pt-3 pb-3">
           Sexual health safety

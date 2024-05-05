@@ -7,7 +7,7 @@ const TribeNews = () => {
         Ain't no news like Tribe news
       </h1>
       <h2 className="text-center text-muted mb-5">The orgy room</h2>
-      <p className="text-muted mb-5">
+      <p className="text-muted mb-5" style={{ textAlign: "justify" }}>
         At the immense 'Wet' party in March, we came up with an idea for a
         proper orgy room.
         <br />
@@ -29,7 +29,7 @@ const TribeNews = () => {
         involved with other couples or individuals.
       </p>
       <h2 className="text-center text-muted mb-5">DJs</h2>
-      <p className="text-muted mb-5">
+      <p className="text-muted mb-5" style={{ textAlign: "justify" }}>
         The music at the tribe has always been carefully curated but in the last
         year we have begun getting DJs and this has been adding massively to the
         fun. We have some serious talent for the upcoming party on June 8th. Two
@@ -37,7 +37,7 @@ const TribeNews = () => {
         (our hatred of raggaeton stronger than ever) from 10am 'til 4am.
       </p>
       <h2 className="text-center text-muted mb-5">Sauna</h2>
-      <p className="text-muted mb-5">
+      <p className="text-muted mb-5" style={{ textAlign: "justify" }}>
         We had been talking about a jaunt to Rio's naturist sauna in Kentish
         town for a long time and we finally decided that it was time to do it.
         <br />
@@ -51,14 +51,14 @@ const TribeNews = () => {
         arrogance and beg them to let us in.{" "}
       </p>
       <h2 className="text-center text-muted mb-5">July party</h2>
-      <p className="text-muted mb-5">
+      <p className="text-muted mb-5" style={{ textAlign: "justify" }}>
         We thought that with the hopefully not abysmally shit summer, we may be
         able to enjoy the Tribe garden and have a day party instead. This will,
         of course, run into the early hours of the following morning. We would
         give this a festivally feel, so please, dress accordingly.
       </p>
       <h2 className="text-center text-muted mb-5">Photos</h2>
-      <p className="text-muted mb-5">
+      <p className="text-muted mb-5" style={{ textAlign: "justify" }}>
         Photos and videos are no longer allowed. As the group is getting bigger
         and we have new people we decided it's important to only leave image
         capturing in the hands of the official professionals. There will be a
@@ -66,12 +66,22 @@ const TribeNews = () => {
         consenting participants are in the shot.
       </p>
       <h2 className="text-center text-muted mb-5">Monitors</h2>
-      <p className="text-center text-muted mb-5">
+      <p className="text-muted mb-5" style={{ textAlign: "justify" }}>
         We now have two paid monitors at the door and at the playrooms. They are
         there to give out wristbands for the sexual health tests, enforce the
         rules and make sure everybody is safe and happy. They won't let anybody
         in the rooms who is too intoxicated, will keep the female/male ratio
         balanced, etc.
+      </p>
+      <h2 className="text-center text-muted mb-5">Single girls group</h2>
+      <p className="text-muted mb-5" style={{ textAlign: "justify" }}>
+        In the summer we started a separate What's App group for single girls
+        coming alone. The idea is for girls to chat and get to know each other,
+        go for pre drinks by themselves and turn up at the party as a group.
+        This went down really well so we are keeping it as a permanent feature.
+        No more feeling anxious before going to a party on your own, even though
+        when girls have done this in the past they immediately relax as soon as
+        they see how friendly and welcoming everybody is.
       </p>
       {/* <h2 className="text-center text-muted mb-5">TL;DR</h2>
       <p className="text-center text-muted mb-5">
