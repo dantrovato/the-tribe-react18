@@ -52,6 +52,30 @@ const Events = () => {
           </p>
         </div>
 
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+          <h3 className="text-center text-muted mb-4">Tribeval Part two </h3>
+          <h4 className="text-center text-muted mb-4">July 6th 2024 </h4>
+          <img
+            src="tribeval2website.jpg"
+            alt="Attractive Girls in fluorescent make up almost kissing"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            Following last year's brilliant first Tribeval, this one starts in
+            the afternoon in the hope of a sunny day. Let's make use of the
+            Tribe garden and enjoy some fun performances (music, fire show...)
+            before our usual shenanigans. When the sun goes down so does the
+            Tribe.
+            <br />
+            Festival themed, so bring outrageous bright colours and get your
+            face painted.
+          </p>
+        </div>
+
         {/* <p
           className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
