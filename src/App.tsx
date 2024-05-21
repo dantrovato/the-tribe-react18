@@ -7,7 +7,6 @@ import Home from "./components/Home";
 import Events from "./components/Events";
 import Rules from "./components/Rules";
 import GoogleForm from "./components/GoogleForm";
-import MembersArea from "./components/MembersArea";
 import May_20_2023 from "./components/Events/May_20_2023";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
@@ -15,6 +14,7 @@ import TribeNews from "./components/TribeNews";
 import HowAreWeDifferent from "./components/HowAreWeDifferent";
 import Articles from "./components/Articles";
 import Gallery from "./components/Gallery/Gallery";
+import Catfish from "./components/Catfish/Catfish";
 
 function App() {
   return (
@@ -40,6 +40,7 @@ function App() {
             element={<HowAreWeDifferent />}
           />
           <Route path="/articles" element={<Articles />} />
+          <Route path="/catfish" element={<Catfish />} />
           <Route path="/tribe_news" element={<TribeNews />} />
         </Routes>
       </div>

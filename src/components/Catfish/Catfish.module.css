@@ -1,0 +1,9 @@
+.catfish-item {
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.catfish-image {
+  width: 100%; /* Ensure that the image fills its container */
+  height: 200px !important; /* Allow the height to adjust according to the image's aspect ratio */
+  object-fit: cover; /* Ensure that the image covers the entire container */
+}
