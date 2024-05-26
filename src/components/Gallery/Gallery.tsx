@@ -60,15 +60,21 @@ const jungle = [
 ];
 
 const random = [
-  { src: "../shellyballpit.jpeg", alt: "gitl in ballpit in uv room" },
-  { src: "../bumball.jpeg", alt: "bum with ball in between bumcheecks" },
-  { src: "../chloeshibari.jpeg", alt: "girl tied up in shibari rope" },
-  { src: "../ellneon.jpeg", alt: "lady DJ in yellow lingerie in uv room" },
-  { src: "../tentsex.jpeg", alt: "naked people chilling in a large tent" },
-  { src: "../peritribeval.jpeg", alt: "man in uv room" },
-  { src: "../leonneon.jpeg", alt: "man in uv room" },
-  { src: "../ballpitcows.jpeg", alt: "people in ballpit in uv room" },
-  { src: "../ballpitscratch.jpeg", alt: "people in ballpit in uv room" },
+  { src: "../Random/shellyballpit.jpeg", alt: "gitl in ballpit in uv room" },
+  { src: "../Random/bumball.jpeg", alt: "bum with ball in between bumcheecks" },
+  { src: "../Random/chloeshibari.jpeg", alt: "girl tied up in shibari rope" },
+  {
+    src: "../Random/ellneon.jpeg",
+    alt: "lady DJ in yellow lingerie in uv room",
+  },
+  {
+    src: "../Random/tentsex.jpeg",
+    alt: "naked people chilling in a large tent",
+  },
+  { src: "../Random/peritribeval.jpeg", alt: "man in uv room" },
+  { src: "../Random/leonneon.jpeg", alt: "man in uv room" },
+  { src: "../Random/ballpitcows.jpeg", alt: "people in ballpit in uv room" },
+  { src: "../Random/ballpitscratch.jpeg", alt: "people in ballpit in uv room" },
 ];
 
 const Gallery = () => {
