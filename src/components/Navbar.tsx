@@ -68,7 +68,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/catfish">
-                Caught Catfish
+                Catfish Bar
               </Link>
             </li>
             <li className="nav-item">

@@ -4,14 +4,14 @@ import "./Catfish.module.css";
 import { Footer } from "../Footer";
 
 const catfish = [
-  { src: "../catfish1.jpeg", alt: "Instagram account page" },
-  { src: "../catfish2.jpeg", alt: "Instagram account page" },
-  { src: "../catfish3.jpeg", alt: "Instagram account page" },
-  { src: "../catfish4.jpeg", alt: "Instagram account page" },
-  { src: "../catfish5.jpeg", alt: "Instagram account page" },
-  { src: "../catfish6.jpeg", alt: "Instagram account page" },
-  { src: "../catfish7.jpeg", alt: "Instagram account page" },
-  { src: "../catfish8.jpeg", alt: "Instagram account page" },
+  { src: "../Catfish/catfish1.jpeg", alt: "Instagram account page" },
+  { src: "../Catfish/catfish2.jpeg", alt: "Instagram account page" },
+  { src: "../Catfish/catfish3.jpeg", alt: "Instagram account page" },
+  { src: "../Catfish/catfish4.jpeg", alt: "Instagram account page" },
+  { src: "../Catfish/catfish5.jpeg", alt: "Instagram account page" },
+  { src: "../Catfish/catfish6.jpeg", alt: "Instagram account page" },
+  { src: "../Catfish/catfish7.jpeg", alt: "Instagram account page" },
+  { src: "../Catfish/catfish8.jpeg", alt: "Instagram account page" },
 ];
 
 const Catfish = () => {
