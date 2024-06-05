@@ -73,7 +73,6 @@ const wet = [
   },
 
   { src: "../sharkcolour.jpeg", alt: "people in sexy sea themed outfits" },
-  { src: "../Wet/anabum.jpg", alt: "sexy girl in lingerie" },
   { src: "../Wet/rox1.jpg", alt: "sexy girl in lingerie" },
   { src: "../Wet/muff.jpg", alt: "sign that says no muff diving" },
   {
