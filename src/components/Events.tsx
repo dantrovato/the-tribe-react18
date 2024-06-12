@@ -33,25 +33,6 @@ const Events = () => {
           ></p> */}
         </div>
 
-        <div className="text-center text-muted mb-5">
-          <h3 className="text-center text-muted mb-4">
-            Smash of the Titans - Gods & divine beings{" "}
-          </h3>
-          <h4 className="text-center text-muted mb-4">June 8th 2024 </h4>
-          <img
-            src="titans.jpg"
-            alt="Attractive and innocent looking Goddess"
-            className="mx-auto d-block mb-4"
-            style={{ maxWidth: "100%", marginTop: "2rem" }}
-          />
-          <p
-            className="text-muted mb-3"
-            style={{ maxWidth: "600px", margin: "auto" }}
-          >
-            Which God are you going to be? And which are you going to seduce?
-          </p>
-        </div>
-
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Tribeval Part two </h3>
           <h4 className="text-center text-muted mb-4">July 6th 2024 </h4>
@@ -75,19 +56,6 @@ const Events = () => {
             face painted.
           </p>
         </div>
-
-        {/* <p
-          className="text-muted mb-3"
-          style={{ maxWidth: "600px", margin: "auto" }}
-        >
-          Here are some ideas for{" "}
-          <Link
-            className="navbar-brand text-danger"
-            to="https://www.google.com/search?q=sexy+jungle+lingerie+and+costumes&tbm=isch&ved=2ahUKEwj1w9bisZmBAxWfkScCHYEzD-8Q2-cCegQIABAA&oq=sexy+jungle+lingerie+and+costumes&gs_lcp=CgNpbWcQA1CZBliXFmDHGmgAcAB4AIABPogBtQGSAQEzmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=RDn6ZPWRH5-jnsEPgee8-A4&bih=929&biw=1680&rlz=1C5CHFA_enGB745GB746"
-          >
-            jungle costumes
-          </Link>{" "}
-        </p> */}
 
         <p
           className="text-muted mb-3"
