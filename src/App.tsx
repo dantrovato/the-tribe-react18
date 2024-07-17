@@ -7,7 +7,6 @@ import Home from "./components/Home";
 import Events from "./components/Events";
 import Rules from "./components/Rules";
 import GoogleForm from "./components/GoogleForm";
-import May_20_2023 from "./components/Events/May_20_2023";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import TribeNews from "./components/TribeNews";
@@ -30,7 +29,7 @@ function App() {
           <Route path="/join" element={<GoogleForm />} />
           <Route path="/rules" element={<Rules />} />
           {/* <Route path="/members" element={<MembersArea />} /> */}
-          <Route path="/may_20_2023" element={<May_20_2023 />} />
+
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/gallery" element={<Gallery />} />
 

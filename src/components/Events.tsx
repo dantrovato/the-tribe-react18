@@ -34,10 +34,10 @@ const Events = () => {
         </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Tribeval Part two </h3>
-          <h4 className="text-center text-muted mb-4">July 6th 2024 </h4>
+          <h3 className="text-center text-muted mb-4">Night of Caligula</h3>
+          <h4 className="text-center text-muted mb-4">July 27th 2024 </h4>
           <img
-            src="tribeval2website.jpg"
+            src="CaligulaLybertyne2.jpg"
             alt="Attractive Girls in fluorescent make up almost kissing"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -46,14 +46,9 @@ const Events = () => {
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            Following last year's brilliant first Tribeval, this one starts in
-            the afternoon in the hope of a sunny day. Let's make use of the
-            Tribe garden and enjoy some fun performances (music, fire show...)
-            before our usual shenanigans. When the sun goes down so does the
-            Tribe.
-            <br />
-            Festival themed, so bring outrageous bright colours and get your
-            face painted.
+            The long awaited Tribe / Sultry Soirée collaboration is finally
+            here. Full out debauchery at this stunning, 2 million pounds listed
+            building in the heart of the City of London. DO NOT MISS
           </p>
         </div>
 
