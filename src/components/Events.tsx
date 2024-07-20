@@ -52,6 +52,28 @@ const Events = () => {
           </p>
         </div>
 
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+          <h3 className="text-center text-muted mb-4">
+            Lethal - Make love AND war
+          </h3>
+          <h4 className="text-center text-muted mb-4">August 31th 2024 </h4>
+          <img
+            src="lethalwebsite.png"
+            alt="Attractive Girls in fluorescent make up almost kissing"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            Fighters and lovers, say goodbye to the shittiest London summer guns
+            ablazing. Dress up as your favourite fighter (moodboard in the
+            groupchat), bring your weapon of choice and come play with the
+            gorgeous children of the tribe.
+          </p>
+        </div>
+
         <p
           className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
