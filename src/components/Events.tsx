@@ -48,7 +48,7 @@ const Events = () => {
           >
             The long awaited Tribe / Sultry Soirée collaboration is finally
             here. Full out debauchery at this stunning, 2 million pounds listed
-            building in the heart of the City of London. DO NOT MISS
+            building in the heart of the City of London. DO NOT MISS.
           </p>
         </div>
 
