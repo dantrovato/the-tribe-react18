@@ -34,52 +34,12 @@ const Events = () => {
         </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Night of Caligula</h3>
-          <h4 className="text-center text-muted mb-4">July 27th 2024 </h4>
-          <img
-            src="CaligulaLybertyne2.jpg"
-            alt="Attractive Girls in fluorescent make up almost kissing"
-            className="mx-auto d-block mb-4"
-            style={{ maxWidth: "100%", marginTop: "2rem" }}
-          />
-          <p
-            className="text-muted mb-3"
-            style={{ maxWidth: "600px", margin: "auto" }}
-          >
-            The long awaited Tribe / Sultry Soirée collaboration is finally
-            here. Full out debauchery at this stunning, 2 million pounds listed
-            building in the heart of the City of London. DO NOT MISS.
-          </p>
-        </div>
-
-        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Tribe does Tantra</h3>
-          <h4 className="text-center text-muted mb-4">July 29th 2024 </h4>
-          <img
-            src="tantrawebsite.png"
-            alt="Attractive Girls in fluorescent make up almost kissing"
-            className="mx-auto d-block mb-4"
-            style={{ maxWidth: "100%", marginTop: "2rem" }}
-          />
-          <p
-            className="text-muted mb-3"
-            style={{ maxWidth: "600px", margin: "auto" }}
-          >
-            If you've tried tantra before and thought, "I would like this but
-            only with the right people", we thought the same. As always, what
-            makes The Tribe different, is our impeccable taste in people. Come
-            and join our first guided tantra session followed by optional free
-            play. If you think you'll fit in.
-          </p>
-        </div>
-
-        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">
-            Lethal - Make love AND war
+            2069 - Age of Tribelon
           </h3>
-          <h4 className="text-center text-muted mb-4">August 31th 2024 </h4>
+          <h4 className="text-center text-muted mb-4">October 5th 2024 </h4>
           <img
-            src="lethalwebsite.png"
+            src="public/2069website.jpg"
             alt="Attractive Girls in fluorescent make up almost kissing"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -88,10 +48,18 @@ const Events = () => {
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            Fighters and lovers, say goodbye to the shittiest London summer guns
-            ablazing. Dress up as your favourite fighter (moodboard in the
-            groupchat), bring your weapon of choice and come play with the
-            gorgeous children of the tribe.
+            The civil wars fought on August 2024 escalated to the whole globe
+            (or the entire pizza, for the flat earthers), decimating the
+            population of the planet. Our only chance of survival was to flee to
+            the nearest habitable atmosphere. Our target was an impenetrable
+            planet in the Galaxy of Turnpikus Lanos, currently inhabited by
+            unwelcoming, albeit oddly attractive, aliens. Our mission is to,
+            erm, penetrate this society and mate with as many of their people as
+            possible, thereby spawning a morally loose and even hotter new race.
+            This yummy lot will rule over the now less attractive and boring
+            natives, creating a utopia which will henceforth be known as
+            Tribelon, a destination much coveted by sexually insatiable space
+            tourists.
           </p>
         </div>
 
