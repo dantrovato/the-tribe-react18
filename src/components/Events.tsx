@@ -34,13 +34,11 @@ const Events = () => {
         </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">
-            2069 - Age of Tribelon
-          </h3>
-          <h4 className="text-center text-muted mb-4">October 5th 2024 </h4>
+          <h3 className="text-center text-muted mb-4">Bad Trip</h3>
+          <h4 className="text-center text-muted mb-4">November 9th 2024 </h4>
           <img
-            src="public/2069website.jpg"
-            alt="Attractive Girls in fluorescent make up almost kissing"
+            src="public/badtripwebsite.PNG"
+            alt="Attractive Girl in a psychedelic surrounding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
@@ -48,18 +46,12 @@ const Events = () => {
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            The civil wars fought on August 2024 escalated to the whole globe
-            (or the entire pizza, for the flat earthers), decimating the
-            population of the planet. Our only chance of survival was to flee to
-            the nearest habitable atmosphere. Our target was an impenetrable
-            planet in the Galaxy of Turnpikus Lanos, currently inhabited by
-            unwelcoming, albeit oddly attractive, aliens. Our mission is to,
-            erm, penetrate this society and mate with as many of their people as
-            possible, thereby spawning a morally loose and even hotter new race.
-            This yummy lot will rule over the now less attractive and boring
-            natives, creating a utopia which will henceforth be known as
-            Tribelon, a destination much coveted by sexually insatiable space
-            tourists.
+            The mission on Tribelon (previous party) was going so well, but the
+            council of Haringanus was alerted to our presence by the copulatory
+            vocalisations emanating from the love tent. So we had to dash back
+            to earth. We grabbed whatever food the local vegetation had to offer
+            and, just our luck, most of it was space psychedelic. We are now
+            collectively gonna go through the bad trip from hell.
           </p>
         </div>
 
