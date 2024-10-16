@@ -9,11 +9,11 @@ import Rules from "./components/Rules";
 import GoogleForm from "./components/GoogleForm";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
-import TribeNews from "./components/TribeNews";
+// import TribeNews from "./components/TribeNews";
 import HowAreWeDifferent from "./components/HowAreWeDifferent";
-import Articles from "./components/Articles";
+// import Articles from "./components/Articles";
 import Gallery from "./components/Gallery/Gallery";
-import Catfish from "./components/Catfish/Catfish";
+import Feedback from "./components/Feedback";
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/join" element={<GoogleForm />} />
           <Route path="/rules" element={<Rules />} />
+          <Route path="/feedback" element={<Feedback />} />
           {/* <Route path="/members" element={<MembersArea />} /> */}
 
           <Route path="/testimonials" element={<Testimonials />} />
@@ -38,9 +39,8 @@ function App() {
             path="/how_are_we_different?"
             element={<HowAreWeDifferent />}
           />
-          <Route path="/articles" element={<Articles />} />
-          <Route path="/catfish" element={<Catfish />} />
-          <Route path="/tribe_news" element={<TribeNews />} />
+          {/* <Route path="/articles" element={<Articles />} /> */}
+          {/* <Route path="/tribe_news" element={<TribeNews />} /> */}
         </Routes>
       </div>
     </BrowserRouter>

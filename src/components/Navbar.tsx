@@ -72,10 +72,15 @@ const Navbar = () => {
               </Link>
             </li> */}
             <li className="nav-item">
+              <Link className="nav-link" to="/feedback">
+                Feedback
+              </Link>
+            </li>
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/articles">
                 Articles
               </Link>
-            </li>
+            </li> */}
             {/* <li className="nav-item">
               <Link className="nav-link" to="/tribe_news">
                 Tribe news
