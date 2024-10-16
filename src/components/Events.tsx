@@ -37,7 +37,7 @@ const Events = () => {
           <h3 className="text-center text-muted mb-4">Bad Trip</h3>
           <h4 className="text-center text-muted mb-4">November 9th 2024 </h4>
           <img
-            src="public/badtripwebsite.PNG"
+            src="/badtripwebsite.png"
             alt="Attractive Girl in a psychedelic surrounding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}

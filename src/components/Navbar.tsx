@@ -66,21 +66,21 @@ const Navbar = () => {
                 How are we different?
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/catfish">
                 Catfish Bar
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link" to="/articles">
                 Articles
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/tribe_news">
                 Tribe news
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
