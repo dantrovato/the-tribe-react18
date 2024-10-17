@@ -9,11 +9,13 @@ const Gallery = () => {
       <h4 className="text-center text-white p-5">
         Pics never shared without consent
       </h4>
-      <script src="https://static.elfsight.com/platform/platform.js" async>
-        elfsight
-      </script>
+
+      <script
+        src="https://static.elfsight.com/platform/platform.js"
+        async
+      ></script>
       <div
-        className="elfsight-app-65954150-555a-40bb-9c8e-d4f0259c6bdf"
+        className="elfsight-app-15829d16-0a2c-446f-977f-163b48d30be7"
         data-elfsight-app-lazy
       ></div>
 
