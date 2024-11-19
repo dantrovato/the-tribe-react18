@@ -6,39 +6,12 @@ const Events = () => {
       <h1 className="text-center text-muted mb-5">Next events</h1>
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
-        <div className="mb-5">
-          {/* <h3 className="text-center text-muted mb-4">Tribe Social </h3>
-          <h4 className="text-center text-muted mb-4">
-            Wednesday April 10th 2024{" "}
-          </h4> */}
-
-          {/* <h4 className="text-center text-muted mb-4">Mornington crescent </h4> */}
-          {/* <img
-            src="blonde.png"
-            alt="Sexy girl semi naked holding beer over her breast"
-            className="mx-auto d-block mb-4"
-            style={{ maxWidth: "100%", marginTop: "2rem" }}
-          /> */}
-          {/* <p
-            className="text-muted mb-3"
-            style={{ maxWidth: "600px", margin: "auto" }}
-          >
-            Cheeky monthly Social to break the ice and meet some of the tribe
-            ahead of a party. It's a wholesome evening for a change...
-          </p>
-
-          <p
-            className="text-muted mb-3"
-            style={{ maxWidth: "600px", margin: "auto" }}
-          ></p> */}
-        </div>
-
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Bad Trip</h3>
+          <h3 className="text-center text-muted mb-4">Play Social</h3>
           <h4 className="text-center text-muted mb-4">November 9th 2024 </h4>
           <img
-            src="/badtripwebsite.png"
-            alt="Attractive Girl in a psychedelic surrounding"
+            src="/play_social_website.png"
+            alt="Attractive people in a bar"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
@@ -46,12 +19,29 @@ const Events = () => {
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            The mission on Tribelon (previous party) was going so well, but the
-            council of Haringanus was alerted to our presence by the copulatory
-            vocalisations emanating from the love tent. So we had to dash back
-            to earth. We grabbed whatever food the local vegetation had to offer
-            and, just our luck, most of it was space psychedelic. We are now
-            collectively gonna go through the bad trip from hell.
+            This is a chance to meet the gorgeous children of the Tribe before
+            the party on December 7th. This is a new venue with limited
+            availability. Play allowed. Shhh ;)
+          </p>
+        </div>
+
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+          <h3 className="text-center text-muted mb-4">
+            The Naughtivity - Hoe Hoe Hoe
+          </h3>
+          <h4 className="text-center text-muted mb-4">December 7th 2024 </h4>
+          <img
+            src="/naughtivity_website.png"
+            alt="Attractive people in a bar"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            A fun filled night of great deep house, a huge ball pit, a hot tub,
+            two monitored play rooms and lots and lots of gorgeous people
           </p>
         </div>
 
