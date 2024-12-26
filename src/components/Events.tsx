@@ -59,10 +59,10 @@ const Events = () => {
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            The Tribe’s 5th anniversary. As this is a significant milestone in
-            our journey to piss people off who don’t make sense, we thought that
-            for this party we’d make the theme really special; cultural
-            appropriation - because fuck it
+            The Tribe’s 5th anniversary. As a celebration of 5 years together we
+            wanted to put together a theme that celebrates all of us. Let our
+            differences bring us together, instead of dividing us. One tribe,
+            one love x
           </p>
         </div>
 
