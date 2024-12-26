@@ -44,6 +44,28 @@ const Events = () => {
           </p>
         </div>
 
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+          <h3 className="text-center text-muted mb-4">
+            The Tribeversary - Cultural appropriation
+          </h3>
+          <h4 className="text-center text-muted mb-4">Saturday 25th January</h4>
+          <img
+            src="/culturalwebsite2.png"
+            alt="Attractive people in a bar"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            The Tribe’s 5th anniversary. As this is a significant milestone in
+            our journey to piss people off who don’t make sense, we thought that
+            for this party we’d make the theme really special; cultural
+            appropriation - because fuck it
+          </p>
+        </div>
+
         <p
           className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
