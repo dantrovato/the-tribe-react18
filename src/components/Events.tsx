@@ -24,6 +24,27 @@ const Events = () => {
           </p>
         </div>
 
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+          <h3 className="text-center text-muted mb-4">
+            The Tribeversary - Clocktease
+          </h3>
+          <h4 className="text-center text-muted mb-4">Saturday 25th January</h4>
+          <img
+            src="tribeversarywebite.png"
+            alt="3 attractive people"
+            className="mx-auto d-block mb-4"
+            style={{ maxWidth: "100%", marginTop: "2rem" }}
+          />
+          <p
+            className="text-muted mb-3"
+            style={{ maxWidth: "600px", margin: "auto" }}
+          >
+            Come and celebrate our 5th anniversary with the sexy bastards of the
+            Tribe in a trip back (or forward) in time. Great tunes, vibes and
+            DNA swapping
+          </p>
+        </div>
+
         <p
           className="text-muted mb-3"
           style={{ maxWidth: "600px", margin: "auto" }}
