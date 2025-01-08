@@ -14,7 +14,7 @@ const AboutPage = () => {
         Welcome to the Tribe, a fast-growing sex positive community of hot and
         fun people who are just amazing vibes. It’s a fantastic space to meet
         like-minded individuals who are beautiful inside and out, easy going,
-        open, and not non-judgemental.
+        open, and non-judgemental.
         <br />
         <br />
         We run exclusive, invite-only parties of around ninety hand picked

@@ -3,37 +3,26 @@ import { Footer } from "./Footer";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  // const backgroundStyle = {
-  //   backgroundImage: "url(./matilda_dan.jpeg)",
-  //   backgroundSize: "cover",
-  //   backgroundRepeat: "no-repeat",
-  //   height: "46.5vh",
-  //   width: "100%",
-  // };
   return (
     <>
-      {/* <div className="m-5">
-        <p className="text-muted">
-          A social experiment in redefining, sex, friendships and relationships
-        </p>
-      </div> */}
-
-      {/* <img
-        // src="./matilda_dan.jpeg"
-        src="./matilda_tamas_cropped2.png"
-        alt="Man and woman kissing"
-        style={{ width: "100%", maxHeight: "40%" }}
-      /> */}
-      {/* <div style={backgroundStyle}>bananarama</div> */}
       <AboutPage />
-      <p
+      <h4
         className="text-muted mb-5 text-center"
         style={{ maxWidth: "600px", margin: "auto" }}
       >
-        <Link className="navbar-brand text-danger" to="/join">
-          Join us here
-        </Link>{" "}
-      </p>
+        <Link
+          className="btn btn-outline-secondary"
+          to="/join"
+          style={{
+            color: "#6c757d", // Matches Bootstrap's text-muted color
+            borderColor: "#6c757d", // Matches the muted color for the border
+            textDecoration: "none",
+            fontWeight: "bold",
+          }}
+        >
+          JOIN US HERE
+        </Link>
+      </h4>
       <img
         src="./girl_with_chain.jpg"
         alt="Girl sensually biting a chain"
