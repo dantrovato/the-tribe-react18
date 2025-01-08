@@ -1,5 +1,6 @@
 import AboutPage from "./AboutPage";
 import { Footer } from "./Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   // const backgroundStyle = {
@@ -25,6 +26,14 @@ const Home = () => {
       /> */}
       {/* <div style={backgroundStyle}>bananarama</div> */}
       <AboutPage />
+      <p
+        className="text-muted mb-5 text-center"
+        style={{ maxWidth: "600px", margin: "auto" }}
+      >
+        <Link className="navbar-brand text-danger" to="/join">
+          Join us here
+        </Link>{" "}
+      </p>
       <img
         src="./girl_with_chain.jpg"
         alt="Girl sensually biting a chain"

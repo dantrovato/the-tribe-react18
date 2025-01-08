@@ -7,7 +7,10 @@ const AboutPage = () => {
       >
         A social experiment in redefining, sex, friendships and relationships
       </h2>
-      <p className="text-muted" style={{ maxWidth: "600px", margin: "auto" }}>
+      <p
+        className="text-muted text-center"
+        style={{ maxWidth: "600px", margin: "auto" }}
+      >
         Welcome to the Tribe, a fast-growing sex positive community of hot and
         fun people who are just amazing vibes. It’s a fantastic space to meet
         like-minded individuals who are beautiful inside and out, easy going,
