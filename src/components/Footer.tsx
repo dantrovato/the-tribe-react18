@@ -18,12 +18,12 @@ export const Footer = () => {
             </a>{" "}
             <br />
             <a
-              href="https://www.instagram.com/the_tribe_hates_insta"
+              href="https://www.instagram.com/thetribehatesinsta"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "inherit", textDecoration: "none" }} // Add inline style
             >
-              <FontAwesomeIcon icon={faInstagram} /> the_tribe_hates_insta
+              <FontAwesomeIcon icon={faInstagram} /> thetribehatesinsta
             </a>
           </small>
         </p>
