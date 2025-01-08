@@ -1,91 +1,74 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+  const toggleMenu = () => setMenuOpen((prev) => !prev);
+  const closeMenu = () => setMenuOpen(false);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div className="container">
-        <Link className="navbar-brand" to="/home">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white">
+      <div className="container-fluid">
+        {/* Always visible Home button */}
+        <Link
+          className="navbar-brand fw-bold text-muted"
+          to="/home"
+          style={{ textDecoration: "none" }}
+        >
           Home
         </Link>
+
+        {/* Burger button */}
         <button
-          className="navbar-toggler"
+          className={`navbar-toggler ${menuOpen ? "" : "collapsed"}`}
           type="button"
-          onClick={toggleDropdown}
+          onClick={toggleMenu}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}>
-          <ul className="navbar-nav ms-auto">
+
+        {/* Collapsible menu */}
+        <div
+          className={`collapse navbar-collapse ${menuOpen ? "show" : ""}`}
+          id="navbarNav"
+        >
+          <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/events">
+              <Link className="nav-link" to="/events" onClick={closeMenu}>
                 Events
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/join">
+              <Link className="nav-link" to="/join" onClick={closeMenu}>
                 Join
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/rules">
+              <Link className="nav-link" to="/rules" onClick={closeMenu}>
                 Rules
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/members">
-                Members Area
-              </Link>
-            </li> */}
-
             <li className="nav-item">
-              <Link className="nav-link" to="/testimonials">
+              <Link className="nav-link" to="/testimonials" onClick={closeMenu}>
                 Testimonials
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/gallery">
+              <Link className="nav-link" to="/gallery" onClick={closeMenu}>
                 Gallery
               </Link>
             </li>
-
             <li className="nav-item">
-              <Link className="nav-link" to="/faq">
+              <Link className="nav-link" to="/faq" onClick={closeMenu}>
                 FAQ
               </Link>
             </li>
-
             <li className="nav-item">
-              <Link className="nav-link" to="/how_are_we_different?">
-                How are we different?
-              </Link>
-            </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/catfish">
-                Catfish Bar
-              </Link>
-            </li> */}
-            <li className="nav-item">
-              <Link className="nav-link" to="/feedback">
+              <Link className="nav-link" to="/feedback" onClick={closeMenu}>
                 Feedback
               </Link>
             </li>
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/articles">
-                Articles
-              </Link>
-            </li> */}
-            {/* <li className="nav-item">
-              <Link className="nav-link" to="/tribe_news">
-                Tribe news
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>
