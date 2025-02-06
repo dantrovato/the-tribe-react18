@@ -66,26 +66,29 @@ const Rules = () => {
       <h2>Rule # 2</h2>
       <h3>Know your boundaries</h3>
       <p>
-        This is apparently our most controversial rule; we think that if
-        somebody breaks the above rule about consent you should tell them!
-        Whoa... <br />
-        If somebody puts a hand on your hip and you don’t like it, make sure you
-        say it. Or at the very least give a non verbal sign. They should never
-        do that but if you just freeze this could be taken as a green light. DO
-        NOT go with the flow only to regret it the next day. No good to you and
-        no good to the person who’s gonna get accused of sexual misconduct. Best
-        thing to do is to think, in advance, of a polite way to say no. You can
-        just say “I need a bit of a break” or "maybe later". But the more direct
-        “No, thank you” works too. Let's just keep it polite. <br />A handful of
-        people have criticised this rule because they see it as potentially
-        "blaming the victim". We politely reject their hypothesis. Instead, we
-        feel this adds an extra layer of protection, ensuring there will never
-        be a victim. These are super friendly parties and the chance of anybody
-        being threatening to you is absolute zero. Should that happen, however,
-        our "generals" will be on hand to deal with the situation. You'll know
-        who they are as they will be wearing a flashy blue armband. <br />
-        If having read the above you still fear you may be unable to follow this
-        rule this party, sadly, may not be for you.{" "}
+        Consent is everything. If someone crosses your boundaries, you have
+        every right to let them know—and we encourage you to do so. If someone
+        touches your hip and you don’t like it, it's completely okay to speak up
+        or give a clear non-verbal signal.
+        <br />
+        While no one should ever overstep, staying silent or freezing in the
+        moment can sometimes be misinterpreted. You never have to go along with
+        something you’re unsure about, and setting clear boundaries in the
+        moment protects both you and those around you.
+        <br />
+        We understand that some people struggle with freezing in certain
+        situations, and we have nothing but sympathy and support for that.
+        However, in an environment like this—where open, enthusiastic
+        communication is key—it’s important that everyone feels comfortable
+        expressing their limits. If this feels difficult or overwhelming, we
+        completely understand, but also feel that events of this kind might not
+        be the best fit for you.
+        <br />
+        That said, these are warm, welcoming spaces, and you’re never alone. Our
+        "Generals" (easily spotted in blue armbands) are always on hand to
+        ensure that everyone feels safe and respected. At the end of the day,
+        we’re all here to have a good time—let’s make sure it’s a great one for
+        everyone.
       </p>
 
       <h2>Rule # 3</h2>
