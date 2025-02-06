@@ -76,13 +76,15 @@ const Rules = () => {
         something you’re unsure about, and setting clear boundaries in the
         moment protects both you and those around you.
         <br />
-        We understand that some people struggle with freezing in certain
-        situations, and we have nothing but sympathy and support for that.
-        However, in an environment like this—where open, enthusiastic
-        communication is key—it’s important that everyone feels comfortable
-        expressing their limits. If this feels difficult or overwhelming, we
-        completely understand, but also feel that events of this kind might not
-        be the best fit for you.
+        We understand that some people may struggle with freezing in certain
+        situations, and we have nothing but empathy and support for that.
+        However, in an environment like this, where open, enthusiastic
+        communication is key, expressing your limits is completely normal.
+        Although it's incredibly unlikely an event may occur, we highly
+        recommend you prepare yourself for giving a verbal signal by practising
+        what you might say. If this feels difficult or overwhelming, we
+        completely understand, but then events of this kind might not be the
+        best fit for you.
         <br />
         That said, these are warm, welcoming spaces, and you’re never alone. Our
         "Generals" (easily spotted in blue armbands) are always on hand to
