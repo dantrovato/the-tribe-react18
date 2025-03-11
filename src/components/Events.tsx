@@ -8,9 +8,9 @@ const Events = () => {
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Play Social</h3>
-          <h4 className="text-center text-muted mb-4">Thursday 20th Febuary</h4>
+          <h4 className="text-center text-muted mb-4">Thursday 3rd April</h4>
           <img
-            src="/play_social_website.png"
+            src="play_socialfeb25web.png"
             alt="Attractive people in a bar"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -26,11 +26,11 @@ const Events = () => {
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">
-            Cowboys vs Aliens - Wanted Spread and Alive
+            Polynation - The Birds and the Bees
           </h3>
-          <h4 className="text-center text-muted mb-4">Saturday 1st March</h4>
+          <h4 className="text-center text-muted mb-4">Saturday 12th April</h4>
           <img
-            src="cowboys.jpg"
+            src="polynation.jpg"
             alt="3 attractive people"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -39,13 +39,9 @@ const Events = () => {
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            "Saddle up or beam in for a night where the Wild West meets the Evil
-            Aliens. The Tribe is an exclusive, invite-only gathering of the
-            bold, the beautiful, and the insatiably adventurous. Whether you
-            ride in as a rugged cowboy or descend as a seductive
-            extraterrestrial, expect electric chemistry, untamed passion, and a
-            night of cosmic pleasure. Dress to impress. Desire to indulge. This
-            frontier is not for the faint of heart" - ChatGPT
+            Come and join The Tribe for a night of music, dancing and
+            debauchery. We will be playing and partying in North London for a
+            night of hedonism, fun and, we hope, lasting connections
           </p>
         </div>
 
