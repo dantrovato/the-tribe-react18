@@ -24,14 +24,12 @@ const Events = () => {
           </p>
         </div>
 
-        {/* <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">
-            Polynation - The Birds and the Bees
-          </h3>
-          <h4 className="text-center text-muted mb-4">Saturday 12th April</h4>
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+          <h3 className="text-center text-muted mb-4">NSFW - Fully stuffed</h3>
+          <h4 className="text-center text-muted mb-4">Saturday 17th May</h4>
           <img
-            src="polynation.jpg"
-            alt="3 attractive people"
+            src="NSFWweb.png"
+            alt="Sexy fire woman in front of a fire truck"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
@@ -43,7 +41,7 @@ const Events = () => {
             debauchery. We will be playing and partying in North London for a
             night of hedonism, fun and, we hope, lasting connections
           </p>
-        </div> */}
+        </div>
 
         <p
           className="text-muted mb-3"
