@@ -6,11 +6,11 @@ const Events = () => {
       <h1 className="text-center text-muted mb-5">Next Events</h1>
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
-        {/* <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Play Social</h3>
-          <h4 className="text-center text-muted mb-4">Thursday 8th </h4>
+          <h4 className="text-center text-muted mb-4">Thursday 5th June </h4>
           <img
-            src="play_social_may25web.png"
+            src="june_social2025web.jpg"
             alt="Attractive people in a bar"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -22,13 +22,15 @@ const Events = () => {
             Come and meet the gorgeous children of the tribe at a bar in East
             London for a midweek social and a little more if the mood strikes
           </p>
-        </div> */}
+        </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">NSFW - Fully stuffed</h3>
-          <h4 className="text-center text-muted mb-4">Saturday 17th May</h4>
+          <h3 className="text-center text-muted mb-4">
+            Temple of The Tribe - The Book of More Moans
+          </h3>
+          <h4 className="text-center text-muted mb-4">Saturday 21ST June</h4>
           <img
-            src="NSFWweb.png"
+            src="temple_of_the_tribe-website.jpg"
             alt="Sexy fire woman in front of a fire truck"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -37,9 +39,11 @@ const Events = () => {
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            Come and join The Tribe for a night of music, dancing and
-            debauchery. We will be playing and partying in North London for a
-            night of hedonism, fun and, we hope, lasting connections
+            Come and join this silly bunch for a night of music, dancing and
+            belly laughs. We will be playing and partying in North London for a
+            night of hedonism, fun and, we hope, lasting connections. <br />{" "}
+            <br />
+            This is The Tribe. Believe the hype
           </p>
         </div>
 
