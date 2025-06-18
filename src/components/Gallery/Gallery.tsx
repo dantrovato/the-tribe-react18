@@ -6,7 +6,7 @@ import { Footer } from "../Footer";
 const Gallery = () => {
   return (
     <Container className="bg-dark">
-      <h4 className="text-center text-white p-5">
+      {/* <h4 className="text-center text-white p-5">
         Pics never shared without consent
       </h4>
 
@@ -28,7 +28,7 @@ const Gallery = () => {
         data-elfsight-app-lazy
       ></div>
 
-      <Footer />
+      <Footer /> */}
     </Container>
   );
 };

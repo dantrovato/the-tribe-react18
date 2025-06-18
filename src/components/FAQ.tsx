@@ -3,7 +3,7 @@ import { Footer } from "./Footer";
 const FAQ = () => {
   return (
     <div className="m-5 text-muted" style={{ textAlign: "justify" }}>
-      <h1 className="mb-2">FAQs</h1>
+      {/* <h1 className="mb-2">FAQs</h1>
 
       <p className="mb-4">Q - Can you tell me more about the parties?</p>
       <p className="mb-1">
@@ -111,7 +111,7 @@ const FAQ = () => {
         it's bring your own bottle.
       </p>
 
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

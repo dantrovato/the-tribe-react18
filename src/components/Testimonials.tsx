@@ -194,7 +194,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div className="container bg-dark">
-      <h5 className="text-center text-white p-4">
+      {/* <h5 className="text-center text-white p-4">
         Pics never shared without consent
       </h5>
 
@@ -216,7 +216,7 @@ const Testimonials = () => {
         ))}
       </Carousel>
 
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
