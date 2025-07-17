@@ -202,6 +202,7 @@ const Testimonials = () => {
       >
         Read our party reviews on Insta
       </a>
+
       {/* <h5 className="text-center text-white p-4">
         Pics never shared without consent
       </h5>
