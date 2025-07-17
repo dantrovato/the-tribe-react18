@@ -103,11 +103,13 @@ const Rules = () => {
         time a penis or toy goes from one body to another.
       </p>
       <h2>Rule # 6</h2>
-      <h3>No Piggybacking</h3>
+      <h3>No Piggybacking / Interrupting </h3>
       <p>
-        If you see two or more people having sex don’t just jump in. It’s really
-        awkward to have to shoo someone away. If you are not a regular play
-        partner with whoever is in the scrum wait to be invited in.
+        If you see two or more people having sex don’t just jump in or otherwise
+        interrupt people having fun. It’s really annoying to be in the moment
+        and then snapped out of it and awkward to have to shoo someone away. If
+        you are not a regular play partner with whoever is in the scrum wait to
+        be invited in.
       </p>
       <h2>Rule # 7</h2>
       <h3>Give space</h3>
