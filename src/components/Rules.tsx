@@ -4,7 +4,7 @@ import { Footer } from "./Footer";
 const Rules = () => {
   const danger = "#dc3545";
   return (
-    <div className="m-5 text-muted" style={{ textAlign: "justify" }}>
+    <div className="m-5 text-muted" style={{ textAlign: "left" }}>
       <div className="mb-5" style={{ border: `1px solid ${danger}` }}>
         <h2 className="text-danger text-center pt-3 pb-3">
           Sexual health safety
@@ -25,15 +25,15 @@ const Rules = () => {
           <br /> Upon arrival, you can choose to present your most recent sexual
           health test results to the person greeting you at the door.
           <br />
-          You will then get a wristband of a color that indicates the recency of
-          your test; one, two or three months.
+          You will then get a wristband of a colour that indicates the recency
+          of your test; one, two or three months.
           <br />
           <br /> If you do not have recent test results, it's okay; not everyone
           does. Just have a chat about your recent sexual history with the
           person/people you are going to play with.
           <br />
           <br />
-          Whilst the wristband system offers some reassurance and pressures
+          Whilst the wristband system offers some reassurance and encourages
           people into getting tested regularly, it is not foolproof. Personal
           responsibility remains essential. Your cooperation is vital in
           maintaining a safe community.
