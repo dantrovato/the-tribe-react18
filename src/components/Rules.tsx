@@ -11,40 +11,32 @@ const Rules = () => {
         </h2>
         <h3 className="text-danger text-center pb-3">The wristband system:</h3>
         <p className="text-danger p-3">
-          While you don't have to have a recent sexual health result to attend
-          the party, we recommend that you do. We also recommend having a
-          conversation about your sexual health with whomever you're about to
-          play with. Sometimes, it's inconvenient to do so, especially when
-          engaging with someone quite spontaneously. To make this smoother, we
-          have introduced the wristband system.
-          <br /> Upon arrival, you can opitonally present your recent sexual
-          health test results. Based on the date of your test, you will receive
-          a wristband of a color that indicates the recency of your test:
+          As a community we value sexual health and safety. We encourage
+          everyone to get tested regularly, especially ahead of the parties.
           <br />
-          <br />- Green wristband (for example) for tests taken within the last
-          month.
-          <br />- Yellow wristband for tests taken within the last two months.
-          <br />- Orange wristband for tests taken within the last three months.
-          <br />- Grey wristband for partial test results.
           <br />
-          <br /> (The colours will change from party to party)
+          Whilst it would be great if everyone were to have a conversation about
+          their sexual health before playing, we understand that this is not
+          always gonna happen. Especially when spontaneity takes over.
           <br />
-          <br /> No wristband provided for tests that are more than three months
-          old.
+          <br />
+          To make this smoother, we have introduced the wristband system;
+          <br />
+          <br /> Upon arrival, you can choose to present your most recent sexual
+          health test results to the person greeting you at the door.
+          <br />
+          You will then get a wristband of a color that indicates the recency of
+          your test; one, two or three months.
           <br />
           <br /> If you do not have recent test results, it's okay; not everyone
-          does. We encourage open discussions about your recent sexual history
-          and the reasons for not having a wristband. While we respect personal
-          choices, we discourage unprotected oral sex with individuals lacking a
-          wristband. Even with a wristband, we urge guests to avoid unprotected
-          intercourse and openly communicate about their sexual history since
-          their last clear test results. While this system enhances the sexual
-          health safety of our community, it is not foolproof, and personal
-          responsibility remains essential. The wristband system serves as a
-          quick way to know when somebody got tested. Engaging in unprotected
-          oral sex with someone you just met at the event still carries risks,
-          as does kissing, apparently (goddamn it!). Your cooperation is vital
-          in maintaining a safe community.
+          does. Just have a chat about your recent sexual history with the
+          person/people you are going to play with.
+          <br />
+          <br />
+          Whilst the wristband system offers some reassurance and pressures
+          people into getting tested regularly, it is not foolproof. Personal
+          responsibility remains essential. Your cooperation is vital in
+          maintaining a safe community.
         </p>
       </div>
 
