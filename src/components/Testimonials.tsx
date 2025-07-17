@@ -194,6 +194,14 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div className="container bg-dark">
+      <a
+        href="https://www.instagram.com/stories/highlights/18485604832016971/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="d-block text-center text-white py-3"
+      >
+        Read our party reviews on Insta
+      </a>
       {/* <h5 className="text-center text-white p-4">
         Pics never shared without consent
       </h5>
