@@ -2,15 +2,14 @@ import "./Rules.module.css";
 import { Footer } from "./Footer";
 
 const Rules = () => {
-  const danger = "#dc3545";
   return (
     <div className="m-5 text-muted" style={{ textAlign: "left" }}>
-      <div className="mb-5" style={{ border: `1px solid ${danger}` }}>
-        <h2 className="text-danger text-center pt-3 pb-3">
-          Sexual health safety
+      <div className="mb-5 text-muted">
+        <h2 className="text-muted text-center pt-3 pb-3">
+          Sexual Health Safety
         </h2>
-        <h3 className="text-danger text-center pb-3">The wristband system:</h3>
-        <p className="text-danger p-3">
+        <h3 className="text-muted text-center pb-3">The wristband system:</h3>
+        <p className="text-muted p-3">
           As a community we value sexual health and safety. We encourage
           everyone to get tested regularly, especially ahead of the parties.
           <br />
@@ -28,7 +27,7 @@ const Rules = () => {
           You will then get a wristband of a colour that indicates the recency
           of your test; one, two or three months.
           <br />
-          <br /> If you do not have recent test results, it's okay; not everyone
+          <br /> If you don't have recent test results, it's okay; not everyone
           does. Just have a chat about your recent sexual history with the
           person/people you are going to play with.
           <br />
