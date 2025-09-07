@@ -6,11 +6,13 @@ const Events = () => {
       <h1 className="text-center text-muted mb-5">Next Events</h1>
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
-        {/* <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Play Social</h3>
-          <h4 className="text-center text-muted mb-4">Friday 18th July </h4>
+          <h4 className="text-center text-muted mb-4">
+            Thursday 18th September{" "}
+          </h4>
           <img
-            src="socialJuly2025web.jpg"
+            src="play_social_sept25.jpg"
             alt="Attractive couple flirting at a bar. He is sniffing her neck. What a weirdo!"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -20,11 +22,9 @@ const Events = () => {
             style={{ maxWidth: "600px", margin: "auto" }}
           >
             Come and meet the gorgeous children of the tribe at a bar in East
-            London for a Friday social and a little more if the mood strikes.
-            The bar closes at 2 am but the party is likely to continue at some
-            afterparty. Because you just can't get enough of us, can you?!
+            London for a Thursday social and a little more if the mood strikes.
           </p>
-        </div> */}
+        </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">
