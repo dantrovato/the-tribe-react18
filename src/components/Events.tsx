@@ -28,14 +28,14 @@ const Events = () => {
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">
-            Misfits and Wrong'uns - Gangbangs of New York
+            The Wedding - I Do...Everybody
           </h3>
           <h4 className="text-center text-muted mb-4">
-            Friday 29th August - North London
+            Saturday 27th September - North London
           </h4>
           <img
-            src="misfits_web.jpg"
-            alt="Sexy fire woman at a festival. She is wearing a red top and has a fire staff."
+            src="the_wedding.jpg"
+            alt="Sexy people at a wedding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
