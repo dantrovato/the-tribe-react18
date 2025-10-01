@@ -9,11 +9,11 @@ const Events = () => {
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Play Social</h3>
           <h4 className="text-center text-muted mb-4">
-            Thursday 18th September{" "}
+            Thursday 30th October{" "}
           </h4>
           <img
-            src="play_social_sept25.jpg"
-            alt="Attractive couple flirting at a bar. He is sniffing her neck. What a weirdo!"
+            src="October25SocialWeb.jpg"
+            alt="Attractive couple flirting at a bar."
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
@@ -27,14 +27,12 @@ const Events = () => {
         </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">
-            The Wedding - I Do...Everybody
-          </h3>
+          <h3 className="text-center text-muted mb-4">Toxic</h3>
           <h4 className="text-center text-muted mb-4">
-            Saturday 27th September - North London
+            Saturday 8th November - North London
           </h4>
           <img
-            src="the_wedding.jpg"
+            src="ToxicWeb.jpg"
             alt="Sexy people at a wedding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
