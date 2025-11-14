@@ -108,7 +108,7 @@ const FAQ = () => {
       <p className="mb-4">Q - Is there a bar?</p>
       <p className="mb-4">
         A - It depends on the particular party and where it's held. Generally
-        it's bring your own bottle.
+        there is a bar.
       </p>
 
       <Footer />
