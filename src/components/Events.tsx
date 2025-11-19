@@ -4,8 +4,8 @@ const Events = () => {
   return (
     <div className="m-5">
       <h1 className="text-center text-muted mb-5">
-        Next Events 5th December and 17th January <br /> <br />
-        Info Coming Soon
+        Next Event <br />
+        ________ <br /> <br />
       </h1>
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
@@ -27,15 +27,17 @@ const Events = () => {
             Come and meet the gorgeous children of the tribe at a bar in East
             London for a Thursday social and a little more if the mood strikes.
           </p>
-        </div>
+        </div> */}
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Toxic</h3>
+          <h3 className="text-center text-muted mb-4">
+            Christmas is for Punks
+          </h3>
           <h4 className="text-center text-muted mb-4">
-            Saturday 8th November - North London
+            Friday 5th December - Dalston, London
           </h4>
           <img
-            src="ToxicWeb.jpg"
+            src="christmas_is_for_punks.jpg"
             alt="Sexy people at a wedding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -46,11 +48,11 @@ const Events = () => {
           >
             Come and join this silly bunch for a sexy night of dancing, belly
             laughs and God knows what else. We will be playing and partying in
-            North London for a night of hedonism, fun and, we hope, lasting
+            East London for a night of hedonism, fun and, we hope, lasting
             connections. <br /> <br />
             This is The Tribe. Believe the hype.
           </p>
-        </div> */}
+        </div>
 
         <p
           className="text-muted mb-3"
