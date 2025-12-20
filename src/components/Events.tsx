@@ -30,14 +30,12 @@ const Events = () => {
         </div> */}
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">
-            Christmas is for Punks
-          </h3>
+          <h3 className="text-center text-muted mb-4">Return to Tribelon</h3>
           <h4 className="text-center text-muted mb-4">
-            Friday 5th December - Dalston, London
+            Saturday 17th January - Dalston, London
           </h4>
           <img
-            src="christmas_is_for_punks.jpg"
+            src="return_to_tribelon.jpeg"
             alt="Sexy people at a wedding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
