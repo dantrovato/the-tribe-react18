@@ -30,12 +30,12 @@ const Events = () => {
         </div> */}
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Return to Tribelon</h3>
+          <h3 className="text-center text-muted mb-4">Chavs and Royals</h3>
           <h4 className="text-center text-muted mb-4">
-            Saturday 17th January - Dalston, London
+            Friday 20th February - Manor House, London
           </h4>
           <img
-            src="return_to_tribelon.jpeg"
+            src="chavs_and_royals_web.jpeg"
             alt="Sexy people at a wedding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -46,7 +46,7 @@ const Events = () => {
           >
             Come and join this silly bunch for a sexy night of dancing, belly
             laughs and God knows what else. We will be playing and partying in
-            East London for a night of hedonism, fun and, we hope, lasting
+            North London for a night of hedonism, fun and, we hope, lasting
             connections. <br /> <br />
             This is The Tribe. Believe the hype.
           </p>
