@@ -4,18 +4,18 @@ const Events = () => {
   return (
     <div className="m-5">
       <h1 className="text-center text-muted mb-5">
-        Next Event <br />
+        Next Events <br />
         ________ <br /> <br />
       </h1>
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
-        {/* <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Play Social</h3>
           <h4 className="text-center text-muted mb-4">
-            Thursday 30th October{" "}
+            Thursday 12th February{" "}
           </h4>
           <img
-            src="October25SocialWeb.jpg"
+            src="social_feb2026.jpeg"
             alt="Attractive couple flirting at a bar."
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -27,7 +27,7 @@ const Events = () => {
             Come and meet the gorgeous children of the tribe at a bar in East
             London for a Thursday social and a little more if the mood strikes.
           </p>
-        </div> */}
+        </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Chavs and Royals</h3>
