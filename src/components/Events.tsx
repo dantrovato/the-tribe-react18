@@ -9,7 +9,7 @@ const Events = () => {
       </h1>
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
-        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+        {/* <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Pub Social</h3>
           <h4 className="text-center text-muted mb-4">Wednesday 11th March </h4>
           <img
@@ -26,10 +26,12 @@ const Events = () => {
             Mornington Crescent for a Wednesday social with great chats and
             lotsa bantz.
           </p>
-        </div>
+        </div> */}
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Chavs and Royals</h3>
+          <h3 className="text-center text-muted mb-4">
+            Hot Cool Wet and Dirty
+          </h3>
           <h4 className="text-center text-muted mb-4">
             Friday 20th March - Dalston Junction, London
           </h4>
