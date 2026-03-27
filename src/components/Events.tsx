@@ -9,11 +9,11 @@ const Events = () => {
       </h1>
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
-        {/* <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Pub Social</h3>
-          <h4 className="text-center text-muted mb-4">Wednesday 11th March </h4>
+          <h4 className="text-center text-muted mb-4">Sunday 12th April </h4>
           <img
-            src="march_social2026.jpeg"
+            src="play_social_april26.jpeg"
             alt="Attractive couple flirting at a bar."
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -22,21 +22,19 @@ const Events = () => {
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            Come and meet the gorgeous children of The Tribe at a pub in
-            Mornington Crescent for a Wednesday social with great chats and
-            lotsa bantz.
+            Come and meet the gorgeous children of The Tribe at our Dalston
+            Junction venue for a daytime social with drinks, food, tech house
+            and lotsa bantz.
           </p>
-        </div> */}
+        </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">
-            Hot Cool Wet and Dirty
-          </h3>
+          <h3 className="text-center text-muted mb-4">Theme to be announced</h3>
           <h4 className="text-center text-muted mb-4">
-            Friday 20th March - Dalston Junction, London
+            Friday 24th April - Dalston Junction, London
           </h4>
           <img
-            src="hot_cool_wet_dirty.jpeg"
+            src="theme_to_be_announced.jpeg"
             alt="Sexy people at a wedding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
