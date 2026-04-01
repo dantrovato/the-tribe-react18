@@ -29,12 +29,12 @@ const Events = () => {
         </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Theme to be announced</h3>
+          <h3 className="text-center text-muted mb-4">Attention Seekers</h3>
           <h4 className="text-center text-muted mb-4">
             Friday 24th April - Dalston Junction, London
           </h4>
           <img
-            src="theme_to_be_announced.jpeg"
+            src="attention_seekers.jpeg"
             alt="Sexy people at a wedding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
