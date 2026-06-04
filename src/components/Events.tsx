@@ -29,12 +29,12 @@ const Events = () => {
         </div> */}
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Netflix and Chill</h3>
+          <h3 className="text-center text-muted mb-4">Disc-Ho</h3>
           <h4 className="text-center text-muted mb-4">
-            Friday 29th May - Dalston Junction, London
+            Friday 10th July - Low Profile Studios, London
           </h4>
           <img
-            src="netflix_tickettailor.jpeg"
+            src="disc-ho_web.jpg"
             alt="Sexy people at a wedding"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -45,7 +45,7 @@ const Events = () => {
           >
             Come and join this silly bunch for a sexy night of dancing, belly
             laughs and God knows what else. We will be playing and partying in
-            East London for a night of hedonism, fun and, we hope, lasting
+            North London on a night of hedonism, fun and, we hope, lasting
             connections. <br /> <br />
             This is The Tribe. Believe the hype.
           </p>
