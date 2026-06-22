@@ -31,7 +31,7 @@ const Events = () => {
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Disc-Ho</h3>
           <h4 className="text-center text-muted mb-4">
-            Friday 10th July - Low Profile Studios, London
+            Saturday 11th July - CU Copper Cats, London
           </h4>
           <img
             src="disc-ho_web.jpg"
