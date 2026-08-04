@@ -9,33 +9,32 @@ const Events = () => {
       </h1>
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
-        {/* <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Pub Social</h3>
-          <h4 className="text-center text-muted mb-4">Sunday 12th April </h4>
-          <img
+          <h4 className="text-center text-muted mb-4">Thursday 20th August </h4>
+          {/* <img
             src="play_social_april26.jpeg"
             alt="Attractive couple flirting at a bar."
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
-          />
+          /> */}
           <p
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
           >
-            Come and meet the gorgeous children of The Tribe at our Dalston
-            Junction venue for a daytime social with drinks, food, tech house
-            and lotsa bantz.
+            Come and meet the gorgeous children of The Tribe at our midweek
+            social in Mornington Crescent.
           </p>
-        </div> */}
+        </div>
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Disc-Ho</h3>
+          <h3 className="text-center text-muted mb-4">Playtime</h3>
           <h4 className="text-center text-muted mb-4">
-            Saturday 11th July - CU Copper Cats, London
+            Friday 4th September - CU Copper Cats, London
           </h4>
           <img
-            src="disc-ho_web.jpg"
-            alt="Sexy people at a wedding"
+            src="playtime_web.jpeg"
+            alt="Sexy toys"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
           />
@@ -45,7 +44,7 @@ const Events = () => {
           >
             Come and join this silly bunch for a sexy night of dancing, belly
             laughs and God knows what else. We will be playing and partying in
-            North London on a night of hedonism, fun and, we hope, lasting
+            East London on a night of hedonism, fun and, we hope, lasting
             connections. <br /> <br />
             This is The Tribe. Believe the hype.
           </p>
