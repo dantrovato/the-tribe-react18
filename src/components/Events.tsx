@@ -9,15 +9,15 @@ const Events = () => {
       </h1>
 
       <div className="mx-auto text-center" style={{ maxWidth: "80%" }}>
-        <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
+        {/* <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Pub Social</h3>
           <h4 className="text-center text-muted mb-4">Thursday 20th August </h4>
-          {/* <img
+          <img
             src="play_social_april26.jpeg"
             alt="Attractive couple flirting at a bar."
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
-          /> */}
+          />
           <p
             className="text-muted mb-3"
             style={{ maxWidth: "600px", margin: "auto" }}
@@ -25,15 +25,15 @@ const Events = () => {
             Come and meet the gorgeous children of The Tribe at our midweek
             social in Mornington Crescent.
           </p>
-        </div>
+        </div> */}
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Playtime</h3>
           <h4 className="text-center text-muted mb-4">
-            Friday 4th September - CU Copper Cats, London
+            Saturday 31st October - Rooz Studios, Old Street, London
           </h4>
           <img
-            src="playtime_web.jpeg"
+            src="back_from_the_deadweb.jpg"
             alt="Sexy toys"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -44,7 +44,7 @@ const Events = () => {
           >
             Come and join this silly bunch for a sexy night of dancing, belly
             laughs and God knows what else. We will be playing and partying in
-            East London on a night of hedonism, fun and, we hope, lasting
+            Central London on a night of hedonism, fun and, we hope, lasting
             connections. <br /> <br />
             This is The Tribe. Believe the hype.
           </p>
