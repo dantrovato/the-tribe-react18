@@ -28,7 +28,7 @@ const Events = () => {
         </div> */}
 
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
-          <h3 className="text-center text-muted mb-4">Playtime</h3>
+          <h3 className="text-center text-muted mb-4">Get Sleighed</h3>
           <h4 className="text-center text-muted mb-4">
             Saturday 5th December - CU Copper Cats, Dalston Junction
           </h4>
