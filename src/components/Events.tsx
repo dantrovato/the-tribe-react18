@@ -30,10 +30,10 @@ const Events = () => {
         <div className="text-muted mb-5" style={{ textAlign: "justify" }}>
           <h3 className="text-center text-muted mb-4">Playtime</h3>
           <h4 className="text-center text-muted mb-4">
-            Saturday 31st October - Rooz Studios, Old Street, London
+            Saturday 5th December - CU Copper Cats, Dalston Junction
           </h4>
           <img
-            src="back_from_the_deadweb.jpg"
+            src="GetSleighed.jpg"
             alt="Sexy toys"
             className="mx-auto d-block mb-4"
             style={{ maxWidth: "100%", marginTop: "2rem" }}
@@ -44,7 +44,7 @@ const Events = () => {
           >
             Come and join this silly bunch for a sexy night of dancing, belly
             laughs and God knows what else. We will be playing and partying in
-            Central London on a night of hedonism, fun and, we hope, lasting
+            East London on a night of hedonism, fun and, we hope, lasting
             connections. <br /> <br />
             This is The Tribe. Believe the hype.
           </p>
